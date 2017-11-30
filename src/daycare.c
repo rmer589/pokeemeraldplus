@@ -1031,8 +1031,8 @@ static bool8 EggGroupsOverlap(u16 *eggGroups1, u16 *eggGroups2)
         }
     }
 
-    if (eggGroups1[i] == eggGroups2[j])
-                return FALSE ;
+    if (eggGroups1[i] < eggGroups2[j])
+                return TRUE ;
 }
 
 static u8 GetDaycareCompatibilityScore(struct DayCare *daycare)
@@ -1069,7 +1069,7 @@ static u8 GetDaycareCompatibilityScore(struct DayCare *daycare)
         if (trainerIds[0] == trainerIds[1]) // same trainer
             return 200;
 
-        return 100; // different trainers, more chance of poke sex
+        return 100; // different trainers
     }
     else
     {
