@@ -1175,10 +1175,6 @@ u16 GetBattleBGM(void)
         case CLASS_CHAMPION:
             return 0x1DE;
         case CLASS_PKMN_TRAINER_RIVAL:
-            if (gBattleTypeFlags & BATTLE_TYPE_FRONTIER)
-                return 0x1E1;
-            if (!StringCompare(gTrainers[gTrainerBattleOpponent_A].trainerName, gText_BattleWallyName))
-                return 0x1DC;
             return 0x1E1;
         case CLASS_ELITE_FOUR:
             return 0x1E2;
