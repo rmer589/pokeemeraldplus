@@ -1154,9 +1154,7 @@ u16 GetBattleBGM(void)
     if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
     {
         u8 trainerClass;
-        if (gBattleTypeFlags & BATTLE_TYPE_FRONTIER)
-            trainerClass = GetFrontierOpponentClass(gTrainerBattleOpponent_A);
-        else if (gBattleTypeFlags & BATTLE_TYPE_x4000000)
+        if (gBattleTypeFlags & BATTLE_TYPE_x4000000)
             trainerClass = CLASS_EXPERT;
         else
             trainerClass = gTrainers[gTrainerBattleOpponent_A].trainerClass;
