@@ -7,37 +7,45 @@
 gTypeEffectiveness:: @ 831ACE8
 	.byte   TYPE_NORMAL,     TYPE_ROCK,  5
 	.byte   TYPE_NORMAL,    TYPE_STEEL,  5
+	.byte     TYPE_FIRE,   TYPE_GROUND, 20
+	.byte     TYPE_FIRE,     TYPE_ROCK, 20
+	.byte     TYPE_FIRE,      TYPE_BUG, 20
+	.byte     TYPE_FIRE,    TYPE_STEEL, 20
 	.byte     TYPE_FIRE,     TYPE_FIRE,  5
 	.byte     TYPE_FIRE,    TYPE_WATER,  5
 	.byte     TYPE_FIRE,    TYPE_GRASS, 20
+	.byte     TYPE FIRE,  TYPE_ELECTRIC, 5
 	.byte     TYPE_FIRE,      TYPE_ICE, 20
-	.byte     TYPE_FIRE,      TYPE_BUG, 20
-	.byte     TYPE_FIRE,     TYPE_ROCK,  5
 	.byte     TYPE_FIRE,   TYPE_DRAGON,  5
-	.byte     TYPE_FIRE,    TYPE_STEEL, 20
+	.byte    TYPE_WATER,   TYPE_GROUND, 20
+	.byte    TYPE_WATER,     TYPE_ROCK, 20
+	.byte    TYPE_WATER,      TYPE_BUG, 20
+	.byte    TYPE_WATER,    TYPE_STEEL, 20
 	.byte    TYPE_WATER,     TYPE_FIRE, 20
 	.byte    TYPE_WATER,    TYPE_WATER,  5
 	.byte    TYPE_WATER,    TYPE_GRASS,  5
-	.byte    TYPE_WATER,   TYPE_GROUND, 20
-	.byte    TYPE_WATER,     TYPE_ROCK, 20
 	.byte    TYPE_WATER,   TYPE_DRAGON,  5
+	.byte TYPE_ELECTRIC,   TYPE_GROUND, 20
+	.byte TYPE_ELECTRIC,     TYPE_ROCK, 20
+	.byte TYPE_ELECTRIC,      TYPE_BUG, 20
+	.byte TYPE_ELECTRIC,    TYPE_STEEL, 20
+	.byte TYPE_ELECTRIC,     TYPE_FIRE, 20
 	.byte TYPE_ELECTRIC,    TYPE_WATER, 20
-	.byte TYPE_ELECTRIC, TYPE_ELECTRIC,  5
 	.byte TYPE_ELECTRIC,    TYPE_GRASS,  5
-	.byte TYPE_ELECTRIC,   TYPE_GROUND,  0
+	.byte TYPE_ELECTRIC, TYPE_ELECTRIC,  5
 	.byte TYPE_ELECTRIC,   TYPE_FLYING, 20
 	.byte TYPE_ELECTRIC,   TYPE_DRAGON,  5
+	.byte    TYPE_GRASS,   TYPE_GROUND, 20
+	.byte    TYPE_GRASS,     TYPE_ROCK, 20
+	.byte    TYPE_GRASS,      TYPE_BUG, 20
+	.byte    TYPE_GRASS,    TYPE_STEEL, 20
 	.byte    TYPE_GRASS,     TYPE_FIRE,  5
 	.byte    TYPE_GRASS,    TYPE_WATER, 20
 	.byte    TYPE_GRASS,    TYPE_GRASS,  5
-	.byte    TYPE_GRASS,   TYPE_POISON,  5
-	.byte    TYPE_GRASS,   TYPE_GROUND, 20
+	.byte    TYPE_GRASS, TYPE_ELECTRIC, 20
 	.byte    TYPE_GRASS,   TYPE_FLYING,  5
-	.byte    TYPE_GRASS,      TYPE_BUG,  5
-	.byte    TYPE_GRASS,     TYPE_ROCK, 20
 	.byte    TYPE_GRASS,   TYPE_DRAGON,  5
-	.byte    TYPE_GRASS,    TYPE_STEEL,  5
-	.byte      TYPE_ICE,    TYPE_WATER,  5
+	.byte      TYPE_ICE,    TYPE_WATER, 20
 	.byte      TYPE_ICE,    TYPE_GRASS, 20
 	.byte      TYPE_ICE,      TYPE_ICE,  5
 	.byte      TYPE_ICE,   TYPE_GROUND, 20
