@@ -805,7 +805,57 @@ static u16 DetermineEggSpeciesAndParentSlots(struct DayCare *daycare, u8 *parent
     if (eggSpecies == SPECIES_HOOH && daycare->offspringPersonality & 0x8000)
     {
         eggSpecies = SPECIES_LUGIA;
-    {   
+    }
+    if (eggSpecies == SPECIES_KYOGRE && daycare->offspringPersonality & 0x8000)
+    {
+        eggSpecies = SPECIES_GROUDARTICUNO
+    if (eggSpecies == SPECIES_PALKIA && daycare->offspringPersonality & 0x8000)MOLTRES{
+    }
+        if (eggSpecies == SPECIES_HOOH && daycare->offspringPersonality & 0x8000)
+    {
+        eggSpecies = SPECIES_LUGIA;
+        eggSpecies = SPECIES_DIALGA;
+    }
+    if (eggSpecies == SPECIES_ARCEUS && daycare->offspringPersonality & 0x8000)
+    {
+        eggSpecies = SPECIES_GIRATINA;
+    }
+    if (eggSpecies == SPECIES_RESHIRAM && daycare->offspringPersonality & 0x8000)
+    {
+        eggSpecies = SPECIES_ZEKROM;
+    }
+    if (eggSpecies == SPECIES_XERNEAS && daycare->offspringPersonality & 0x8000)
+    {
+        eggSpecies = SPECIES_YVELTAL;
+    }
+    if (eggSpecies == SPECIES_ZYGARDE && daycare->offspringPersonality & 0x8000)
+    {
+        eggSpecies = SPECIES_LATIOS;
+    }
+    if (eggSpecies == SPECIES_LATIAS && daycare->offspringPersonality & 0x8000)
+    {
+        eggSpecies = SPECIES_RAYQUAZA;
+    }
+    if (eggSpecies == SPECIES_ARTICUNO && daycare->offspringPersonality & 0x8000)
+    {
+        eggSpecies = SPECIES_MOLTRES;
+    }
+    if (eggSpecies == SPECIES_ENTEI && daycare->offspringPersonality & 0x8000)
+    {
+        eggSpecies = SPECIES_RAIKOU;
+    }
+    if (eggSpecies == SPECIES_SUICUNE && daycare->offspringPersonality & 0x8000)
+    {
+        eggSpecies = SPECIES_ZAPDOS;
+    }
+    if (eggSpecies == SPECIES_BAYLEEF && daycare->offspringPersonality & 0x8000)
+    {
+        eggSpecies = SPECIES_PIKACHU;
+    }
+        if (eggSpecies == SPECIES_BULBASAUR && daycare->offspringPersonality & 0x8000)
+    {
+        eggSpecies = SPECIES_SQUIRTLE;
+    }
     // Make Ditto the "mother" slot if the other daycare mon is male.
     if (species[parentSlots[1]] == SPECIES_DITTO && GetBoxMonGender(&daycare->mons[parentSlots[0]].mon) != MON_FEMALE)
     {
