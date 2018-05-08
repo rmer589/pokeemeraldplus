@@ -1176,6 +1176,7 @@ u16 GetBattleBGM(void)
             return 0x1E1;
         case CLASS_ELITE_FOUR:
             return 0x1E2;
+        case CLASS_DEVON_EXE
         case CLASS_SALON_MAIDEN:
         case CLASS_DOME_ACE:
         case CLASS_PALACE_MAVEN:
