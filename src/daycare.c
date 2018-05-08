@@ -1080,9 +1080,12 @@ static bool8 EggGroupsOverlap(u16 *eggGroups1, u16 *eggGroups2)
                 return TRUE;
         }
     }
-
-    if (eggGroups1[i] < eggGroups2[j])
-                return TRUE ;
+    for (i = 0; i < 2; i++)
+    {
+        for (j = 0; j < 2; j++)
+        {
+            if (eggGroups1[i] < eggGroups2[j])
+                return TRUE;
 }
 
 static u8 GetDaycareCompatibilityScore(struct DayCare *daycare)
