@@ -1163,6 +1163,14 @@ u16 GetBattleBGM(void)
         case CLASS_AQUA_LEADER:
         case CLASS_MAGMA_LEADER:
             return 0x1E3;
+        case CLASS_DEVON_SUPPORT:
+        case CLASS_DEVON_STAFF:
+        case CLASS_DEVON_NRUDGE:
+        case CLASS_DEVON_MRUDGE:
+        case CLASS_DEVON_GRUDGE:
+        case CLASS_DEVON_FRUDGE:
+        case CLASS_DEVON_DRUDGE:
+        case CLASS_DEVON_CRUDGE:
         case CLASS_TEAM_AQUA:
         case CLASS_TEAM_MAGMA:
         case CLASS_AQUA_ADMIN:
@@ -1176,14 +1184,18 @@ u16 GetBattleBGM(void)
             return 0x1E1;
         case CLASS_ELITE_FOUR:
             return 0x1E2;
-        case CLASS_DEVON_EXE
-        case CLASS_SALON_MAIDEN:
-        case CLASS_DOME_ACE:
-        case CLASS_PALACE_MAVEN:
-        case CLASS_ARENA_TYCOON:
-        case CLASS_FACTORY_HEAD:
-        case CLASS_PIKE_QUEEN:
-        case CLASS_PYRAMID_KING:
+        case CLASS_DEVON_EXE:
+        case CLASS_DEVON_:
+        case CLASS_DEVON_BOSS:
+        case CLASS_DEVON_PRIN:
+        case CLASS_DEVON_PRES:
+        case CLASS_THEIF:
+        case CLASS_POLICE:
+        case CLASS_YOUNG_THUG:
+        case CLASS_YOUNG_POLICE:
+        case CLASS_POLICE_OFFICER:
+        case CLASS_POLICE_CHEIF:
+        case CLASS_PKMN_TRAINER:
             return 0x1D7;
         default:
             return 0x1DC;
