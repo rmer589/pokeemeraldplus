@@ -1165,6 +1165,8 @@ u16 GetBattleBGM(void)
             return 0x1E3;
         case CLASS_DEVON_SUPPORT:
         case CLASS_DEVON_STAFF:
+        case CLASS_DEVON_QRUDGE:
+        case CLASS_DEVON_PRUDGE:
         case CLASS_DEVON_NRUDGE:
         case CLASS_DEVON_MRUDGE:
         case CLASS_DEVON_GRUDGE:
@@ -1184,9 +1186,14 @@ u16 GetBattleBGM(void)
             return 0x1E1;
         case CLASS_ELITE_FOUR:
             return 0x1E2;
-        case CLASS_DEVON_EXE:
-        case CLASS_DEVON_:
+        case CLASS_DEVON_MEMBER:
+        case CLASS_DEVON_EMPLOYEE:
+        case CLASS_DEVON_GRUNT:
+        case CLASS_DEVON_LEADER:
         case CLASS_DEVON_BOSS:
+        case CLASS_DEVON_COMMAND:
+        case CLASS_DEVON_ADMIN:
+        case CLASS_DEVON_EXEC:
         case CLASS_DEVON_PRIN:
         case CLASS_DEVON_PRES:
         case CLASS_THEIF:
