@@ -808,13 +808,15 @@ static u16 DetermineEggSpeciesAndParentSlots(struct DayCare *daycare, u8 *parent
     }
     if (eggSpecies == SPECIES_KYOGRE && daycare->offspringPersonality & 0x8000)
     {
-        eggSpecies = SPECIES_GROUDARTICUNO
-    if (eggSpecies == SPECIES_PALKIA && daycare->offspringPersonality & 0x8000)MOLTRES{
+        eggSpecies = SPECIES_GROUDON
     }
-        if (eggSpecies == SPECIES_HOOH && daycare->offspringPersonality & 0x8000)
+    if (eggSpecies = SPECIES_DIALGA; && daycare->offspringPersonality & 0x8000)
+    {
+        eggSpecies == SPECIES_PALKIA
+    }
+    if (eggSpecies == SPECIES_HOOH && daycare->offspringPersonality & 0x8000)
     {
         eggSpecies = SPECIES_LUGIA;
-        eggSpecies = SPECIES_DIALGA;
     }
     if (eggSpecies == SPECIES_ARCEUS && daycare->offspringPersonality & 0x8000)
     {
