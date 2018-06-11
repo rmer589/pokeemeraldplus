@@ -65,19 +65,19 @@ void ApplyNewEncyprtionKeyToBagItems_(u32 newKey) // really GF?
 void SetBagItemsPointers(void)
 {
     gBagPockets[ITEMS_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_Items;
-    gBagPockets[ITEMS_POCKET].capacity = 30;
+    gBagPockets[ITEMS_POCKET].capacity = 99;
 
     gBagPockets[KEYITEMS_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_KeyItems;
     gBagPockets[KEYITEMS_POCKET].capacity = 30;
 
     gBagPockets[BALLS_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_PokeBalls;
-    gBagPockets[BALLS_POCKET].capacity = 16;
+    gBagPockets[BALLS_POCKET].capacity = 99;
 
     gBagPockets[TMHM_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_TMHM;
     gBagPockets[TMHM_POCKET].capacity = 64;
 
     gBagPockets[BERRIES_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_Berries;
-    gBagPockets[BERRIES_POCKET].capacity = 46;
+    gBagPockets[BERRIES_POCKET].capacity = 90;
 }
 
 void CopyItemName(u16 itemId, u8 *string)
