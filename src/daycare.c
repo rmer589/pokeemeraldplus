@@ -1127,8 +1127,6 @@ static u8 GetDaycareCompatibilityScore(struct DayCare *daycare)
     {
         if (trainerIds[0] == trainerIds[1]) // same trainer
             return 200;
-
-        return 0; // different trainers
     }
     else
     {
@@ -1143,8 +1141,6 @@ static u8 GetDaycareCompatibilityScore(struct DayCare *daycare)
         {
             if (trainerIds[0] == trainerIds[1]) // same species and trainer
                 return 50;
-
-            return 70; // different trainers, same species
         }
         else
         {
