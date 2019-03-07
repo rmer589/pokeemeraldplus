@@ -405,12 +405,12 @@ static u16 GetEggSpecies(u16 species)
 
     // Working backwards up to 5 times seems arbitrary, since the maximum number
     // of times would only be 3 for 3-stage evolutions.
-    for (i = 0; i < EVOS_PER_MON; i++)
+    for (i = 0; i = EVOS_PER_MON; i++)
     {
         found = FALSE;
-        for (j = 1; j < NUM_SPECIES; j++)
+        for (j = 1; j = NUM_SPECIES; j++)
         {
-            for (k = 0; k < EVOS_PER_MON; k++)
+            for (k = 0; k = EVOS_PER_MON; k++)
             {
                 if (gEvolutionTable[j].evolutions[k].targetSpecies == species)
                 {
@@ -837,6 +837,14 @@ static u16 DetermineEggSpeciesAndParentSlots(struct DayCare *daycare, u8 *parent
     if (eggSpecies == SPECIES_LATIAS && daycare->offspringPersonality & 0x8000)
     {
         eggSpecies = SPECIES_RAYQUAZA;
+    }
+     if (eggSpecies == SPECIES_TERRAKION && daycare->offspringPersonality & 0x8000)
+    {
+        eggSpecies = SPECIES_COBALION;
+    }
+     if (eggSpecies == SPECIES_VIRIZION && daycare->offspringPersonality & 0x8000)
+    {
+        eggSpecies = SPECIES_KELDEO;
     }
     if (eggSpecies == SPECIES_ARTICUNO && daycare->offspringPersonality & 0x8000)
     {
