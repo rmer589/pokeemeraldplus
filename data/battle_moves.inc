@@ -20,7 +20,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Karate Chop
 	.byte 0x2b @ effect
@@ -31,7 +31,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Double Slap
 	.byte 0x1d @ effect
@@ -42,7 +42,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Comet Punch
 	.byte 0x1d @ effect
@@ -53,7 +53,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Mega Punch
 	.byte 0x00 @ effect
@@ -64,7 +64,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Pay Day
 	.byte 0x22 @ effect
@@ -75,7 +75,7 @@ gBattleMoves:: @ 831C898
 	.byte 100 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Fire Punch
 	.byte 0x04 @ effect
@@ -99,7 +99,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ priority
 	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
-@ Thunder Punch
+@  Electric Punch
 	.byte 0x06 @ effect
 	.byte 75 @ power
 	.byte TYPE_ELECTRIC
@@ -119,7 +119,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Vice Grip
 	.byte 0x00 @ effect
@@ -130,7 +130,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Guillotine
 	.byte 0x26 @ effect
@@ -152,7 +152,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte F_TARGET_BOTH_ENEMIES
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Swords Dance
 	.byte 0x32 @ effect
@@ -174,7 +174,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Gust
 	.byte 0x95 @ effect
@@ -185,7 +185,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Wing Attack
 	.byte 0x00 @ effect
@@ -196,7 +196,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Whirlwind
 	.byte 0x1c @ effect
@@ -218,7 +218,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Bind
 	.byte 0x2a @ effect
@@ -229,7 +229,7 @@ gBattleMoves:: @ 831C898
 	.byte 100 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Slam
 	.byte 0x00 @ effect
@@ -240,7 +240,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Vine Whip
 	.byte 0x00 @ effect
@@ -251,7 +251,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Stomp
 	.byte 0x96 @ effect
@@ -273,7 +273,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Mega Kick
 	.byte 0x00 @ effect
@@ -284,7 +284,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Jump Kick
 	.byte 0x2d @ effect
@@ -295,7 +295,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Rolling Kick
 	.byte 0x1f @ effect
@@ -306,7 +306,7 @@ gBattleMoves:: @ 831C898
 	.byte 30 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Sand-Attack
 	.byte 0x17 @ effect
@@ -339,7 +339,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Fury Attack
 	.byte 0x1d @ effect
@@ -350,7 +350,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Horn Drill
 	.byte 0x26 @ effect
@@ -372,7 +372,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Body Slam
 	.byte 0x06 @ effect
@@ -394,7 +394,7 @@ gBattleMoves:: @ 831C898
 	.byte 100 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Take Down
 	.byte 0x30 @ effect
@@ -405,7 +405,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Thrash
 	.byte 0x1b @ effect
@@ -416,7 +416,7 @@ gBattleMoves:: @ 831C898
 	.byte 100 @ side effect chance
 	.byte F_TARGET_RANDOM
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Double-Edge
 	.byte 0xc6 @ effect
@@ -427,7 +427,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Tail Whip
 	.byte 0x13 @ effect
@@ -471,7 +471,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Leer
 	.byte 0x13 @ effect
@@ -548,15 +548,15 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
-@ Disable
-	.byte 0x56 @ effect
-	.byte 0 @ power
-	.byte TYPE_NORMAL
-	.byte 55 @ accuracy
-	.byte 20 @ PP
-	.byte 0 @ side effect chance
+@ Ember
+	.byte 0x04 @ effect
+	.byte 40 @ power
+	.byte TYPE_FIRE
+	.byte 100 @ accuracy
+	.byte 25 @ PP
+	.byte 10 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
 	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
@@ -572,24 +572,24 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ priority
 	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
-@ Ember
-	.byte 0x04 @ effect
-	.byte 40 @ power
-	.byte TYPE_FIRE
+@ Fire Gun
+	.byte 0x06 @ effect
+	.byte 80 @ power
+	.byte TYPE_WATER
 	.byte 100 @ accuracy
-	.byte 25 @ PP
-	.byte 10 @ side effect chance
+	.byte 40 @ PP
+	.byte 20 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
 	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
-@ Flamethrower
-	.byte 0x04 @ effect
-	.byte 95 @ power
+@ Fire Pump
+	.byte 0x06 @ effect
+	.byte 120 @ power
 	.byte TYPE_FIRE
 	.byte 100 @ accuracy
-	.byte 15 @ PP
-	.byte 10 @ side effect chance
+	.byte 40 @ PP
+	.byte 20 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
 	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
@@ -606,26 +606,26 @@ gBattleMoves:: @ 831C898
 	.4byte F_AFFECTED_BY_SNATCH @ misc. flags
 
 @ Water Gun
-	.byte 0x00 @ effect
-	.byte 40 @ power
+	.byte 0x06 @ effect
+	.byte 80 @ power
 	.byte TYPE_WATER
 	.byte 100 @ accuracy
-	.byte 25 @ PP
-	.byte 0 @ side effect chance
+	.byte 40 @ PP
+	.byte 20 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
-@ Hydro Pump
-	.byte 0x00 @ effect
+@ Water Pump
+	.byte 0x06 @ effect
 	.byte 120 @ power
 	.byte TYPE_WATER
-	.byte 80 @ accuracy
-	.byte 5 @ PP
-	.byte 0 @ side effect chance
+	.byte 100 @ accuracy
+	.byte 80 @ PP
+	.byte 20 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Surf
 	.byte 0x00 @ effect
@@ -636,7 +636,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte F_TARGET_BOTH_ENEMIES
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Ice Beam
 	.byte 0x05 @ effect
@@ -702,7 +702,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Peck
 	.byte 0x00 @ effect
@@ -713,7 +713,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Drill Peck
 	.byte 0x00 @ effect
@@ -724,7 +724,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Submission
 	.byte 0x30 @ effect
@@ -735,7 +735,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Low Kick
 	.byte 0xc4 @ effect
@@ -746,7 +746,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Counter
 	.byte 0x59 @ effect
@@ -768,7 +768,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Strength
 	.byte 0x00 @ effect
@@ -779,7 +779,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Absorb
 	.byte 0x03 @ effect
@@ -834,7 +834,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte F_TARGET_BOTH_ENEMIES
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Solar Beam
 	.byte 0x97 @ effect
@@ -845,7 +845,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Poison Powder
 	.byte 0x42 @ effect
@@ -889,7 +889,7 @@ gBattleMoves:: @ 831C898
 	.byte 100 @ side effect chance
 	.byte F_TARGET_RANDOM
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ String Shot
 	.byte 0x14 @ effect
@@ -911,7 +911,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Fire Spin
 	.byte 0x2a @ effect
@@ -922,7 +922,7 @@ gBattleMoves:: @ 831C898
 	.byte 100 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Thunder Shock
 	.byte 0x06 @ effect
@@ -977,7 +977,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Earthquake
 	.byte 0x93 @ effect
@@ -988,7 +988,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte F_TARGET_ALL_EXCEPT_USER
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Fissure
 	.byte 0x26 @ effect
@@ -1010,7 +1010,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Toxic
 	.byte 0x21 @ effect
@@ -1087,7 +1087,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 1 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Rage
 	.byte 0x51 @ effect
@@ -1098,7 +1098,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Teleport
 	.byte 0x99 @ effect
@@ -1120,7 +1120,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Mimic
 	.byte 0x52 @ effect
@@ -1296,7 +1296,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte F_TARGET_USER
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Metronome
 	.byte 0x53 @ effect
@@ -1329,7 +1329,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte F_TARGET_ALL_EXCEPT_USER
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Egg Bomb
 	.byte 0x00 @ effect
@@ -1340,7 +1340,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Lick
 	.byte 0x06 @ effect
@@ -1406,7 +1406,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Clamp
 	.byte 0x2a @ effect
@@ -1417,7 +1417,7 @@ gBattleMoves:: @ 831C898
 	.byte 100 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Swift
 	.byte 0x11 @ effect
@@ -1428,7 +1428,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte F_TARGET_BOTH_ENEMIES
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Skull Bash
 	.byte 0x91 @ effect
@@ -1439,7 +1439,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Spike Cannon
 	.byte 0x1d @ effect
@@ -1450,7 +1450,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Constrict
 	.byte 0x46 @ effect
@@ -1505,7 +1505,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Glare
 	.byte 0x43 @ effect
@@ -1549,7 +1549,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Leech Life
 	.byte 0x03 @ effect
@@ -1582,7 +1582,7 @@ gBattleMoves:: @ 831C898
 	.byte 30 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Transform
 	.byte 0x39 @ effect
@@ -1648,7 +1648,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Splash
 	.byte 0x55 @ effect
@@ -1681,7 +1681,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Explosion
 	.byte 0x07 @ effect
@@ -1692,7 +1692,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte F_TARGET_ALL_EXCEPT_USER
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Fury Swipes
 	.byte 0x1d @ effect
@@ -1703,7 +1703,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Bonemerang
 	.byte 0x2c @ effect
@@ -1714,7 +1714,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Rest
 	.byte 0x25 @ effect
@@ -1802,7 +1802,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Substitute
 	.byte 0x4f @ effect
@@ -1824,7 +1824,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Sketch
 	.byte 0x5f @ effect
@@ -1846,7 +1846,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Thief
 	.byte 0x69 @ effect
@@ -1912,7 +1912,7 @@ gBattleMoves:: @ 831C898
 	.byte 30 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Curse
 	.byte 0x6d @ effect
@@ -1934,7 +1934,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Conversion 2
 	.byte 0x5d @ effect
@@ -1956,7 +1956,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Cotton Spore
 	.byte 0x3c @ effect
@@ -1978,7 +1978,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Spite
 	.byte 0x64 @ effect
@@ -2022,7 +2022,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 1 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Scary Face
 	.byte 0x3c @ effect
@@ -2044,7 +2044,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Sweet Kiss
 	.byte 0x31 @ effect
@@ -2187,7 +2187,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Lock-On
 	.byte 0x5e @ effect
@@ -2209,7 +2209,7 @@ gBattleMoves:: @ 831C898
 	.byte 100 @ side effect chance
 	.byte F_TARGET_RANDOM
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Sandstorm
 	.byte 0x73 @ effect
@@ -2264,7 +2264,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ False Swipe
 	.byte 0x65 @ effect
@@ -2275,7 +2275,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Swagger
 	.byte 0x76 @ effect
@@ -2319,7 +2319,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Steel Wing
 	.byte 0x8a @ effect
@@ -2330,7 +2330,7 @@ gBattleMoves:: @ 831C898
 	.byte 10 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Mean Look
 	.byte 0x6a @ effect
@@ -2385,7 +2385,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Present
 	.byte 0x7a @ effect
@@ -2407,7 +2407,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Safeguard
 	.byte 0x7c @ effect
@@ -2451,7 +2451,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte F_TARGET_ALL_EXCEPT_USER
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Dynamic Punch
 	.byte 0x4c @ effect
@@ -2473,7 +2473,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Dragon Breath
 	.byte 0x06 @ effect
@@ -2484,7 +2484,7 @@ gBattleMoves:: @ 831C898
 	.byte 30 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Baton Pass
 	.byte 0x7f @ effect
@@ -2528,7 +2528,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Sweet Scent
 	.byte 0x18 @ effect
@@ -2572,7 +2572,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte -1 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Morning Sun
 	.byte 0x84 @ effect
@@ -2616,7 +2616,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Cross Chop
 	.byte 0x2b @ effect
@@ -2627,7 +2627,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Twister
 	.byte 0x92 @ effect
@@ -2638,7 +2638,7 @@ gBattleMoves:: @ 831C898
 	.byte 20 @ side effect chance
 	.byte F_TARGET_BOTH_ENEMIES
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Rain Dance
 	.byte 0x88 @ effect
@@ -2704,7 +2704,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 1 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Ancient Power
 	.byte 0x8c @ effect
@@ -2759,7 +2759,7 @@ gBattleMoves:: @ 831C898
 	.byte 100 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Beat Up
 	.byte 0x9a @ effect
@@ -2770,7 +2770,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Fake Out
 	.byte 0x9e @ effect
@@ -2792,7 +2792,7 @@ gBattleMoves:: @ 831C898
 	.byte 100 @ side effect chance
 	.byte F_TARGET_RANDOM
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Stockpile
 	.byte 0xa0 @ effect
@@ -2814,7 +2814,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Swallow
 	.byte 0xa2 @ effect
@@ -2882,13 +2882,13 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ priority
 	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_MAGIC_COAT | F_AFFECTED_BY_PROTECT @ misc. flags
 
-@ Memento
-	.byte 0xa8 @ effect
-	.byte 0 @ power
-	.byte TYPE_DARK
+@ Flamethrower
+	.byte 0x04 @ effect
+	.byte 90 @ power
+	.byte TYPE_FIRE
 	.byte 100 @ accuracy
-	.byte 10 @ PP
-	.byte 0 @ side effect chance
+	.byte 20 @ PP
+	.byte 10 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
 	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
@@ -3078,7 +3078,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte -4 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Brick Break
 	.byte 0xba @ effect
@@ -3089,7 +3089,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Yawn
 	.byte 0xbb @ effect
@@ -3122,7 +3122,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Eruption
 	.byte 0xbe @ effect
@@ -3133,7 +3133,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte F_TARGET_BOTH_ENEMIES
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Skill Swap
 	.byte 0xbf @ effect
@@ -3210,7 +3210,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Arm Thrust
 	.byte 0x1d @ effect
@@ -3221,7 +3221,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Camouflage
 	.byte 0xd5 @ effect
@@ -3320,7 +3320,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Needle Arm
 	.byte 0x96 @ effect
@@ -3386,7 +3386,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Hydro Cannon
 	.byte 0x50 @ effect
@@ -3397,7 +3397,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Meteor Mash
 	.byte 0x8b @ effect
@@ -3408,7 +3408,7 @@ gBattleMoves:: @ 831C898
 	.byte 20 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Astonish
 	.byte 0x96 @ effect
@@ -3430,7 +3430,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Aromatherapy
 	.byte 0x66 @ effect
@@ -3463,7 +3463,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte F_TARGET_BOTH_ENEMIES
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Overheat
 	.byte 0xcc @ effect
@@ -3474,7 +3474,7 @@ gBattleMoves:: @ 831C898
 	.byte 100 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Odor Sleuth
 	.byte 0x71 @ effect
@@ -3507,7 +3507,7 @@ gBattleMoves:: @ 831C898
 	.byte 10 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Metal Sound
 	.byte 0x3e @ effect
@@ -3540,7 +3540,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_MAGIC_COAT | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_MAGIC_COAT | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Cosmic Power
 	.byte 0xce @ effect
@@ -3573,9 +3573,9 @@ gBattleMoves:: @ 831C898
 	.byte 10 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
-@ Shadow Punch
+@ Ghost Punch
 	.byte 0x11 @ effect
 	.byte 60 @ power
 	.byte TYPE_GHOST
@@ -3584,7 +3584,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Extrasensory
 	.byte 0x96 @ effect
@@ -3606,7 +3606,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Sand Tomb
 	.byte 0x2a @ effect
@@ -3617,7 +3617,7 @@ gBattleMoves:: @ 831C898
 	.byte 100 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Sheer Cold
 	.byte 0x26 @ effect
@@ -3639,7 +3639,7 @@ gBattleMoves:: @ 831C898
 	.byte 30 @ side effect chance
 	.byte F_TARGET_BOTH_ENEMIES
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Bullet Seed
 	.byte 0x1d @ effect
@@ -3650,7 +3650,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Aerial Ace
 	.byte 0x11 @ effect
@@ -3661,7 +3661,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Icicle Spear
 	.byte 0x1d @ effect
@@ -3672,7 +3672,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Iron Defense
 	.byte 0x33 @ effect
@@ -3716,7 +3716,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Frenzy Plant
 	.byte 0x50 @ effect
@@ -3727,7 +3727,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Bulk Up
 	.byte 0xd0 @ effect
@@ -3749,7 +3749,7 @@ gBattleMoves:: @ 831C898
 	.byte 30 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Mud Shot
 	.byte 0x46 @ effect
@@ -3760,7 +3760,7 @@ gBattleMoves:: @ 831C898
 	.byte 100 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Poison Tail
 	.byte 0xd1 @ effect
@@ -3771,7 +3771,7 @@ gBattleMoves:: @ 831C898
 	.byte 10 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Covet
 	.byte 0x69 @ effect
@@ -3793,7 +3793,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Magical Leaf
 	.byte 0x11 @ effect
@@ -3804,7 +3804,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Water Sport
 	.byte 0xd2 @ effect
@@ -3837,7 +3837,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT | F_MAKES_CONTACT @ misc. flags
 
 @ Dragon Dance
 	.byte 0xd4 @ effect
@@ -3850,16 +3850,16 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ priority
 	.4byte F_AFFECTED_BY_SNATCH @ misc. flags
 
-@ Rock Blast
-	.byte 0x1d @ effect
-	.byte 25 @ power
-	.byte TYPE_ROCK
-	.byte 80 @ accuracy
-	.byte 10 @ PP
+@ Shorn Wave
+	.byte 0x11 @ effect
+	.byte 60 @ power
+	.byte TYPE_FIRE
+	.byte 0 @ accuracy
+	.byte 20 @ PP
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Shock Wave
 	.byte 0x11 @ effect
@@ -3870,7 +3870,7 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Water Pulse
 	.byte 0x4c @ effect
@@ -3881,26 +3881,26 @@ gBattleMoves:: @ 831C898
 	.byte 20 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
-@ Doom Desire
-	.byte 0x94 @ effect
-	.byte 120 @ power
-	.byte TYPE_STEEL
-	.byte 85 @ accuracy
-	.byte 5 @ PP
+@ Grass Pulse
+	.byte 0x4c @ effect
+	.byte 60 @ power
+	.byte TYPE_GRASS
+	.byte 100 @ accuracy
+	.byte 20 @ PP
+	.byte 20 @ side effect chance
+	.byte TARGET_SELECTED_POKEMON
+	.byte 0 @ priority
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+
+@ Rock Blast
+	.byte 0x1d @ effect
+	.byte 25 @ power
+	.byte TYPE_ROCK
+	.byte 80 @ accuracy
+	.byte 10 @ PP
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte 0 @ misc. flags
-
-@ Psycho Boost
-	.byte 0xcc @ effect
-	.byte 140 @ power
-	.byte TYPE_PSYCHIC
-	.byte 90 @ accuracy
-	.byte 5 @ PP
-	.byte 100 @ side effect chance
-	.byte TARGET_SELECTED_POKEMON
-	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_KINGS_ROCK | F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
