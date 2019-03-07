@@ -24,6 +24,7 @@ gTypeEffectiveness:: @ 831ACE8
 	.byte    TYPE_WATER,     TYPE_FIRE, 20
 	.byte    TYPE_WATER,    TYPE_WATER,  5
 	.byte    TYPE_WATER,    TYPE_GRASS,  5
+	.byte    TYPE_WATER, TYPE_ELECTRIC,  5
 	.byte    TYPE_WATER,   TYPE_DRAGON,  5
 	.byte    TYPE_GRASS,   TYPE_GROUND, 20
 	.byte    TYPE_GRASS,     TYPE_ROCK, 20
@@ -46,6 +47,7 @@ gTypeEffectiveness:: @ 831ACE8
 	.byte TYPE_ELECTRIC,   TYPE_FLYING, 20
 	.byte TYPE_ELECTRIC,   TYPE_DRAGON,  5
 	.byte      TYPE_ICE,     TYPE_FIRE,  5
+	.byte      TYPE_ICE, TYPE_ELECTRIC,  5
 	.byte      TYPE_ICE,    TYPE_WATER, 20
 	.byte      TYPE_ICE,    TYPE_GRASS, 20
 	.byte      TYPE_ICE,      TYPE_ICE,  5
@@ -53,7 +55,6 @@ gTypeEffectiveness:: @ 831ACE8
 	.byte      TYPE_ICE,   TYPE_FLYING, 20
 	.byte      TYPE_ICE,   TYPE_DRAGON, 20
 	.byte      TYPE_ICE,    TYPE_STEEL,  5
-	.byte      TYPE_ICE,     TYPE_FIRE,  5
 	.byte TYPE_FIGHTING,   TYPE_NORMAL, 20
 	.byte TYPE_FIGHTING,      TYPE_ICE, 20
 	.byte TYPE_FIGHTING,   TYPE_POISON,  5
@@ -63,15 +64,15 @@ gTypeEffectiveness:: @ 831ACE8
 	.byte TYPE_FIGHTING,     TYPE_ROCK, 20
 	.byte TYPE_FIGHTING,     TYPE_DARK, 20
 	.byte TYPE_FIGHTING,    TYPE_STEEL, 20
-	.byte   TYPE_POISON,    TYPE_GRASS, 20
 	.byte   TYPE_POISON,   TYPE_POISON,  5
 	.byte   TYPE_POISON,   TYPE_GROUND,  5
 	.byte   TYPE_POISON,     TYPE_ROCK,  5
 	.byte   TYPE_POISON,    TYPE_GHOST,  5
 	.byte   TYPE_POISON,    TYPE_STEEL,  0
-	.byte   TYPE_GROUND,     TYPE_FIRE, 20
-	.byte   TYPE_GROUND, TYPE_ELECTRIC, 20
+	.byte   TYPE_GROUND,     TYPE_FIRE,  5
+	.byte   TYPE_GROUND,    TYPE_WATER,  5
 	.byte   TYPE_GROUND,    TYPE_GRASS,  5
+	.byte   TYPE_GROUND, TYPE_ELECTRIC,  5
 	.byte   TYPE_GROUND,   TYPE_POISON, 20
 	.byte   TYPE_GROUND,   TYPE_FLYING,  0
 	.byte   TYPE_GROUND,      TYPE_BUG,  5
@@ -98,6 +99,7 @@ gTypeEffectiveness:: @ 831ACE8
 	.byte      TYPE_BUG,  TYPE_PSYCHIC, 20
 	.byte      TYPE_BUG,    TYPE_GHOST,  5
 	.byte      TYPE_BUG,     TYPE_DARK, 20
+	.byte      TYPE_BUG,    TYPE_LIGHT, 20
 	.byte      TYPE_BUG,    TYPE_STEEL,  5
 	.byte     TYPE_ROCK,     TYPE_FIRE,  5
         .byte     TYPE_ROCK,    TYPE_WATER,  5
@@ -112,15 +114,22 @@ gTypeEffectiveness:: @ 831ACE8
 	.byte    TYPE_GHOST,   TYPE_NORMAL,  0
 	.byte    TYPE_GHOST,  TYPE_PSYCHIC, 20
 	.byte    TYPE_GHOST,     TYPE_DARK,  5
+	.byte    TYPE_GHOST,    TYPE_LIGHT,  5
 	.byte    TYPE_GHOST,    TYPE_STEEL,  5
 	.byte    TYPE_GHOST,    TYPE_GHOST, 20
 	.byte   TYPE_DRAGON,   TYPE_DRAGON, 20
+	.byte   TYPE_DRAGON,  TYPE_UNICORN, 20
 	.byte   TYPE_DRAGON,    TYPE_STEEL,  5
-	.byte     TYPE_DARK, TYPE_FIGHTING,  5
+	.byte     TYPE_DARK, TYPE_FIGHTING, 20
 	.byte     TYPE_DARK,  TYPE_PSYCHIC, 20
-	.byte     TYPE_DARK,    TYPE_GHOST, 20
-	.byte     TYPE_DARK,     TYPE_DARK,  5
-	.byte     TYPE_DARK,    TYPE_STEEL,  5
+	.byte     TYPE_DARK,     TYPE_DARK, 20
+	.byte     TYPE_DARK,    TYPE_LIGHT, 20
+	.byte     TYPE_DARK,   TYPE_DRAGON, 20
+	.byte     TYPE_DARK,  TYPE_UNICORN, 20
+	.byte     TYPE_DARK,    TYPE_STEEL, 20
+	.byte    TYPE_LIGHT, TYPE_FIGHTING, 20
+	.byte    TYPE_LIGHT,  TYPE_PSYCHIC, 20
+	.byte    TYPE_LIGHT,    TYPE_GHOST, 20
 	.byte    TYPE_STEEL,     TYPE_FIRE,  5
 	.byte    TYPE_STEEL,    TYPE_WATER,  5
 	.byte    TYPE_STEEL,    TYPE_GRASS,  5
