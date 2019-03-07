@@ -7,6 +7,14 @@
 gTypeEffectiveness:: @ 831ACE8
 	.byte   TYPE_NORMAL,     TYPE_ROCK,  5
 	.byte   TYPE_NORMAL,    TYPE_STEEL,  5
+	.byte   TYPE_NORMAL,   TYPE_DRAGON, 20
+	.byte   TYPE_NORMAL,  TYPE_UNICORN, 20
+	.byte   TYPE_NORMAL,     TYPE_DARK, 20
+	.byte   TYPE_NORMAL,    TYPE_LIGHT, 20
+	.byte   TYPE_NORMAL,  TYPE_PSYCHIC, 20
+	.byte   TYPE_NORMAL,    TYPE_GHOST, 20
+	.byte TYPE_ABNORMAL,     TYPE_ROCK,  5
+	.byte TYPE_ABNORMAL,    TYPE_STEEL,  5
 	.byte     TYPE_FIRE,   TYPE_GROUND, 20
 	.byte     TYPE_FIRE,     TYPE_ROCK, 20
 	.byte     TYPE_FIRE,      TYPE_BUG, 20
@@ -55,15 +63,6 @@ gTypeEffectiveness:: @ 831ACE8
 	.byte      TYPE_ICE,   TYPE_FLYING, 20
 	.byte      TYPE_ICE,   TYPE_DRAGON, 20
 	.byte      TYPE_ICE,    TYPE_STEEL,  5
-	.byte TYPE_FIGHTING,   TYPE_NORMAL, 20
-	.byte TYPE_FIGHTING,      TYPE_ICE, 20
-	.byte TYPE_FIGHTING,   TYPE_POISON,  5
-	.byte TYPE_FIGHTING,   TYPE_FLYING,  5
-	.byte TYPE_FIGHTING,  TYPE_PSYCHIC,  5
-	.byte TYPE_FIGHTING,      TYPE_BUG,  5
-	.byte TYPE_FIGHTING,     TYPE_ROCK, 20
-	.byte TYPE_FIGHTING,     TYPE_DARK, 20
-	.byte TYPE_FIGHTING,    TYPE_STEEL, 20
 	.byte   TYPE_POISON,   TYPE_POISON,  5
 	.byte   TYPE_POISON,   TYPE_GROUND,  5
 	.byte   TYPE_POISON,     TYPE_ROCK,  5
@@ -100,26 +99,31 @@ gTypeEffectiveness:: @ 831ACE8
 	.byte      TYPE_BUG,    TYPE_GHOST,  5
 	.byte      TYPE_BUG,     TYPE_DARK, 20
 	.byte      TYPE_BUG,    TYPE_LIGHT, 20
-	.byte      TYPE_BUG,    TYPE_STEEL,  5
-	.byte     TYPE_ROCK,     TYPE_FIRE,  5
-        .byte     TYPE_ROCK,    TYPE_WATER,  5
-	.byte     TYPE_ROCK,    TYPE_GRASS,  5
-	.byte     TYPE_ROCK, TYPE_ELECTRIC,  5
+	.byte      TYPE_BUG,    TYPE_STEEL, 05
+	.byte     TYPE_ROCK,     TYPE_FIRE, 05
+        .byte     TYPE_ROCK,    TYPE_WATER, 05
+	.byte     TYPE_ROCK,    TYPE_GRASS, 05
+	.byte     TYPE_ROCK, TYPE_ELECTRIC, 05
 	.byte     TYPE_ROCK,      TYPE_ICE, 20
 	.byte     TYPE_ROCK, TYPE_FIGHTING,  5
-	.byte     TYPE_ROCK,   TYPE_GROUND,  5
+	.byte     TYPE_ROCK,   TYPE_GROUND, 05
 	.byte     TYPE_ROCK,   TYPE_FLYING, 20
 	.byte     TYPE_ROCK,      TYPE_BUG, 20
-	.byte     TYPE_ROCK,    TYPE_STEEL,  5
+	.byte     TYPE_ROCK,    TYPE_STEEL, 05
 	.byte    TYPE_GHOST,   TYPE_NORMAL,  0
 	.byte    TYPE_GHOST,  TYPE_PSYCHIC, 20
-	.byte    TYPE_GHOST,     TYPE_DARK,  5
-	.byte    TYPE_GHOST,    TYPE_LIGHT,  5
-	.byte    TYPE_GHOST,    TYPE_STEEL,  5
+	.byte    TYPE_GHOST,     TYPE_DARK, 05
+	.byte    TYPE_GHOST,    TYPE_LIGHT, 05
+	.byte    TYPE_GHOST,    TYPE_STEEL, 05
 	.byte    TYPE_GHOST,    TYPE_GHOST, 20
 	.byte   TYPE_DRAGON,   TYPE_DRAGON, 20
 	.byte   TYPE_DRAGON,  TYPE_UNICORN, 20
-	.byte   TYPE_DRAGON,    TYPE_STEEL,  5
+	.byte   TYPE_DRAGON,   TYPE_NORMAL, 05
+	.byte   TYPE_DRAGON,    TYPE_STEEL, 20
+	.byte  TYPE_UNICORN,  TYPE_UNICORN, 20
+	.byte  TYPE_UNICORN,   TYPE_DRAGON, 20
+	.byte  TYPE_UNICORN,   TYPE_NORMAL, 05
+	.byte  TYPE_UNICORN,    TYPE_STEEL, 20
 	.byte     TYPE_DARK, TYPE_FIGHTING, 20
 	.byte     TYPE_DARK,  TYPE_PSYCHIC, 20
 	.byte     TYPE_DARK,     TYPE_DARK, 20
@@ -138,6 +142,4 @@ gTypeEffectiveness:: @ 831ACE8
 	.byte    TYPE_STEEL,     TYPE_ROCK, 20
 	.byte    TYPE_STEEL,    TYPE_STEEL,  5
 	.byte          0xFE,          0xFE,  0
-	.byte   TYPE_NORMAL,    TYPE_GHOST, 20
-	.byte TYPE_FIGHTING,    TYPE_GHOST,  0
 	.byte          0xFF,          0xFF,  0
