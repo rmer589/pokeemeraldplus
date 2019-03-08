@@ -588,7 +588,7 @@ gBattleMoves:: @ 831C898
 	.byte 120 @ power
 	.byte TYPE_FIRE
 	.byte 100 @ accuracy
-	.byte 40 @ PP
+	.byte 80 @ PP
 	.byte 20 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
@@ -629,10 +629,10 @@ gBattleMoves:: @ 831C898
 
 @ Surf
 	.byte 0x00 @ effect
-	.byte 95 @ power
+	.byte 100 @ power
 	.byte TYPE_WATER
 	.byte 100 @ accuracy
-	.byte 15 @ PP
+	.byte 20 @ PP
 	.byte 0 @ side effect chance
 	.byte F_TARGET_BOTH_ENEMIES
 	.byte 0 @ priority
@@ -1650,16 +1650,16 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ priority
 	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
-@ Splash
-	.byte 0x55 @ effect
-	.byte 0 @ power
-	.byte TYPE_NORMAL
-	.byte 0 @ accuracy
-	.byte 40 @ PP
+@ Lava Surf
+	.byte 0x00 @ effect
+	.byte 100 @ power
+	.byte TYPE_FIRE
+	.byte 100 @ accuracy
+	.byte 20 @ PP
 	.byte 0 @ side effect chance
-	.byte F_TARGET_USER
+	.byte F_TARGET_BOTH_ENEMIES
 	.byte 0 @ priority
-	.4byte 0 @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Acid Armor
 	.byte 0x33 @ effect
@@ -3267,27 +3267,27 @@ gBattleMoves:: @ 831C898
 	.byte 0 @ priority
 	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
-@ Feather Dance
-	.byte 0x3a @ effect
-	.byte 0 @ power
-	.byte TYPE_FLYING
-	.byte 100 @ accuracy
-	.byte 15 @ PP
+@ Water Beam
+	.byte 0x26 @ effect
+	.byte 1 @ power
+	.byte TYPE_WATER
+	.byte 30 @ accuracy
+	.byte 5 @ PP
 	.byte 0 @ side effect chance
 	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_MAGIC_COAT | F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
-@ Teeter Dance
-	.byte 0xc7 @ effect
-	.byte 0 @ power
-	.byte TYPE_NORMAL
-	.byte 100 @ accuracy
-	.byte 20 @ PP
+@ Grass Beam
+	.byte 0x26 @ effect
+	.byte 1 @ power
+	.byte TYPE_GRASS
+	.byte 30 @ accuracy
+	.byte 5 @ PP
 	.byte 0 @ side effect chance
-	.byte F_TARGET_ALL_EXCEPT_USER
+	.byte TARGET_SELECTED_POKEMON
 	.byte 0 @ priority
-	.4byte F_AFFECTED_BY_PROTECT @ misc. flags
+	.4byte F_MIRROR_MOVE_COMPATIBLE | F_AFFECTED_BY_PROTECT @ misc. flags
 
 @ Blaze Kick
 	.byte 0xc8 @ effect
