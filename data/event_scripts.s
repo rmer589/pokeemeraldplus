@@ -1745,84 +1745,21 @@ SootopolisCity_Gym_1F_EventScript_271F43:: @ 8271F43
 	end
 
 DewfordTown_Gym_EventScript_271FA1:: @ 8271FA1
-	settrainerflag TRAINER_JOSH
-	settrainerflag TRAINER_TOMMY
-	settrainerflag TRAINER_MARC
-	return
 
 DewfordTown_Gym_EventScript_271FAB:: @ 8271FAB
-	settrainerflag TRAINER_TAKAO
-	settrainerflag TRAINER_JOCELYN
-	settrainerflag TRAINER_LAURA
-	settrainerflag TRAINER_BRENDEN
-	settrainerflag TRAINER_CRISTIAN
-	settrainerflag TRAINER_LILITH
 	return
 
 DewfordTown_Gym_EventScript_271FBE:: @ 8271FBE
-	settrainerflag TRAINER_KIRK
-	settrainerflag TRAINER_SHAWN
-	settrainerflag TRAINER_BEN
-	settrainerflag TRAINER_VIVIAN
-	settrainerflag TRAINER_ANGELO
-	return
 
 DewfordTown_Gym_EventScript_271FCE:: @ 8271FCE
-	settrainerflag TRAINER_COLE
-	settrainerflag TRAINER_AXLE
-	settrainerflag TRAINER_KEEGAN
-	settrainerflag TRAINER_GERALD
-	settrainerflag TRAINER_DANIELLE
-	settrainerflag TRAINER_JACE
-	settrainerflag TRAINER_JEFF
-	settrainerflag TRAINER_ELI
-	return
 
 DewfordTown_Gym_EventScript_271FE7:: @ 8271FE7
-	settrainerflag TRAINER_RANDALL
-	settrainerflag TRAINER_PARKER
-	settrainerflag TRAINER_GEORGE
-	settrainerflag TRAINER_BERKE
-	settrainerflag TRAINER_MARY
-	settrainerflag TRAINER_ALEXIA
-	settrainerflag TRAINER_JODY
-	return
 
 DewfordTown_Gym_EventScript_271FFD:: @ 8271FFD
-	settrainerflag TRAINER_JARED
-	settrainerflag TRAINER_FLINT
-	settrainerflag TRAINER_ASHLEY
-	settrainerflag TRAINER_EDWARDO
-	settrainerflag TRAINER_HUMBERTO
-	settrainerflag TRAINER_DARIUS
-	return
 
 DewfordTown_Gym_EventScript_272010:: @ 8272010
-	settrainerflag TRAINER_PRESTON
-	settrainerflag TRAINER_VIRGIL
-	settrainerflag TRAINER_BLAKE
-	settrainerflag TRAINER_HANNAH
-	settrainerflag TRAINER_SAMANTHA
-	settrainerflag TRAINER_MAURA
-	settrainerflag TRAINER_SYLVIA
-	settrainerflag TRAINER_NATE
-	settrainerflag TRAINER_KATHLEEN
-	settrainerflag TRAINER_CLIFFORD
-	settrainerflag TRAINER_MACEY
-	settrainerflag TRAINER_NICHOLAS
-	return
 
 DewfordTown_Gym_EventScript_272035:: @ 8272035
-	settrainerflag TRAINER_ANDREA
-	settrainerflag TRAINER_CRISSY
-	settrainerflag TRAINER_BRIANNA
-	settrainerflag TRAINER_CONNIE
-	settrainerflag TRAINER_BRIDGET
-	settrainerflag TRAINER_OLIVIA
-	settrainerflag TRAINER_TIFFANY
-	settrainerflag TRAINER_BETHANY
-	settrainerflag TRAINER_ANNIKA
-	settrainerflag TRAINER_DAPHNE
 	return
 
 LilycoveCity_EventScript_272054:: @ 8272054
@@ -1870,10 +1807,6 @@ Route114_LanettesHouse_EventScript_272067:: @ 8272067
 	end
 
 LilycoveCity_LilycoveMuseum_2F_EventScript_272071:: @ 8272071
-MauvilleCity_GameCorner_EventScript_272071:: @ 8272071
-Route110_TrickHouseEnd_EventScript_272071:: @ 8272071
-Route110_TrickHouseEntrance_EventScript_272071:: @ 8272071
-Route113_GlassWorkshop_EventScript_272071:: @ 8272071
 	msgbox gUnknown_08272B1A, 4
 	return
 
@@ -2084,12 +2017,9 @@ FarawayIsland_Entrance_EventScript_272250:: @ 8272250
 NavelRock_Harbor_EventScript_272250:: @ 8272250
 SouthernIsland_Exterior_EventScript_272250:: @ 8272250
 	compare_var_to_value VAR_FACING, 1
-	call_if 1, BattleFrontier_OutsideWest_EventScript_242A21
 	compare_var_to_value VAR_FACING, 3
-	call_if 1, BattleFrontier_OutsideWest_EventScript_242A2C
 	delay 30
 	hideobjectat 255, PETALBURG_CITY
-	call BattleFrontier_OutsideWest_EventScript_2721E2
 	return
 
 EventScript_272274:: @ 8272274
@@ -2259,22 +2189,6 @@ EverGrandeCity_DrakesRoom_EventScript_2723F8:: @ 82723F8
 EverGrandeCity_GlaciasRoom_EventScript_2723F8:: @ 82723F8
 EverGrandeCity_PhoebesRoom_EventScript_2723F8:: @ 82723F8
 EverGrandeCity_SidneysRoom_EventScript_2723F8:: @ 82723F8
-	applymovement 255, EverGrandeCity_SidneysRoom_Movement_2725C6
-	waitmovement 0
-	playse SE_DOOR
-	setmetatile 6, 1, 836, 0
-	setmetatile 6, 2, 837, 0
-	setmetatile 0, 2, 734, 1
-	setmetatile 1, 2, 733, 1
-	setmetatile 2, 2, 734, 1
-	setmetatile 3, 2, 733, 1
-	setmetatile 4, 2, 734, 1
-	setmetatile 8, 2, 733, 1
-	setmetatile 9, 2, 734, 1
-	setmetatile 10, 2, 733, 1
-	setmetatile 11, 2, 734, 1
-	setmetatile 12, 2, 733, 1
-	special DrawWholeMapView
 	return
 
 EverGrandeCity_DrakesRoom_EventScript_272475:: @ 8272475
@@ -4320,452 +4234,63 @@ SecretBase_YellowCave1_EventScript_275D64:: @ 8275D64
 SecretBase_YellowCave2_EventScript_275D64:: @ 8275D64
 SecretBase_YellowCave3_EventScript_275D64:: @ 8275D64
 SecretBase_YellowCave4_EventScript_275D64:: @ 8275D64
-	special sub_80EA354
-	compare_var_to_value VAR_0x8004, 0
-	goto_eq SecretBase_RedCave1_EventScript_275DD6
-	compare_var_to_value VAR_0x8004, 1
-	goto_eq SecretBase_RedCave1_EventScript_275E4E
-	compare_var_to_value VAR_0x8004, 2
-	goto_eq SecretBase_RedCave1_EventScript_275EC6
-	compare_var_to_value VAR_0x8004, 3
-	goto_eq SecretBase_RedCave1_EventScript_275F3E
-	compare_var_to_value VAR_0x8004, 4
-	goto_eq SecretBase_RedCave1_EventScript_275FB6
-	compare_var_to_value VAR_0x8004, 5
-	goto_eq SecretBase_RedCave1_EventScript_27602E
-	compare_var_to_value VAR_0x8004, 6
-	goto_eq SecretBase_RedCave1_EventScript_2760A6
-	compare_var_to_value VAR_0x8004, 7
-	goto_eq SecretBase_RedCave1_EventScript_27611E
-	compare_var_to_value VAR_0x8004, 8
-	goto_eq SecretBase_RedCave1_EventScript_276196
-	compare_var_to_value VAR_0x8004, 9
-	goto_eq SecretBase_RedCave1_EventScript_27620E
-	end
 
 SecretBase_RedCave1_EventScript_275DD6:: @ 8275DD6
-	lock
-	faceplayer
-	checkflag FLAG_SYS_GAME_CLEAR
-	goto_if 0, SecretBase_RedCave1_EventScript_275E25
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq SecretBase_RedCave1_EventScript_275E44
-	msgbox SecretBase_RedCave1_Text_2748A0, 5
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_275E2F
-	setvar VAR_RESULT, 1
-	special sub_80EA30C
-	call SecretBase_RedCave1_EventScript_27134F
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_275E2F
-	msgbox SecretBase_RedCave1_Text_274939, 4
-	goto SecretBase_RedCave1_EventScript_276286
-	end
-
 SecretBase_RedCave1_EventScript_275E25:: @ 8275E25
-	msgbox SecretBase_RedCave1_Text_2749ED, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_275E2F:: @ 8275E2F
-	special sub_80EB300
-	setvar VAR_RESULT, 0
-	special sub_80EA30C
-	msgbox SecretBase_RedCave1_Text_27494D, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_275E44:: @ 8275E44
-	msgbox SecretBase_RedCave1_Text_2749AA, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_275E4E:: @ 8275E4E
-	lock
-	faceplayer
-	checkflag FLAG_SYS_GAME_CLEAR
-	goto_if 0, SecretBase_RedCave1_EventScript_275E9D
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq SecretBase_RedCave1_EventScript_275EBC
-	msgbox SecretBase_RedCave1_Text_274C13, 5
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_275EA7
-	setvar VAR_RESULT, 1
-	special sub_80EA30C
-	call SecretBase_RedCave1_EventScript_27134F
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_275EA7
-	msgbox SecretBase_RedCave1_Text_274CB0, 4
-	goto SecretBase_RedCave1_EventScript_276286
-	end
-
 SecretBase_RedCave1_EventScript_275E9D:: @ 8275E9D
-	msgbox SecretBase_RedCave1_Text_274D69, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_275EA7:: @ 8275EA7
-	special sub_80EB300
-	setvar VAR_RESULT, 0
-	special sub_80EA30C
-	msgbox SecretBase_RedCave1_Text_274CDA, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_275EBC:: @ 8275EBC
-	msgbox SecretBase_RedCave1_Text_274D34, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_275EC6:: @ 8275EC6
-	lock
-	faceplayer
-	checkflag FLAG_SYS_GAME_CLEAR
-	goto_if 0, SecretBase_RedCave1_EventScript_275F15
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq SecretBase_RedCave1_EventScript_275F34
-	msgbox SecretBase_RedCave1_Text_274F39, 5
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_275F1F
-	setvar VAR_RESULT, 1
-	special sub_80EA30C
-	call SecretBase_RedCave1_EventScript_27134F
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_275F1F
-	msgbox SecretBase_RedCave1_Text_274FCA, 4
-	goto SecretBase_RedCave1_EventScript_276286
-	end
-
 SecretBase_RedCave1_EventScript_275F15:: @ 8275F15
-	msgbox SecretBase_RedCave1_Text_2750A4, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_275F1F:: @ 8275F1F
-	special sub_80EB300
-	setvar VAR_RESULT, 0
-	special sub_80EA30C
-	msgbox SecretBase_RedCave1_Text_274FDA, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_275F34:: @ 8275F34
-	msgbox SecretBase_RedCave1_Text_27502A, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_275F3E:: @ 8275F3E
-	lock
-	faceplayer
-	checkflag FLAG_SYS_GAME_CLEAR
-	goto_if 0, SecretBase_RedCave1_EventScript_275F8D
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq SecretBase_RedCave1_EventScript_275FAC
-	msgbox SecretBase_RedCave1_Text_275287, 5
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_275F97
-	setvar VAR_RESULT, 1
-	special sub_80EA30C
-	call SecretBase_RedCave1_EventScript_27134F
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_275F97
-	msgbox SecretBase_RedCave1_Text_275315, 4
-	goto SecretBase_RedCave1_EventScript_276286
-	end
-
 SecretBase_RedCave1_EventScript_275F8D:: @ 8275F8D
-	msgbox SecretBase_RedCave1_Text_2753AB, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_275F97:: @ 8275F97
-	special sub_80EB300
-	setvar VAR_RESULT, 0
-	special sub_80EA30C
-	msgbox SecretBase_RedCave1_Text_275330, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_275FAC:: @ 8275FAC
-	msgbox SecretBase_RedCave1_Text_275374, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_275FB6:: @ 8275FB6
-	lock
-	faceplayer
-	checkflag FLAG_SYS_GAME_CLEAR
-	goto_if 0, SecretBase_RedCave1_EventScript_276005
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq SecretBase_RedCave1_EventScript_276024
-	msgbox SecretBase_RedCave1_Text_2755D2, 5
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_27600F
-	setvar VAR_RESULT, 1
-	special sub_80EA30C
-	call SecretBase_RedCave1_EventScript_27134F
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_27600F
-	msgbox SecretBase_RedCave1_Text_275679, 4
-	goto SecretBase_RedCave1_EventScript_276286
-	end
-
 SecretBase_RedCave1_EventScript_276005:: @ 8276005
-	msgbox SecretBase_RedCave1_Text_27571E, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_27600F:: @ 827600F
-	special sub_80EB300
-	setvar VAR_RESULT, 0
-	special sub_80EA30C
-	msgbox SecretBase_RedCave1_Text_275696, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_276024:: @ 8276024
-	msgbox SecretBase_RedCave1_Text_2756EF, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_27602E:: @ 827602E
-	lock
-	faceplayer
-	checkflag FLAG_SYS_GAME_CLEAR
-	goto_if 0, SecretBase_RedCave1_EventScript_27607D
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq SecretBase_RedCave1_EventScript_27609C
-	msgbox SecretBase_RedCave1_Text_274A64, 5
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_276087
-	setvar VAR_RESULT, 1
-	special sub_80EA30C
-	call SecretBase_RedCave1_EventScript_27134F
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_276087
-	msgbox SecretBase_RedCave1_Text_274AFA, 4
-	goto SecretBase_RedCave1_EventScript_276286
-	end
-
 SecretBase_RedCave1_EventScript_27607D:: @ 827607D
-	msgbox SecretBase_RedCave1_Text_274BA2, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_276087:: @ 8276087
-	special sub_80EB300
-	setvar VAR_RESULT, 0
-	special sub_80EA30C
-	msgbox SecretBase_RedCave1_Text_274B0B, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_27609C:: @ 827609C
-	msgbox SecretBase_RedCave1_Text_274B6C, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_2760A6:: @ 82760A6
-	lock
-	faceplayer
-	checkflag FLAG_SYS_GAME_CLEAR
-	goto_if 0, SecretBase_RedCave1_EventScript_2760F5
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq SecretBase_RedCave1_EventScript_276114
-	msgbox SecretBase_RedCave1_Text_274DD2, 5
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_2760FF
-	setvar VAR_RESULT, 1
-	special sub_80EA30C
-	call SecretBase_RedCave1_EventScript_27134F
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_2760FF
-	msgbox SecretBase_RedCave1_Text_274E41, 4
-	goto SecretBase_RedCave1_EventScript_276286
-	end
-
 SecretBase_RedCave1_EventScript_2760F5:: @ 82760F5
-	msgbox SecretBase_RedCave1_Text_274EF1, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_2760FF:: @ 82760FF
-	special sub_80EB300
-	setvar VAR_RESULT, 0
-	special sub_80EA30C
-	msgbox SecretBase_RedCave1_Text_274E5A, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_276114:: @ 8276114
-	msgbox SecretBase_RedCave1_Text_274EB3, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_27611E:: @ 827611E
-	lock
-	faceplayer
-	checkflag FLAG_SYS_GAME_CLEAR
-	goto_if 0, SecretBase_RedCave1_EventScript_27616D
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq SecretBase_RedCave1_EventScript_27618C
-	msgbox SecretBase_RedCave1_Text_275114, 5
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_276177
-	setvar VAR_RESULT, 1
-	special sub_80EA30C
-	call SecretBase_RedCave1_EventScript_27134F
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_276177
-	msgbox SecretBase_RedCave1_Text_2751AF, 4
-	goto SecretBase_RedCave1_EventScript_276286
-	end
-
 SecretBase_RedCave1_EventScript_27616D:: @ 827616D
-	msgbox SecretBase_RedCave1_Text_275226, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_276177:: @ 8276177
-	special sub_80EB300
-	setvar VAR_RESULT, 0
-	special sub_80EA30C
-	msgbox SecretBase_RedCave1_Text_2751CA, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_27618C:: @ 827618C
-	msgbox SecretBase_RedCave1_Text_2751EC, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_276196:: @ 8276196
-	lock
-	faceplayer
-	checkflag FLAG_SYS_GAME_CLEAR
-	goto_if 0, SecretBase_RedCave1_EventScript_2761E5
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq SecretBase_RedCave1_EventScript_276204
-	msgbox SecretBase_RedCave1_Text_275405, 5
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_2761EF
-	setvar VAR_RESULT, 1
-	special sub_80EA30C
-	call SecretBase_RedCave1_EventScript_27134F
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_2761EF
-	msgbox SecretBase_RedCave1_Text_2754B2, 4
-	goto SecretBase_RedCave1_EventScript_276286
-	end
-
 SecretBase_RedCave1_EventScript_2761E5:: @ 82761E5
-	msgbox SecretBase_RedCave1_Text_275546, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_2761EF:: @ 82761EF
-	special sub_80EB300
-	setvar VAR_RESULT, 0
-	special sub_80EA30C
-	msgbox SecretBase_RedCave1_Text_2754D8, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_276204:: @ 8276204
-	msgbox SecretBase_RedCave1_Text_27550C, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_27620E:: @ 827620E
-	lock
-	faceplayer
-	checkflag FLAG_SYS_GAME_CLEAR
-	goto_if 0, SecretBase_RedCave1_EventScript_27625D
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq SecretBase_RedCave1_EventScript_27627C
-	msgbox SecretBase_RedCave1_Text_2757B5, 5
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_276267
-	setvar VAR_RESULT, 1
-	special sub_80EA30C
-	call SecretBase_RedCave1_EventScript_27134F
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq SecretBase_RedCave1_EventScript_276267
-	msgbox SecretBase_RedCave1_Text_275884, 4
-	goto SecretBase_RedCave1_EventScript_276286
-	end
-
 SecretBase_RedCave1_EventScript_27625D:: @ 827625D
-	msgbox SecretBase_RedCave1_Text_275944, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_276267:: @ 8276267
-	special sub_80EB300
-	setvar VAR_RESULT, 0
-	special sub_80EA30C
-	msgbox SecretBase_RedCave1_Text_27589D, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_27627C:: @ 827627C
-	msgbox SecretBase_RedCave1_Text_275909, 4
-	release
-	end
-
 SecretBase_RedCave1_EventScript_276286:: @ 8276286
-	special sub_80EA2E4
-	setvar VAR_0x8004, 1
-	setvar VAR_0x8005, 0
-	special sub_8163AC4
-	waitstate
-	compare_var_to_value VAR_RESULT, 3
-	call_if 1, SecretBase_RedCave1_EventScript_2762BD
-	compare_var_to_value VAR_RESULT, 1
-	call_if 1, SecretBase_RedCave1_EventScript_2762C1
-	compare_var_to_value VAR_RESULT, 2
-	call_if 1, SecretBase_RedCave1_EventScript_2762C5
-	special sp000_heal_pokemon
-	release
-	end
-
 SecretBase_RedCave1_EventScript_2762BD:: @ 82762BD
-	special sub_80EB438
-	return
-
 SecretBase_RedCave1_EventScript_2762C1:: @ 82762C1
-	special sub_80EB368
-	return
-
 SecretBase_RedCave1_EventScript_2762C5:: @ 82762C5
-	special sub_80EB3D0
-	return
-
-	.include "data/scripts/secret_power_tm.inc"
 
 Text_2766AA: @ 82766AA
-	.string "All decorations and furniture in your\n"
-	.string "SECRET BASE will be returned to your PC.\p"
-	.string "Is that okay?$"
 
 Text_276707: @ 8276707
-	.string "Do you want to register\n"
-	.string "{STR_VAR_1}’s SECRET BASE?$"
 
 Text_276731: @ 8276731
-	.string "This data is already registered.\n"
-	.string "Would you like to delete it?$"
 
 Text_27676F: @ 827676F
-	.string "Up to 10 locations can be registered.\p"
-	.string "Delete a location if you want to\n"
-	.string "register another location.$"
 
 Text_2767D1: @ 82767D1
-	.string "Registration completed.$"
 
 Text_2767E9: @ 82767E9
-	.string "Data has been unregistered.$"
 
 Text_276805: @ 8276805
 	.string "{PLAYER} booted up the PC.$"
@@ -4774,151 +4299,46 @@ Text_27681A: @ 827681A
 	.string "What would you like to do?$"
 
 Text_276835: @ 8276835
-	.string "Once registered, a SECRET BASE will not\n"
-	.string "disappear unless the other TRAINER\l"
-	.string "moves it to a different location.\p"
-	.string "If a SECRET BASE is deleted from the\n"
-	.string "registered list, another one may take\l"
-	.string "its place.\p"
-	.string "Up to ten SECRET BASE locations\n"
-	.string "may be registered.$"
 
 Text_27692B: @ 827692B
-	.string "A shield of {STR_VAR_2} that marks winning\n"
-	.string "{STR_VAR_1} times in a row at the BATTLE TOWER.$"
 
 Text_276974: @ 8276974
-	.string "A realistic toy TV. It could be easily\n"
-	.string "mistaken for the real thing.$"
 
 Text_2769B8: @ 82769B8
-	.string "A toy TV shaped like a SEEDOT.\n"
-	.string "It looks ready to roll away on its own…$"
 
 Text_2769FF: @ 82769FF
-	.string "A toy TV shaped like a SKITTY.\n"
-	.string "It looks ready to stroll away…$"
 
 Text_276A3D: @ 8276A3D
-	.string "You may only make one SECRET BASE.\p"
-	.string "Would you like to move from the SECRET\n"
-	.string "BASE near {STR_VAR_1}?$"
 
 Text_276A95: @ 8276A95
-	.string "Moving completed.\p"
-	.string "Would you like to use the SECRET POWER?$"
 
 	.include "data/scripts/cable_club.inc"
-	.include "data/scripts/contest_hall.inc"
-	.include "data/text/contest_strings.inc"
 
 gUnknown_0827E8CE:: @ 827E8CE
-	.string "Missed turn$"
 
 gUnknown_0827E8DA:: @ 827E8DA
-	.string "Link standby!$"
 
 gUnknown_0827E8E8:: @ 827E8E8
-	.string "The winner is {STR_VAR_1}’s {STR_VAR_2}!\n"
-	.string "Congratulations!$"
 
 gUnknown_0827E910:: @ 827E910
-	.string "The winner is {STR_VAR_1}’s {STR_VAR_2}!{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E929:: @ 827E929
-	.string "Primary judging: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E943:: @ 827E943
-	.string "Secondary judging: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E95F:: @ 827E95F
-	.string "Set event: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E973:: @ 827E973
-	.string "The move used most often:\n"
-	.string "{STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E992:: @ 827E992
-	.string "The most impressive POKéMON:\n"
-	.string "{STR_VAR_1}’s {STR_VAR_2}{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E9B9:: @ 827E9B9
-	.string "Set event: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E9CD:: @ 827E9CD
-	.string "A link TV program will not be made\n"
-	.string "because the TRAINER lost.{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827EA0C:: @ 827EA0C
-	.string "{STR_VAR_1}\n"
-	.string "{STR_VAR_2}’s {STR_VAR_3}$"
 
 gUnknown_0827EA17:: @ 827EA17
-	.string "CONTEST$"
-
-	.string "NORMAL RANK$"
-
-	.string "SUPER RANK$"
-
-	.string "HYPER RANK$"
-
-	.string "MASTER RANK$"
-
-	.string "LINK$"
-
-	.string "COOLNESS$"
-
-	.string "BEAUTY$"
-
-	.string "CUTENESS$"
-
-	.string "SMARTNESS$"
-
-	.string "TOUGHNESS$"
-
-	.string "Nonstop supercool--\n"
-	.string "the inestimable {STR_VAR_1}$"
-
-	.string "Hey, there!\n"
-	.string "The good-looking POKéMON {STR_VAR_1}$"
-
-	.string "The marvelous, wonderful, and\n"
-	.string "very great {STR_VAR_1}$"
-
-	.string "This century’s last Venus--\n"
-	.string "the beautiful {STR_VAR_1}$"
-
-	.string "{STR_VAR_1}’s dazzling,\n"
-	.string "glittering smile$"
-
-	.string "POKéMON CENTER’s super idol--\n"
-	.string "the incomparable {STR_VAR_1}$"
-
-	.string "The lovely and sweet {STR_VAR_1}$"
-
-	.string "The pretty {STR_VAR_1}’s\n"
-	.string "winning portrait$"
-
-	.string "Give us a wink!\n"
-	.string "The cutie POKéMON {STR_VAR_1}$"
-
-	.string "The smartness maestro--\n"
-	.string "the wise POKéMON {STR_VAR_1}$"
-
-	.string "{STR_VAR_1}--the one chosen\n"
-	.string "above all POKéMON$"
-
-	.string "The excellent {STR_VAR_1}’s\n"
-	.string "moment of elegance$"
-
-	.string "The powerfully muscular\n"
-	.string "speedster {STR_VAR_1}$"
-
-	.string "The strong, stronger, and\n"
-	.string "strongest {STR_VAR_1}$"
-
-	.string "The mighty tough\n"
-	.string "hyper POKéMON {STR_VAR_1}$"
 
 gUnknown_0827ECBC:: @ 27ECBC
 	.string "ODDISH$"
@@ -5058,18 +4478,12 @@ gUnknown_0827EE09:: @ 27EE09
 	.include "data/scripts/tv.inc"
 	.include "data/text/tv.inc"
 
-BattleFrontier_BattleTowerLobby_EventScript_28C7E9:: @ 828C7E9
-LilycoveCity_ContestLobby_EventScript_28C7E9:: @ 828C7E9
 SlateportCity_OceanicMuseum_1F_EventScript_28C7E9:: @ 828C7E9
 SlateportCity_PokemonFanClub_EventScript_28C7E9:: @ 828C7E9
-	special InterviewAfter
-	incrementgamestat 6
-	release
 	end
 
 SlateportCity_PokemonFanClub_EventScript_28C7F0:: @ 828C7F0
 	setvar VAR_0x8005, 1
-	special InterviewBefore
 	compare_var_to_value VAR_RESULT, 1
 	goto_eq SlateportCity_PokemonFanClub_EventScript_28C879
 	copyvar VAR_0x8009, VAR_0x8006
@@ -5114,7 +4528,6 @@ SlateportCity_OceanicMuseum_1F_EventScript_28C883:: @ 828C883
 	lock
 	faceplayer
 	setvar VAR_0x8005, 2
-	special InterviewBefore
 	compare_var_to_value VAR_RESULT, 1
 	goto_eq SlateportCity_OceanicMuseum_1F_EventScript_28C939
 	copyvar VAR_0x8009, VAR_0x8006
@@ -5173,7 +4586,6 @@ SlateportCity_PokemonFanClub_EventScript_28C943:: @ 828C943
 	compare_var_to_value VAR_RESULT, 0
 	goto_eq SlateportCity_PokemonFanClub_EventScript_28C7F0
 	setvar VAR_0x8005, 3
-	special InterviewBefore
 	compare_var_to_value VAR_RESULT, 1
 	goto_eq SlateportCity_PokemonFanClub_EventScript_28CA4F
 	copyvar VAR_0x8009, VAR_0x8006
@@ -5242,178 +4654,45 @@ SlateportCity_PokemonFanClub_EventScript_28CA4F:: @ 828CA4F
 	end
 
 LilycoveCity_ContestLobby_EventScript_28CA59:: @ 828CA59
-	lock
-	faceplayer
-	checkflag FLAG_0x002
-	goto_eq LilycoveCity_ContestLobby_EventScript_28CB21
-	setvar VAR_0x8005, 6
-	special InterviewBefore
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq LilycoveCity_ContestLobby_EventScript_28CB21
-	copyvar VAR_0x8009, VAR_0x8006
-	msgbox LilycoveCity_ContestLobby_Text_27EF15, 5
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq LilycoveCity_ContestLobby_EventScript_28CA9B
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq LilycoveCity_ContestLobby_EventScript_28CAD0
-	end
 
 LilycoveCity_ContestLobby_EventScript_28CA9B:: @ 828CA9B
-	msgbox LilycoveCity_ContestLobby_Text_27EFE7, 4
-	setvar VAR_0x8004, 11
-	copyvar VAR_0x8005, VAR_0x8009
-	setvar VAR_0x8006, 0
-	call LilycoveCity_ContestLobby_EventScript_271E7C
-	lock
-	faceplayer
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq LilycoveCity_ContestLobby_EventScript_28CADA
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq LilycoveCity_ContestLobby_EventScript_28CAD0
-	end
 
 LilycoveCity_ContestLobby_EventScript_28CAD0:: @ 828CAD0
-	msgbox LilycoveCity_ContestLobby_Text_27F1EF, 4
-	release
-	end
 
 LilycoveCity_ContestLobby_EventScript_28CADA:: @ 828CADA
-	setvar VAR_0x8004, 24
-	special SetContestCategoryStringVarForInterview
-	msgbox LilycoveCity_ContestLobby_Text_27F03E, 4
-	setvar VAR_0x8004, 11
-	copyvar VAR_0x8005, VAR_0x8009
-	setvar VAR_0x8006, 1
-	call LilycoveCity_ContestLobby_EventScript_271E7C
-	lock
-	faceplayer
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq LilycoveCity_ContestLobby_EventScript_28CAD0
-	msgbox LilycoveCity_ContestLobby_Text_27F0EC, 4
-	setflag FLAG_0x002
-	setvar VAR_0x8005, 6
-	goto LilycoveCity_ContestLobby_EventScript_28C7E9
-	end
 
 LilycoveCity_ContestLobby_EventScript_28CB21:: @ 828CB21
-	msgbox LilycoveCity_ContestLobby_Text_27F23F, 4
-	release
-	end
 
 LilycoveCity_ContestLobby_EventScript_28CB2B:: @ 828CB2B
-	compare_var_to_value VAR_0x4086, 2
-	goto_if 5, LilycoveCity_ContestLobby_EventScript_28CB95
-	setvar VAR_0x8005, 6
-	special InterviewBefore
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq LilycoveCity_ContestLobby_EventScript_28CB95
-	switch VAR_0x4088
-	case 0, LilycoveCity_ContestLobby_EventScript_28CB95
-	case 2, LilycoveCity_ContestLobby_EventScript_28CB91
-	case 1, LilycoveCity_ContestLobby_EventScript_28CB91
-	case 3, LilycoveCity_ContestLobby_EventScript_28CB91
-	case 4, LilycoveCity_ContestLobby_EventScript_28CB91
-	case 5, LilycoveCity_ContestLobby_EventScript_28CB95
-	end
 
 LilycoveCity_ContestLobby_EventScript_28CB91:: @ 828CB91
-	clearflag FLAG_0x322
-	return
 
 LilycoveCity_ContestLobby_EventScript_28CB95:: @ 828CB95
-	return
 
 BattleFrontier_BattleTowerLobby_EventScript_28CB96:: @ 828CB96
-	lock
-	faceplayer
-	checkflag FLAG_0x002
-	goto_eq BattleFrontier_BattleTowerLobby_EventScript_28CC7A
-	setvar VAR_0x8005, 7
-	special InterviewBefore
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq BattleFrontier_BattleTowerLobby_EventScript_28CC7A
-	copyvar VAR_0x8009, VAR_0x8006
-	msgbox BattleFrontier_BattleTowerLobby_Text_27F704, 5
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq BattleFrontier_BattleTowerLobby_EventScript_28CBD8
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq BattleFrontier_BattleTowerLobby_EventScript_28CC2E
-	end
 
 BattleFrontier_BattleTowerLobby_EventScript_28CBD8:: @ 828CBD8
-	message BattleFrontier_BattleTowerLobby_Text_27F7BA
-	waitmessage
-	multichoice 20, 8, 45, 1
-	copyvar VAR_0x8008, VAR_RESULT
-	compare_var_to_value VAR_RESULT, 0
-	call_if 1, BattleFrontier_BattleTowerLobby_EventScript_28CC38
-	compare_var_to_value VAR_RESULT, 1
-	call_if 1, BattleFrontier_BattleTowerLobby_EventScript_28CC41
-	msgbox BattleFrontier_BattleTowerLobby_Text_27F97A, 4
-	setvar VAR_0x8004, 12
-	copyvar VAR_0x8005, VAR_0x8009
-	call BattleFrontier_BattleTowerLobby_EventScript_271E7C
-	lock
-	faceplayer
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq BattleFrontier_BattleTowerLobby_EventScript_28CC4A
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq BattleFrontier_BattleTowerLobby_EventScript_28CC70
-	end
 
 BattleFrontier_BattleTowerLobby_EventScript_28CC2E:: @ 828CC2E
-	msgbox BattleFrontier_BattleTowerLobby_Text_27F84C, 4
-	release
-	end
 
 BattleFrontier_BattleTowerLobby_EventScript_28CC38:: @ 828CC38
-	msgbox BattleFrontier_BattleTowerLobby_Text_27F8AE, 4
-	return
 
 BattleFrontier_BattleTowerLobby_EventScript_28CC41:: @ 828CC41
-	msgbox BattleFrontier_BattleTowerLobby_Text_27F921, 4
-	return
 
 BattleFrontier_BattleTowerLobby_EventScript_28CC4A:: @ 828CC4A
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq BattleFrontier_BattleTowerLobby_EventScript_28CC70
-	msgbox BattleFrontier_BattleTowerLobby_Text_27F9FD, 4
-	setflag FLAG_0x002
-	copyvar VAR_0x8004, VAR_0x8008
-	setvar VAR_0x8005, 7
-	goto BattleFrontier_BattleTowerLobby_EventScript_28C7E9
-	end
+
 
 BattleFrontier_BattleTowerLobby_EventScript_28CC70:: @ 828CC70
-	msgbox BattleFrontier_BattleTowerLobby_Text_27FA6F, 4
-	release
-	end
 
 BattleFrontier_BattleTowerLobby_EventScript_28CC7A:: @ 828CC7A
-	msgbox BattleFrontier_BattleTowerLobby_Text_27FAF3, 4
-	release
-	end
 
 BattleFrontier_BattleTowerLobby_EventScript_28CC84:: @ 828CC84
-	compare_var_to_value VAR_0x40BC, 0
-	goto_eq BattleFrontier_BattleTowerLobby_EventScript_28CCA6
-	setvar VAR_0x8005, 7
-	special InterviewBefore
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq BattleFrontier_BattleTowerLobby_EventScript_28CCA6
-	clearflag FLAG_0x396
-	return
 
 BattleFrontier_BattleTowerLobby_EventScript_28CCA6:: @ 828CCA6
-	setflag FLAG_0x396
-	return
 
-	.include "data/scripts/gabby_and_ty.inc"
 	.include "data/text/pokemon_news.inc"
-	.include "data/scripts/mauville_man.inc"
 	.include "data/scripts/field_move_scripts.inc"
 	.include "data/scripts/item_ball_scripts.inc"
-	.include "data/scripts/mystery_event_club.inc"
 	.include "data/scripts/day_care.inc"
 
 EventScript_2926F8:: @ 82926F8
@@ -5489,8 +4768,6 @@ gUnknown_082944A0:: @ 82944A0
 	.string "Oh, it’s so, so nice!$"
 
 gUnknown_082944D5:: @ 82944D5
-	.string "SECRET BASES are so wonderful!\n"
-	.string "Can’t you feel the excitement?$"
 
 	.include "data/text/trainers.inc"
 
@@ -5504,41 +4781,16 @@ Text_RepelWoreOff: @ 82A4B33
 	.include "data/scripts/safari_zone.inc"
 
 MauvilleCity_GameCorner_EventScript_2A5AB1:: @ 82A5AB1
-	checkitem ITEM_COIN_CASE, 1
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq MauvilleCity_GameCorner_EventScript_210456
-	setvar VAR_0x8004, 0
-	getpricereduction 2
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq MauvilleCity_GameCorner_EventScript_2A5B0D
-	addvar VAR_0x8004, 128
-	goto MauvilleCity_GameCorner_EventScript_2A5B0D
-	end
 
 MauvilleCity_GameCorner_EventScript_2A5ADF:: @ 82A5ADF
-	checkitem ITEM_COIN_CASE, 1
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq MauvilleCity_GameCorner_EventScript_210456
-	setvar VAR_0x8004, 1
-	getpricereduction 2
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq MauvilleCity_GameCorner_EventScript_2A5B0D
-	addvar VAR_0x8004, 128
-	goto MauvilleCity_GameCorner_EventScript_2A5B0D
-	end
 
 MauvilleCity_GameCorner_EventScript_2A5B0D:: @ 82A5B0D
-	special sub_8142BC8
-	waitstate
 	end
 
 	.include "data/text/roulette.inc"
 	.include "data/text/pokedex_rating.inc"
-	.include "data/text/lottery_corner.inc"
 	.include "data/text/eon_ticket.inc"
 	.include "data/text/braille.inc"
-	.include "data/text/berries.inc"
-	.include "data/text/shoal_cave.inc"
 
 Text_2A81E5: @ 82A81E5
 	.string "There’s a set of POKéMON picture books.$"
@@ -6014,7 +5266,6 @@ LilycoveCity_PokemonCenter_1F_EventScript_2A886C:: @ 82A886C
 LilycoveCity_PokemonCenter_1F_EventScript_2A8876:: @ 82A8876
 	special sub_818E914
 	msgbox LilycoveCity_PokemonCenter_1F_Text_2A93F4, 4
-	checkitem ITEM_POKEBLOCK_CASE, 1
 	compare_var_to_value VAR_RESULT, 0
 	goto_eq LilycoveCity_PokemonCenter_1F_EventScript_2A89AE
 	msgbox LilycoveCity_PokemonCenter_1F_Text_2A94E8, 5
@@ -6206,262 +5457,110 @@ LilycoveCity_PokemonCenter_1F_EventScript_2A8A56:: @ 82A8A56
 	end
 
 LilycoveCity_PokemonCenter_1F_Text_2A8A69: @ 82A8A69
-	.string "I’m the FAVOR LADY…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8A7D: @ 82A8A7D
-	.string "I’ve recently developed an obsession\n"
-	.string "for {STR_VAR_1} things…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8AB1: @ 82A8AB1
-	.string "Oh…\n"
-	.string "Thank you for last time…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8ACE: @ 82A8ACE
-	.string "Before, I think it was {STR_VAR_3}…\p"
-	.string "{STR_VAR_3} gave me one {STR_VAR_2},\n"
-	.string "saying it was {STR_VAR_1}.\p"
-	.string "But it wasn’t {STR_VAR_1}.\n"
-	.string "Not in the least bit.$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8B36: @ 82A8B36
-	.string "Before, {STR_VAR_3} gave me a very\n"
-	.string "{STR_VAR_1} {STR_VAR_2}.\p"
-	.string "I cherish it now.$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8B69: @ 82A8B69
-	.string "Listen, if you have anything that\n"
-	.string "is {STR_VAR_1}, will you share it\l"
-	.string "with me?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8BAD: @ 82A8BAD
-	.string "…Really?\n"
-	.string "What will you give me?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8BCD: @ 82A8BCD
-	.string "Is that so?\n"
-	.string "Then, it’s good-bye…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8BEE: @ 82A8BEE
-	.string "Oh…\n"
-	.string "You’re not willing to share?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8C0F: @ 82A8C0F
-	.string "Oh?\n"
-	.string "That {STR_VAR_2} is {STR_VAR_1}?\p"
-	.string "…Oh, is that right?\p"
-	.string "Well, I owe you a thanks anyway.\n"
-	.string "I’ll try to cherish it…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8C6F: @ 82A8C6F
-	.string "Oh…\p"
-	.string "That’s a quite {STR_VAR_1}\n"
-	.string "{STR_VAR_2}…\p"
-	.string "Isn’t it nice?\n"
-	.string "It’s so dreamy…\p"
-	.string "Thank you…\n"
-	.string "I will cherish this…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8CC8: @ 82A8CC8
-	.string "…Oh, oh, oh…\p"
-	.string "This is amazing!\n"
-	.string "This really is {STR_VAR_1}!\p"
-	.string "I never knew that one {STR_VAR_2}\n"
-	.string "could be this {STR_VAR_1}!\p"
-	.string "Thank you!\p"
-	.string "I will treasure this for the rest\n"
-	.string "of my life!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8D5D: @ 82A8D5D
-	.string "I’ll give you this wonderful item in\n"
-	.string "return for your fabulous gift.\p"
-	.string "I hope you will cherish it…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8DBD: @ 82A8DBD
-	.string "Oh, you can’t have it if you don’t have\n"
-	.string "the space for it.\p"
-	.string "Please come see me when you get\n"
-	.string "your BAG organized…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8E2B: @ 82A8E2B
-	.string "I’m the QUIZ LADY!\n"
-	.string "I love quizzes!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8E4E: @ 82A8E4E
-	.string "Oh?\p"
-	.string "I’m waiting for a challenger to answer\n"
-	.string "the quiz you made.\p"
-	.string "We can chat another time, okay?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8EAC: @ 82A8EAC
-	.string "I’m waiting for someone to challenge\n"
-	.string "a quiz this {STR_VAR_1} thought up!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8EEC: @ 82A8EEC
-	.string "If you answer correctly, you can win\n"
-	.string "fabulous prizes!\p"
-	.string "Would you like to take the quiz\n"
-	.string "challenge?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8F4D: @ 82A8F4D
 	.string "… … … … … …\n"
 	.string "… … … … … …$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8F65: @ 82A8F65
-	.string "Oh, how boring!\n"
-	.string "Bye-bye!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8F7E: @ 82A8F7E
-	.string "Awww!\n"
-	.string "You’re going to quit?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8F9A: @ 82A8F9A
-	.string "Please take the quiz challenge\n"
-	.string "another time!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8FC7: @ 82A8FC7
-	.string "You’re amazing! You’ve got it right!\n"
-	.string "You’re one sharp customer!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9007: @ 82A9007
-	.string "Congratulations!\n"
-	.string "You’ve got the quiz right!\p"
-	.string "You’ve won a prize provided by\n"
-	.string "{STR_VAR_1}!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9056: @ 82A9056
-	.string "{STR_VAR_1} received\n"
-	.string "one {STR_VAR_2}!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A906A: @ 82A906A
-	.string "Oh? Your BAG is filled up!\n"
-	.string "Come see me when you have room.$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A90A5: @ 82A90A5
-	.string "Hmm… Wrong!\n"
-	.string "The correct answer is “{STR_VAR_3}”!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A90CD: @ 82A90CD
-	.string "Too bad!\p"
-	.string "I get to keep the quiz prize\n"
-	.string "{STR_VAR_1} now!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A90FB: @ 82A90FB
-	.string "Listen, listen!\n"
-	.string "Would you like to make your own quiz?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9131: @ 82A9131
-	.string "Oh, I see…\n"
-	.string "Well, maybe next time!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9153: @ 82A9153
-	.string "Okay, the first thing you have to do\n"
-	.string "is pick the prize for the person that\l"
-	.string "answers your quiz correctly.\p"
-	.string "But beware, if the person taking\n"
-	.string "the quiz can’t get it right, I get to\l"
-	.string "keep the prize!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9212: @ 82A9212
-	.string "If you don’t choose a prize,\n"
-	.string "your quiz can’t be made.\p"
-	.string "Are you going to quit making\n"
-	.string "your quiz?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9270: @ 82A9270
-	.string "Oh, how nice!\n"
-	.string "That’s a wonderful prize!\p"
-	.string "Next, you need to write your quiz\n"
-	.string "question and its answer.$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A92D3: @ 82A92D3
-	.string "Are you going to quit writing\n"
-	.string "your quiz question?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9305: @ 82A9305
-	.string "Are you going to quit choosing\n"
-	.string "your quiz answer?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9336: @ 82A9336
-	.string "Thank you!\n"
-	.string "You’ve put together a nice quiz.\p"
-	.string "I’ll go look for someone who’ll take\n"
-	.string "your quiz challenge right away.$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A93A7: @ 82A93A7
-	.string "I’m the CONTEST LADY!\n"
-	.string "I sure do love CONTESTS!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A93D6: @ 82A93D6
-	.string "Thanks for your {POKEBLOCK} before!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A93F4: @ 82A93F4
-	.string "This is my friend {STR_VAR_1}!\n"
-	.string "It’s the epitome of {STR_VAR_2}!\p"
-	.string "But I think that it will display\n"
-	.string "even more {STR_VAR_2}!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9451: @ 82A9451
-	.string "So, I need your help!\p"
-	.string "Please, may I have one {POKEBLOCK}?\n"
-	.string "All I’m asking for is one!\p"
-	.string "…Oh, but…\n"
-	.string "Don’t you have a {POKEBLOCK} CASE?\l"
-	.string "That’s no good. Next time, then!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A94E8: @ 82A94E8
-	.string "So, I need your help!\p"
-	.string "Please, may I have one {POKEBLOCK}?\n"
-	.string "All I’m asking for is one!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9537: @ 82A9537
-	.string "Awww!\n"
-	.string "I can’t have one {POKEBLOCK}?!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9556: @ 82A9556
-	.string "Sheesh!\n"
-	.string "What a cheapskate!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9571: @ 82A9571
-	.string "Yay!\n"
-	.string "Thank you!\p"
-	.string "I’ll feed my POKéMON your {POKEBLOCK}\n"
-	.string "right away.$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A95AD: @ 82A95AD
-	.string "…It doesn’t seem to have changed\n"
-	.string "in any way at all…\p"
-	.string "Hmm…\p"
-	.string "Oh, well!\n"
-	.string "Thank you very much!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9605: @ 82A9605
-	.string "Oh, yay!\n"
-	.string "It’s really delighted!\p"
-	.string "I think it really improved {STR_VAR_1}’s\n"
-	.string "{STR_VAR_2} quality, too.\p"
-	.string "Thank you so much!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9669: @ 82A9669
-	.string "Hmm…\p"
-	.string "I think we may be ready to enter\n"
-	.string "some CONTESTS.\p"
-	.string "If you see us in one somewhere,\n"
-	.string "I hope you’ll cheer for us.$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A96DA: @ 82A96DA
-	.string "{STR_VAR_1}: Guguuh!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A96E6: @ 82A96E6
-	.string "{STR_VAR_1}: Igigigiiih!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A96F6: @ 82A96F6
-	.string "{STR_VAR_1}: Baaarun…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9703: @ 82A9703
-	.string "{STR_VAR_1}: Pikka!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A970E: @ 82A970E
-	.string "{STR_VAR_1}: Umyaaaan!$"
 
 	.string "Hi! {PLAYER}{STRING 5}, hello!\n"
 	.string "This is {STR_VAR_1}.\p"
@@ -8904,7 +8003,7 @@ MossdeepCity_SpaceCenter_2F_Text_2B39C6: @ 82B39C6
 	.string "This feeling is hard to explain.$"
 
 	.string "DAD: I see…\n"
-	.string "You’ve collected four GYM BADGES…\p"
+	.string "You’ve collected eight GYM BADGES…\p"
 	.string "There’s no avoiding it now.\n"
 	.string "We will battle like I promised.\p"
 	.string "Come anytime.\n"
@@ -9349,163 +8448,18 @@ BattleFrontier_BattleTowerLobby_EventScript_2B6BD4:: @ 82B6BD4
 	end
 
 BattleFrontier_BattleTowerLobby_EventScript_2B6C0C:: @ 82B6C0C
-	setvar VAR_0x8004, 14
-	setvar VAR_0x8005, 4
-	special sub_81A085C
-	setvar VAR_0x8004, 16
-	setvar VAR_0x8005, 0
-	setvar VAR_0x8006, 5
-	special sub_81A085C
-	setvar VAR_0x8004, 16
-	setvar VAR_0x8005, 1
-	setvar VAR_0x8006, 2
-	special sub_81A085C
-	setvar VAR_0x8004, 8
-	setvar VAR_0x8005, 0
-	setvar VAR_0x8006, 16
-	special sub_81A085C
-	waitstate
-	setvar VAR_0x8004, 7
-	setvar VAR_0x8005, 4
-	special sub_81A085C
-	waitstate
-	setvar VAR_0x8004, 15
-	special sub_81A085C
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq BattleFrontier_BattleTowerLobby_EventScript_2B6B09
-	goto BattleFrontier_BattleTowerLobby_EventScript_2B6BD4
-	end
 
 BattleFrontier_BattleTowerLobby_EventScript_2B6C77:: @ 82B6C77
-	setvar VAR_0x8004, 14
-	setvar VAR_0x8005, 3
-	special sub_81A085C
-	setvar VAR_0x8004, 16
-	setvar VAR_0x8005, 0
-	setvar VAR_0x8006, 2
-	special sub_81A085C
-	setvar VAR_0x8004, 16
-	setvar VAR_0x8005, 1
-	setvar VAR_0x8006, 3
-	special sub_81A085C
-	setvar VAR_0x8004, 16
-	setvar VAR_0x8005, 2
-	setvar VAR_0x8006, 4
-	special sub_81A085C
-	setvar VAR_0x8004, 8
-	setvar VAR_0x8005, 0
-	setvar VAR_0x8006, 8
-	special sub_81A085C
-	waitstate
-	setvar VAR_0x8004, 7
-	setvar VAR_0x8005, 3
-	special sub_81A085C
-	waitstate
-	copyvar VAR_0x8005, VAR_RESULT
-	compare_var_to_value VAR_0x8005, 0
-	call_if 1, BattleFrontier_BattleTowerLobby_EventScript_2B6D50
-	compare_var_to_value VAR_0x8005, 1
-	call_if 1, BattleFrontier_BattleTowerLobby_EventScript_2B6D56
-	setvar VAR_0x8004, 17
-	special sub_81A085C
-	setvar VAR_0x8004, 5
-	special sub_81A085C
-	setvar VAR_0x8004, 16
-	setvar VAR_0x8005, 0
-	copyvar VAR_0x8006, VAR_0x8007
-	special sub_81A085C
-	setvar VAR_0x8004, 15
-	special sub_81A085C
-	setvar VAR_0x8004, 8
-	setvar VAR_0x8005, 1
-	setvar VAR_0x8006, 9
-	special sub_81A085C
-	waitstate
-	call BattleFrontier_BattleTowerLobby_EventScript_2B6E4D
-	release
-	releaseall
-	switch VAR_FACING
-	case 2, BattleFrontier_BattleTowerLobby_EventScript_2B6E54
-	goto BattleFrontier_BattleTowerLobby_EventScript_2B6E72
-	end
 
 BattleFrontier_BattleTowerLobby_EventScript_2B6D50:: @ 82B6D50
-	setvar VAR_0x8007, 3
-	return
 
 BattleFrontier_BattleTowerLobby_EventScript_2B6D56:: @ 82B6D56
-	setvar VAR_0x8007, 4
-	return
 
 BattleFrontier_BattleTowerLobby_EventScript_2B6D5C:: @ 82B6D5C
-	setvar VAR_0x8004, 8
-	setvar VAR_0x8005, 0
-	setvar VAR_0x8006, 4
-	special sub_81A085C
-	waitstate
-	setvar VAR_0x8004, 7
-	setvar VAR_0x8005, 1
-	special sub_81A085C
-	waitstate
-	copyvar VAR_0x8005, VAR_RESULT
-	setvar VAR_0x8004, 18
-	special sub_81A085C
-	setvar VAR_0x8004, 5
-	special sub_81A085C
-	setvar VAR_0x8004, 16
-	setvar VAR_0x8005, 0
-	setvar VAR_0x8006, 9
-	special sub_81A085C
-	setvar VAR_0x8004, 8
-	setvar VAR_0x8005, 1
-	setvar VAR_0x8006, 5
-	special sub_81A085C
-	waitstate
-	call BattleFrontier_BattleTowerLobby_EventScript_2B6E4D
-	release
-	releaseall
-	switch VAR_FACING
-	case 2, BattleFrontier_BattleTowerLobby_EventScript_2B6E54
-	goto BattleFrontier_BattleTowerLobby_EventScript_2B6E72
-	end
 
 BattleFrontier_BattleTowerLobby_EventScript_2B6DD4:: @ 82B6DD4
-	setvar VAR_0x8004, 8
-	setvar VAR_0x8005, 1
-	setvar VAR_0x8006, 11
-	special sub_81A085C
-	waitstate
-	setvar VAR_0x8004, 25
-	special sub_81A085C
-	setvar VAR_0x8004, 19
-	call BattleFrontier_BattleTowerLobby_EventScript_271E7C
-	lock
-	faceplayer
-	setvar VAR_0x8004, 21
-	special sub_81A085C
-	setvar VAR_0x8004, 16
-	setvar VAR_0x8005, 0
-	setvar VAR_0x8006, 7
-	special sub_81A085C
-	setvar VAR_0x8004, 8
-	setvar VAR_0x8005, 1
-	setvar VAR_0x8006, 15
-	special sub_81A085C
-	waitstate
-	setvar VAR_0x8004, 9
-	special sub_81A085C
-	call BattleFrontier_BattleTowerLobby_EventScript_2B6E4D
-	release
-	releaseall
-	switch VAR_FACING
-	case 2, BattleFrontier_BattleTowerLobby_EventScript_2B6E54
-	goto BattleFrontier_BattleTowerLobby_EventScript_2B6E72
-	end
 
 BattleFrontier_BattleTowerLobby_EventScript_2B6E4D:: @ 82B6E4D
-	setflag FLAG_0x2BD
-	setflag FLAG_0x934
-	return
 
 BattleFrontier_BattleTowerLobby_EventScript_2B6E54:: @ 82B6E54
 	setvar VAR_0x8004, 24
@@ -12644,135 +11598,50 @@ SlateportCity_BattleTentLobby_Text_2C586A: @ 82C586A
 	.string "Swap challenge?$"
 
 SlateportCity_BattleTentLobby_Text_2C589C: @ 82C589C
-	.string "Here at the SLATEPORT BATTLE TENT,\n"
-	.string "we hold Battle Swap events\l"
-	.string "using rental POKéMON.\p"
-	.string "First, you will be loaned three\n"
-	.string "POKéMON specifically for this event.\p"
-	.string "Using the supplied rental POKéMON,\n"
-	.string "you must conduct a SINGLE BATTLE.\p"
-	.string "If you win, you are permitted to trade\n"
-	.string "one of your rental POKéMON.\p"
-	.string "Repeat this cycle of battling and\n"
-	.string "trading--if you win three times in\l"
-	.string "a row, you will earn a fine prize.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please save the game.\p"
-	.string "If you don’t save before interrupting,\n"
-	.string "you will be disqualified.$"
 
 SlateportCity_BattleTentLobby_Text_2C5AA5: @ 82C5AA5
-	.string "We look forward to your next visit.$"
 
 SlateportCity_BattleTentLobby_Text_2C5AC9: @ 82C5AC9
-	.string "Which level do you wish to challenge?\n"
-	.string "Level 50 or Level 100?$"
 
 SlateportCity_BattleTentLobby_Text_2C5B06: @ 82C5B06
-	.string "Before you begin your challenge,\n"
-	.string "I need to save data. Is that okay?$"
 
 SlateportCity_BattleTentLobby_Text_2C5B4A: @ 82C5B4A
-	.string "Okay, I will hold your POKéMON for\n"
-	.string "safekeeping while you compete.$"
 
 SlateportCity_BattleTentLobby_Text_2C5B8C: @ 82C5B8C
-	.string "Please step this way.$"
 
 SlateportCity_BattleTentLobby_Text_2C5BA2: @ 82C5BA2
-	.string "Thank you for participating!\p"
-	.string "I will return your POKéMON in exchange\n"
-	.string "for our rental POKéMON.\p"
-	.string "I must also save your event results.\n"
-	.string "Please wait.$"
 
 SlateportCity_BattleTentLobby_Text_2C5C30: @ 82C5C30
-	.string "I will return your POKéMON in exchange\n"
-	.string "for our rental POKéMON.$"
 
 SlateportCity_BattleTentLobby_Text_2C5C6F: @ 82C5C6F
-	.string "Congratulations!\n"
-	.string "You’ve won three straight matches!\p"
-	.string "I will return your POKéMON in exchange\n"
-	.string "for our rental POKéMON.\p"
-	.string "I must also save your event results.\n"
-	.string "Please wait.$"
 
 SlateportCity_BattleTentLobby_Text_2C5D14: @ 82C5D14
-	.string "In recognition of your 3-win streak,\n"
-	.string "we award you this prize.$"
 
 SlateportCity_BattleTentLobby_Text_2C5D52: @ 82C5D52
-	.string "Oh?\n"
-	.string "You seem to have no room for this.\p"
-	.string "Please make room in your BAG and\n"
-	.string "let me know.$"
 
 SlateportCity_BattleTentLobby_Text_2C5DA7: @ 82C5DA7
-	.string "We’ve been waiting for you!\p"
-	.string "Before we resume your challenge,\n"
-	.string "I must save the game.$"
 
 SlateportCity_BattleTentLobby_Text_2C5DFA: @ 82C5DFA
-	.string "I’m sorry to say this, but you didn’t\n"
-	.string "save before you quit playing last time.\p"
-	.string "As a result, you have been disqualified\n"
-	.string "from your challenge.$"
 
 SlateportCity_BattleTentLobby_Text_2C5E85: @ 82C5E85
-	.string "We’ll return your personal POKéMON.$"
 
 SlateportCity_BattleTentLobby_Text_2C5EA9: @ 82C5EA9
-	.string "{PLAYER} received the prize\n"
-	.string "{STR_VAR_1}.$"
 
 SlateportCity_BattleTentLobby_Text_2C5EC3: @ 82C5EC3
-	.string "The Battle Swap rules are listed.$"
 
 SlateportCity_BattleTentLobby_Text_2C5EE5: @ 82C5EE5
-	.string "Which heading do you want to read?$"
 
 SlateportCity_BattleTentLobby_Text_2C5F08: @ 82C5F08
-	.string "In a Battle Swap event, you may use\n"
-	.string "only three POKéMON.\p"
-	.string "Whether you are renting or swapping,\n"
-	.string "your team may not have two or more\l"
-	.string "of the same POKéMON.$"
 
 SlateportCity_BattleTentLobby_Text_2C5F9D: @ 82C5F9D
-	.string "You may swap POKéMON only with\n"
-	.string "the TRAINER you have just defeated.\p"
-	.string "You may swap for only those POKéMON\n"
-	.string "used by the beaten TRAINER.$"
 
 SlateportCity_BattleTentLobby_Text_2C6020: @ 82C6020
-	.string "After every battle you win, you may\n"
-	.string "swap for one of your defeated\l"
-	.string "opponent’s POKéMON.\p"
-	.string "You will not be able to swap POKéMON\n"
-	.string "with the third TRAINER in the event.$"
 
 SlateportCity_BattleTentLobby_Text_2C60C0: @ 82C60C0
-	.string "There are two key points to be aware\n"
-	.string "of when swapping POKéMON.\p"
-	.string "First, when swapping, you can’t check\n"
-	.string "the stats of the POKéMON you are\l"
-	.string "about to receive.\p"
-	.string "Second, the POKéMON on your team\n"
-	.string "are lined up in sequence, depending on\l"
-	.string "the order in which you rented them.\p"
-	.string "This sequence remains unchanged\n"
-	.string "even when swaps are made.$"
 
 SlateportCity_BattleTentLobby_Text_2C61FE: @ 82C61FE
-	.string "The POKéMON of the SLATEPORT\n"
-	.string "BATTLE TENT are all rentals.\p"
-	.string "All rental POKéMON are kept at\n"
-	.string "Level 30.$"
 
 VerdanturfTown_BattleTentLobby_Text_2C6261: @ 82C6261
-	.string "The VERDANTURF BATTLE TENT\n"
-	.string "rules are listed.$"
 
 VerdanturfTown_BattleTentLobby_Text_2C628E: @ 82C628E
 	.string "Which heading do you want to read?$"
@@ -12830,15 +11699,7 @@ VerdanturfTown_BattleTentLobby_Text_2C671E: @ 82C671E
 
 FallarborTown_BattleTentLobby_Text_2C67CD: @ 82C67CD
 VerdanturfTown_BattleTentLobby_Text_2C67CD: @ 82C67CD
-	.string "At this BATTLE TENT, the levels of\n"
-	.string "your opponents will be adjusted to\l"
-	.string "match the levels of your POKéMON.\p"
-	.string "However, no TRAINER you face will\n"
-	.string "have any POKéMON below Level 30.$"
-
 VerdanturfTown_BattleTentLobby_Text_2C6878: @ 82C6878
-	.string "The VERDANTURF BATTLE TENT\n"
-	.string "rules are listed.$"
 
 LilycoveCity_Harbor_Text_2C68A5: @ 82C68A5
 	.string "What’s up, youngster?\p"
@@ -13484,86 +12345,32 @@ TrainerHill_2F_MapScript1_2C8336: @ 82C8336
 TrainerHill_3F_MapScript1_2C8336: @ 82C8336
 TrainerHill_4F_MapScript1_2C8336: @ 82C8336
 TrainerHill_Roof_MapScript1_2C8336: @ 82C8336
-	setvar VAR_0x4002, 0
-	setvar VAR_0x8004, 4
-	special sp194_trainer_tower
-	setvar VAR_0x8004, 1
-	setvar VAR_0x8005, 5
-	special sub_81A1780
-	compare_var_to_value VAR_RESULT, 2
-	goto_eq TrainerHill_1F_EventScript_2C83C9
-	compare_var_to_value VAR_RESULT, 3
-	goto_eq TrainerHill_1F_EventScript_2C83C9
-	compare_var_to_value VAR_RESULT, 9
-	goto_eq TrainerHill_1F_EventScript_2C83C9
-	end
 
 TrainerHill_1F_MapScript2_2C8372: @ 82C8372
 TrainerHill_2F_MapScript2_2C8372: @ 82C8372
-	map_script_2 VAR_0x4003, 0, TrainerHill_1F_EventScript_2C837C
-	.2byte 0
 
 TrainerHill_1F_EventScript_2C837C:: @ 82C837C
-	setvar VAR_0x4003, 1
-@ forced stop
 
 TrainerHill_1F_MapScript2_2C8381: @ 82C8381
 TrainerHill_2F_MapScript2_2C8381: @ 82C8381
 TrainerHill_3F_MapScript2_2C8381: @ 82C8381
 TrainerHill_4F_MapScript2_2C8381: @ 82C8381
 TrainerHill_Roof_MapScript2_2C8381: @ 82C8381
-	map_script_2 VAR_0x4002, 0, TrainerHill_1F_EventScript_2C83A6
-	map_script_2 VAR_0x4001, 1, TrainerHill_1F_EventScript_2C83DF
-	.2byte 0
 
 TrainerHill_1F_EventScript_2C8393:: @ 82C8393
-	lockall
-	setvar VAR_0x8004, 7
-	special sp194_trainer_tower
-	msgbox TrainerHill_Entrance_Text_268D47, 4
-	releaseall
-	end
 
 TrainerHill_1F_EventScript_2C83A6:: @ 82C83A6
-	setvar VAR_0x4002, 1
-	setvar VAR_0x8004, 9
-	special sp194_trainer_tower
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq TrainerHill_1F_EventScript_2C83BF
-	end
 
 TrainerHill_1F_EventScript_2C83BF:: @ 82C83BF
-	warpsilent TRAINER_HILL_ENTRANCE, 255, 9, 6
-	waitstate
-	end
 
 TrainerHill_1F_EventScript_2C83C9:: @ 82C83C9
-	setvar VAR_0x8004, 12
-	special sp194_trainer_tower
-	setvar VAR_0x8004, 5
-	special sp194_trainer_tower
-	setvar VAR_0x4001, 1
-	end
 
 TrainerHill_1F_EventScript_2C83DF:: @ 82C83DF
 TrainerHill_Entrance_EventScript_2C83DF:: @ 82C83DF
-	setvar VAR_0x4001, 0
-	warp TRAINER_HILL_ENTRANCE, 255, 9, 6
-	waitstate
-	end
 
 TrainerHill_1F_Movement_2C83EE:: @ 82C83EE
-	step_54
-	step_end
 
 EventScript_2C83F0:: @ 82C83F0
-	trainerbattle 12, TRAINER_PHILLIP, 0, BattleFrontier_BattlePyramidEmptySquare_Text_252C8D, BattleFrontier_BattlePyramidEmptySquare_Text_252C8D
-	setvar VAR_0x8004, 11
-	special sp194_trainer_tower
-	waitmessage
-	waitbuttonpress
-	closemessage
-	end
 
 Text_2C840A:: @ 82C840A
 	.string "This is a test message.\n"
