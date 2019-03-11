@@ -621,16 +621,6 @@ gText_23B73E:: @ 823B73E
 SecretBase_RedCave1_Text_23B759: @ 823B759
 	.string "Want to make your SECRET BASE here?$"
 
-	.include "data/scripts/maps/SingleBattleColosseum.inc"
-	.include "data/scripts/maps/TradeCenter.inc"
-	.include "data/scripts/maps/RecordCorner.inc"
-	.include "data/scripts/maps/DoubleBattleColosseum.inc"
-	.include "data/scripts/maps/LinkContestRoom1.inc"
-	.include "data/scripts/maps/LinkContestRoom2.inc"
-	.include "data/scripts/maps/LinkContestRoom3.inc"
-	.include "data/scripts/maps/LinkContestRoom4.inc"
-	.include "data/scripts/maps/LinkContestRoom5.inc"
-	.include "data/scripts/maps/LinkContestRoom6.inc"
 	.include "data/scripts/maps/UnknownMap_25_29.inc"
 	.include "data/scripts/maps/UnknownMap_25_30.inc"
 	.include "data/scripts/maps/UnknownMap_25_31.inc"
@@ -641,76 +631,16 @@ SecretBase_RedCave1_Text_23B759: @ 823B759
 	.include "data/scripts/maps/SSTidalCorridor.inc"
 	.include "data/scripts/maps/SSTidalLowerDeck.inc"
 	.include "data/scripts/maps/SSTidalRooms.inc"
-	.include "data/scripts/maps/BattlePyramidSquare01.inc"
-	.include "data/scripts/maps/BattlePyramidSquare02.inc"
-	.include "data/scripts/maps/BattlePyramidSquare03.inc"
-	.include "data/scripts/maps/BattlePyramidSquare04.inc"
-	.include "data/scripts/maps/BattlePyramidSquare05.inc"
-	.include "data/scripts/maps/BattlePyramidSquare06.inc"
-	.include "data/scripts/maps/BattlePyramidSquare07.inc"
-	.include "data/scripts/maps/BattlePyramidSquare08.inc"
-	.include "data/scripts/maps/BattlePyramidSquare09.inc"
-	.include "data/scripts/maps/BattlePyramidSquare10.inc"
-	.include "data/scripts/maps/BattlePyramidSquare11.inc"
-	.include "data/scripts/maps/BattlePyramidSquare12.inc"
-	.include "data/scripts/maps/BattlePyramidSquare13.inc"
-	.include "data/scripts/maps/BattlePyramidSquare14.inc"
-	.include "data/scripts/maps/BattlePyramidSquare15.inc"
-	.include "data/scripts/maps/BattlePyramidSquare16.inc"
-	.include "data/scripts/maps/UnionRoom.inc"
 	.include "data/scripts/maps/SafariZone_Northwest.inc"
 	.include "data/scripts/maps/SafariZone_North.inc"
 	.include "data/scripts/maps/SafariZone_Southwest.inc"
 	.include "data/scripts/maps/SafariZone_South.inc"
-	.include "data/scripts/maps/BattleFrontier_OutsideWest.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleTowerLobby.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleTowerElevator.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleTowerCorridor.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleTowerBattleRoom.inc"
 	.include "data/scripts/maps/SouthernIsland_Exterior.inc"
 	.include "data/scripts/maps/SouthernIsland_Interior.inc"
 	.include "data/scripts/maps/SafariZone_RestHouse.inc"
 	.include "data/scripts/maps/SafariZone_Northeast.inc"
 	.include "data/scripts/maps/SafariZone_Southeast.inc"
-	.include "data/scripts/maps/BattleFrontier_OutsideEast.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleTowerMultiBattleRoom.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleTowerCorridor2.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleTowerBattleRoom2.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleDomeLobby.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleDomeCorridor.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleDomePreBattleRoom.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleDomeBattleRoom.inc"
-	.include "data/scripts/maps/BattleFrontier_BattlePalaceLobby.inc"
-	.include "data/scripts/maps/BattleFrontier_BattlePalaceCorridor.inc"
-	.include "data/scripts/maps/BattleFrontier_BattlePalaceBattleRoom.inc"
-	.include "data/scripts/maps/BattleFrontier_BattlePyramidLobby.inc"
-	.include "data/scripts/maps/BattleFrontier_BattlePyramidEmptySquare.inc"
-	.include "data/scripts/maps/BattleFrontier_BattlePyramidTop.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleArenaLobby.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleArenaCorridor.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleArenaBattleRoom.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleFactoryLobby.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleFactoryPreBattleRoom.inc"
-	.include "data/scripts/maps/BattleFrontier_BattleFactoryBattleRoom.inc"
-	.include "data/scripts/maps/BattleFrontier_BattlePikeLobby.inc"
-	.include "data/scripts/maps/BattleFrontier_BattlePikeCorridor.inc"
-	.include "data/scripts/maps/BattleFrontier_BattlePikeThreePathRoom.inc"
-	.include "data/scripts/maps/BattleFrontier_BattlePikeRandomRoom1.inc"
-	.include "data/scripts/maps/BattleFrontier_BattlePikeRandomRoom2.inc"
-	.include "data/scripts/maps/BattleFrontier_BattlePikeRandomRoom3.inc"
-	.include "data/scripts/maps/BattleFrontier_RankingHall.inc"
-	.include "data/scripts/maps/BattleFrontier_Lounge1.inc"
-	.include "data/scripts/maps/BattleFrontier_BattlePointExchangeServiceCorner.inc"
-	.include "data/scripts/maps/BattleFrontier_Lounge2.inc"
-	.include "data/scripts/maps/BattleFrontier_Lounge3.inc"
-	.include "data/scripts/maps/BattleFrontier_Lounge4.inc"
 	.include "data/scripts/maps/BattleFrontier_ScottsHouse.inc"
-	.include "data/scripts/maps/BattleFrontier_Lounge5.inc"
-	.include "data/scripts/maps/BattleFrontier_Lounge6.inc"
-	.include "data/scripts/maps/BattleFrontier_Lounge7.inc"
-	.include "data/scripts/maps/BattleFrontier_ReceptionGate.inc"
-	.include "data/scripts/maps/BattleFrontier_Lounge8.inc"
-	.include "data/scripts/maps/BattleFrontier_Lounge9.inc"
 	.include "data/scripts/maps/BattleFrontier_PokemonCenter_1F.inc"
 	.include "data/scripts/maps/BattleFrontier_PokemonCenter_2F.inc"
 	.include "data/scripts/maps/BattleFrontier_Mart.inc"
@@ -813,23 +743,6 @@ Std_10: @ 8271347
 
 EventScript_27134E: @ 827134E
 	return
-
-BattleFrontier_BattleArenaLobby_EventScript_27134F:: @ 827134F
-BattleFrontier_BattleDomeLobby_EventScript_27134F:: @ 827134F
-BattleFrontier_BattleFactoryLobby_EventScript_27134F:: @ 827134F
-BattleFrontier_BattlePalaceLobby_EventScript_27134F:: @ 827134F
-BattleFrontier_BattlePikeLobby_EventScript_27134F:: @ 827134F
-BattleFrontier_BattlePyramidLobby_EventScript_27134F:: @ 827134F
-BattleFrontier_BattleTowerLobby_EventScript_27134F:: @ 827134F
-FallarborTown_BattleTentLobby_EventScript_27134F:: @ 827134F
-LilycoveCity_ContestLobby_EventScript_27134F:: @ 827134F
-MossdeepCity_GameCorner_1F_EventScript_27134F:: @ 827134F
-OldaleTown_PokemonCenter_2F_EventScript_27134F:: @ 827134F
-SecretBase_RedCave1_EventScript_27134F:: @ 827134F
-SlateportCity_BattleTentLobby_EventScript_27134F:: @ 827134F
-SootopolisCity_MysteryEventsHouse_1F_EventScript_27134F:: @ 827134F
-TrainerHill_Entrance_EventScript_27134F:: @ 827134F
-VerdanturfTown_BattleTentLobby_EventScript_27134F:: @ 827134F
 	special sub_809FF80
 	waitstate
 	return
@@ -980,86 +893,6 @@ Std_6:: @ 8271494
 	return
 
 EventScript_27149D:: @ 827149D
-	setberrytree 2, 7, 5
-	setberrytree 1, 3, 5
-	setberrytree 11, 7, 5
-	setberrytree 13, 3, 5
-	setberrytree 4, 7, 5
-	setberrytree 76, 1, 5
-	setberrytree 8, 1, 5
-	setberrytree 10, 6, 5
-	setberrytree 25, 20, 5
-	setberrytree 26, 2, 5
-	setberrytree 66, 2, 5
-	setberrytree 67, 20, 5
-	setberrytree 69, 22, 5
-	setberrytree 70, 22, 5
-	setberrytree 71, 22, 5
-	setberrytree 55, 17, 5
-	setberrytree 56, 17, 5
-	setberrytree 5, 1, 5
-	setberrytree 6, 6, 5
-	setberrytree 7, 1, 5
-	setberrytree 16, 18, 5
-	setberrytree 17, 18, 5
-	setberrytree 18, 18, 5
-	setberrytree 29, 19, 5
-	setberrytree 28, 19, 5
-	setberrytree 27, 19, 5
-	setberrytree 24, 4, 5
-	setberrytree 23, 3, 5
-	setberrytree 22, 3, 5
-	setberrytree 21, 4, 5
-	setberrytree 19, 16, 5
-	setberrytree 20, 16, 5
-	setberrytree 80, 7, 5
-	setberrytree 81, 7, 5
-	setberrytree 77, 8, 5
-	setberrytree 78, 8, 5
-	setberrytree 68, 8, 5
-	setberrytree 31, 10, 5
-	setberrytree 33, 10, 5
-	setberrytree 34, 21, 5
-	setberrytree 35, 21, 5
-	setberrytree 36, 21, 5
-	setberrytree 83, 24, 5
-	setberrytree 84, 24, 5
-	setberrytree 85, 10, 5
-	setberrytree 86, 6, 5
-	setberrytree 37, 5, 5
-	setberrytree 38, 5, 5
-	setberrytree 39, 5, 5
-	setberrytree 40, 3, 5
-	setberrytree 41, 3, 5
-	setberrytree 42, 3, 5
-	setberrytree 46, 19, 5
-	setberrytree 45, 20, 5
-	setberrytree 44, 18, 5
-	setberrytree 43, 16, 5
-	setberrytree 47, 8, 5
-	setberrytree 48, 5, 5
-	setberrytree 49, 4, 5
-	setberrytree 50, 2, 5
-	setberrytree 52, 18, 5
-	setberrytree 53, 18, 5
-	setberrytree 62, 6, 5
-	setberrytree 64, 6, 5
-	setberrytree 58, 21, 5
-	setberrytree 59, 21, 5
-	setberrytree 60, 25, 5
-	setberrytree 61, 25, 5
-	setberrytree 79, 23, 5
-	setberrytree 14, 23, 5
-	setberrytree 15, 21, 5
-	setberrytree 30, 21, 5
-	setberrytree 65, 25, 5
-	setberrytree 72, 25, 5
-	setberrytree 73, 23, 5
-	setberrytree 74, 23, 5
-	setberrytree 87, 3, 5
-	setberrytree 88, 10, 5
-	setberrytree 89, 4, 5
-	setberrytree 82, 36, 5
 	return
 
 EventScript_2715DE:: @ 82715DE
@@ -1368,7 +1201,6 @@ OldaleTown_PokemonCenter_1F_EventScript_271918:: @ 8271918
 	setvar VAR_0x4096, 3
 	return
 
-BattleFrontier_PokemonCenter_1F_EventScript_27191E:: @ 827191E
 DewfordTown_PokemonCenter_1F_EventScript_27191E:: @ 827191E
 EverGrandeCity_PokemonCenter_1F_EventScript_27191E:: @ 827191E
 EverGrandeCity_PokemonLeague_1F_EventScript_27191E:: @ 827191E
@@ -1384,7 +1216,6 @@ PetalburgCity_PokemonCenter_1F_EventScript_27191E:: @ 827191E
 RustboroCity_PokemonCenter_1F_EventScript_27191E:: @ 827191E
 SlateportCity_PokemonCenter_1F_EventScript_27191E:: @ 827191E
 SootopolisCity_PokemonCenter_1F_EventScript_27191E:: @ 827191E
-TrainerHill_Entrance_EventScript_27191E:: @ 827191E
 VerdanturfTown_PokemonCenter_1F_EventScript_27191E:: @ 827191E
 	lock
 	faceplayer
@@ -1596,48 +1427,18 @@ EventScript_271BB3:: @ 8271BB3
 	playfanfare BGM_ME_WAZA
 	return
 
-Std_ObtainDecoration:: @ 8271BB7
-	givedecoration VAR_0x8000
-	copyvar VAR_0x8007, VAR_RESULT
-	call EventScript_271BC5
-	return
+EventScript_271BB7:: @ 8271BB7
 
 EventScript_271BC5:: @ 8271BC5
-	bufferdecorationname 1, VAR_0x8000
-	compare_var_to_value VAR_0x8007, 1
-	call_if 1, EventScript_271BE0
-	compare_var_to_value VAR_0x8007, 0
-	call_if 1, EventScript_271BF7
-	return
+	
 
 EventScript_271BE0:: @ 8271BE0
-	playfanfare BGM_FANFA4
-	message gUnknown_08272B09
-	waitfanfare
-	msgbox gUnknown_08272B48, 4
-	setvar VAR_RESULT, 1
-	return
 
 EventScript_271BF7:: @ 8271BF7
 	setvar VAR_RESULT, 0
 	return
 
 Std_FindItem:: @ 8271BFD
-	lock
-	faceplayer
-	waitse
-	copyvar VAR_0x8004, VAR_0x8000
-	copyvar VAR_0x8005, VAR_0x8001
-	checkitemspace VAR_0x8000, 32769
-	copyvar VAR_0x8007, VAR_RESULT
-	bufferitemnameplural 1, VAR_0x8000, 32769
-	checkitemtype VAR_0x8000
-	call EventScript_271B08
-	compare_var_to_value VAR_0x8007, 1
-	call_if 1, EventScript_271C3A
-	compare_var_to_value VAR_0x8007, 0
-	call_if 1, EventScript_271CA1
-	release
 	return
 
 EventScript_271C3A:: @ 8271C3A
@@ -1679,57 +1480,16 @@ EventScript_271CA1:: @ 8271CA1
 	return
 
 EventScript_271CB7:: @ 8271CB7
-	lockall
-	waitse
-	giveitem VAR_0x8005, 1
-	copyvar VAR_0x8007, VAR_RESULT
-	bufferitemnameplural 1, VAR_0x8005, 1
-	checkitemtype VAR_0x8005
-	call EventScript_271B08
-	compare_var_to_value VAR_0x8007, 1
-	goto_eq EventScript_271CE8
-	compare_var_to_value VAR_0x8007, 0
-	goto_eq EventScript_271D47
-	end
 
 EventScript_271CE8:: @ 8271CE8
-	copyvar VAR_0x8008, VAR_0x8004
-	copyvar VAR_0x8004, VAR_0x8005
-	specialvar VAR_RESULT, sub_81398C0
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq EventScript_271D0E
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq EventScript_271D1F
-	end
 
 EventScript_271D0E:: @ 8271D0E
-	bufferitemnameplural 0, VAR_0x8004, 1
-	message gUnknown_082731A9
-	goto EventScript_271D2A
-	end
 
 EventScript_271D1F:: @ 8271D1F
-	message gUnknown_08272ABF
-	goto EventScript_271D2A
-	end
 
 EventScript_271D2A:: @ 8271D2A
-	waitmessage
-	waitfanfare
-	bufferitemnameplural 1, VAR_0x8004, 1
-	copyvar VAR_0x8004, VAR_0x8008
-	msgbox gUnknown_08272A9A, 4
-	special sub_80EDCE8
-	special sub_8138BC8
-	releaseall
-	end
 
 EventScript_271D47:: @ 8271D47
-	msgbox gUnknown_08272ABF, 4
-	msgbox gUnknown_08272AD0, 4
-	setvar VAR_RESULT, 0
-	releaseall
-	end
 
 EventScript_271D5E:: @ 8271D5E
 	lock
@@ -1839,7 +1599,6 @@ VerdanturfTown_EventScript_271E6A:: @ 8271E6A
 	msgbox gUnknown_08272B6A, 3
 	end
 
-BattleFrontier_OutsideEast_EventScript_271E73:: @ 8271E73
 DewfordTown_EventScript_271E73:: @ 8271E73
 EverGrandeCity_EventScript_271E73:: @ 8271E73
 FallarborTown_EventScript_271E73:: @ 8271E73
@@ -1858,9 +1617,7 @@ VerdanturfTown_EventScript_271E73:: @ 8271E73
 	msgbox gUnknown_08272B9E, 3
 	end
 
-BattleFrontier_BattleTowerLobby_EventScript_271E7C:: @ 8271E7C
 DewfordTown_EventScript_271E7C:: @ 8271E7C
-LilycoveCity_ContestLobby_EventScript_271E7C:: @ 8271E7C
 LilycoveCity_PokemonTrainerFanClub_EventScript_271E7C:: @ 8271E7C
 MauvilleCity_PokemonCenter_1F_EventScript_271E7C:: @ 8271E7C
 PetalburgCity_PokemonCenter_1F_EventScript_271E7C:: @ 8271E7C
@@ -1943,12 +1700,6 @@ RustboroCity_EventScript_271EF5:: @ 8271EF5
 LavaridgeTown_EventScript_271EFB:: @ 8271EFB
 Route110_EventScript_271EFB:: @ 8271EFB
 Route119_EventScript_271EFB:: @ 8271EFB
-	checkplayergender
-	compare_var_to_value VAR_RESULT, 0
-	goto_eq LavaridgeTown_EventScript_271F13
-	compare_var_to_value VAR_RESULT, 1
-	goto_eq LavaridgeTown_EventScript_271F19
-	end
 
 LavaridgeTown_EventScript_271F13:: @ 8271F13
 	setvar VAR_0x4013, 106
@@ -2074,22 +1825,9 @@ DewfordTown_Gym_EventScript_272035:: @ 8272035
 	settrainerflag TRAINER_DAPHNE
 	return
 
-DewfordTown_Gym_EventScript_272054:: @ 8272054
-DewfordTown_Hall_EventScript_272054:: @ 8272054
-FallarborTown_House1_EventScript_272054:: @ 8272054
-FortreeCity_Gym_EventScript_272054:: @ 8272054
-FortreeCity_House2_EventScript_272054:: @ 8272054
-FortreeCity_House4_EventScript_272054:: @ 8272054
-LavaridgeTown_Gym_1F_EventScript_272054:: @ 8272054
-LavaridgeTown_HerbShop_EventScript_272054:: @ 8272054
 LilycoveCity_EventScript_272054:: @ 8272054
 LilycoveCity_House2_EventScript_272054:: @ 8272054
 LittlerootTown_BrendansHouse_1F_EventScript_272054:: @ 8272054
-MauvilleCity_EventScript_272054:: @ 8272054
-MauvilleCity_Gym_EventScript_272054:: @ 8272054
-MossdeepCity_EventScript_272054:: @ 8272054
-MossdeepCity_Gym_EventScript_272054:: @ 8272054
-MossdeepCity_SpaceCenter_1F_EventScript_272054:: @ 8272054
 MtPyre_1F_EventScript_272054:: @ 8272054
 PacifidlogTown_House2_EventScript_272054:: @ 8272054
 PetalburgCity_Gym_EventScript_272054:: @ 8272054
@@ -2100,43 +1838,29 @@ Route109_EventScript_272054:: @ 8272054
 Route111_EventScript_272054:: @ 8272054
 Route111_WinstrateFamilysHouse_EventScript_272054:: @ 8272054
 Route114_EventScript_272054:: @ 8272054
-Route114_FossilManiacsHouse_EventScript_272054:: @ 8272054
 Route120_EventScript_272054:: @ 8272054
-Route123_BerryMastersHouse_EventScript_272054:: @ 8272054
 Route123_EventScript_272054:: @ 8272054
 RustboroCity_DevonCorp_3F_EventScript_272054:: @ 8272054
 RustboroCity_Flat2_2F_EventScript_272054:: @ 8272054
 RustboroCity_Gym_EventScript_272054:: @ 8272054
 RustboroCity_PokemonSchool_EventScript_272054:: @ 8272054
 SSTidalRooms_EventScript_272054:: @ 8272054
-ShoalCave_LowTideEntranceRoom_EventScript_272054:: @ 8272054
-ShoalCave_LowTideInnerRoom_EventScript_272054:: @ 8272054
-ShoalCave_LowTideLowerRoom_EventScript_272054:: @ 8272054
-ShoalCave_LowTideStairsRoom_EventScript_272054:: @ 8272054
-SlateportCity_BattleTentLobby_EventScript_272054:: @ 8272054
 SlateportCity_Harbor_EventScript_272054:: @ 8272054
 SlateportCity_PokemonFanClub_EventScript_272054:: @ 8272054
 SootopolisCity_EventScript_272054:: @ 8272054
 SootopolisCity_Gym_1F_EventScript_272054:: @ 8272054
 SootopolisCity_House1_EventScript_272054:: @ 8272054
-VerdanturfTown_BattleTentLobby_EventScript_272054:: @ 8272054
 	msgbox gUnknown_08272AD0, 4
 	release
 	end
 
 DewfordTown_Gym_EventScript_27205E:: @ 827205E
 FortreeCity_Gym_EventScript_27205E:: @ 827205E
-LavaridgeTown_Gym_1F_EventScript_27205E:: @ 827205E
-LilycoveCity_ContestLobby_EventScript_27205E:: @ 827205E
-LinkContestRoom1_EventScript_27205E:: @ 827205E
-MauvilleCity_GameCorner_EventScript_27205E:: @ 827205E
+LavaridgeTown_Gym_EventScript_27205E:: @ 827205E
 MauvilleCity_Gym_EventScript_27205E:: @ 827205E
 MossdeepCity_Gym_EventScript_27205E:: @ 827205E
 PetalburgCity_Gym_EventScript_27205E:: @ 827205E
-Route110_TrickHouseEnd_EventScript_27205E:: @ 827205E
-Route110_TrickHouseEntrance_EventScript_27205E:: @ 827205E
-Route113_GlassWorkshop_EventScript_27205E:: @ 827205E
-SootopolisCity_Gym_1F_EventScript_27205E:: @ 827205E
+SootopolisCity_Gym_EventScript_27205E:: @ 827205E
 	msgbox gUnknown_08272AD0, 4
 	return
 
@@ -2243,25 +1967,12 @@ Route103_EventScript_2720AD:: @ 82720AD
 	return
 
 Route101_EventScript_27211A:: @ 827211A
-	clearflag FLAG_0x2D1
-	clearflag FLAG_0x380
-	setflag FLAG_0x381
-	setflag FLAG_0x382
+	clearflag FLAG_0x9D0
 	return
 
 Route101_EventScript_272127:: @ 8272127
-	clearflag FLAG_0x381
-	setflag FLAG_0x2D1
-	setflag FLAG_0x380
-	setflag FLAG_0x382
-	return
 
 Route101_EventScript_272134:: @ 8272134
-	clearflag FLAG_0x382
-	setflag FLAG_0x381
-	setflag FLAG_0x2D1
-	setflag FLAG_0x380
-	return
 
 LittlerootTown_ProfessorBirchsLab_EventScript_272141:: @ 8272141
 Route101_EventScript_272141:: @ 8272141
@@ -2315,7 +2026,6 @@ Route101_EventScript_272184:: @ 8272184
 	msgbox gUnknown_082A633D, 4
 	return
 
-BattleFrontier_OutsideWest_EventScript_2721E2:: @ 82721E2
 LilycoveCity_Harbor_EventScript_2721E2:: @ 82721E2
 SlateportCity_Harbor_EventScript_2721E2:: @ 82721E2
 	delay 60
@@ -2369,7 +2079,6 @@ Movement_27224E: @ 827224E
 	step_up
 	step_end
 
-BattleFrontier_OutsideWest_EventScript_272250:: @ 8272250
 BirthIsland_Harbor_EventScript_272250:: @ 8272250
 FarawayIsland_Entrance_EventScript_272250:: @ 8272250
 NavelRock_Harbor_EventScript_272250:: @ 8272250
@@ -2528,37 +2237,11 @@ Route119_EventScript_2723C1:: @ 82723C1
 FortreeCity_Movement_2723C7: @ 82723C7
 Route119_Movement_2723C7: @ 82723C7
 Route120_Movement_2723C7: @ 82723C7
-	step_55
-	step_12
-	step_54
-	step_12
-	step_55
-	step_12
-	step_54
-	step_12
-	step_55
-	step_13
-	step_54
-	step_13
-	step_55
-	step_13
-	step_54
-	step_13
-	step_55
-	step_14
-	step_54
-	step_14
-	step_55
-	step_end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_2723DD:: @ 82723DD
 MossdeepCity_StevensHouse_EventScript_2723DD:: @ 82723DD
 Route119_WeatherInstitute_2F_EventScript_2723DD:: @ 82723DD
 RustboroCity_DevonCorp_2F_EventScript_2723DD:: @ 82723DD
-SlateportCity_House1_EventScript_2723DD:: @ 82723DD
-	fadescreen 1
-	special ChangePokemonNickname
-	waitstate
 	return
 
 FallarborTown_House1_EventScript_2723E4:: @ 82723E4
@@ -2598,52 +2281,18 @@ EverGrandeCity_DrakesRoom_EventScript_272475:: @ 8272475
 EverGrandeCity_GlaciasRoom_EventScript_272475:: @ 8272475
 EverGrandeCity_PhoebesRoom_EventScript_272475:: @ 8272475
 EverGrandeCity_SidneysRoom_EventScript_272475:: @ 8272475
-	applymovement 255, EverGrandeCity_SidneysRoom_Movement_2725BA
-	waitmovement 0
-	playse SE_TRACK_DOOR
-	setmetatile 5, 12, 518, 1
-	setmetatile 6, 12, 518, 1
-	setmetatile 7, 12, 518, 1
-	setmetatile 5, 13, 526, 1
-	setmetatile 6, 13, 526, 1
-	setmetatile 7, 13, 526, 1
-	special DrawWholeMapView
 	return
 
 EverGrandeCity_DrakesRoom_EventScript_2724BC:: @ 82724BC
 EverGrandeCity_GlaciasRoom_EventScript_2724BC:: @ 82724BC
 EverGrandeCity_PhoebesRoom_EventScript_2724BC:: @ 82724BC
 EverGrandeCity_SidneysRoom_EventScript_2724BC:: @ 82724BC
-	setmetatile 6, 1, 836, 0
-	setmetatile 6, 2, 837, 0
-	setmetatile 5, 12, 518, 1
-	setmetatile 6, 12, 518, 1
-	setmetatile 7, 12, 518, 1
-	setmetatile 5, 13, 526, 1
-	setmetatile 6, 13, 526, 1
-	setmetatile 7, 13, 526, 1
-	setmetatile 0, 2, 734, 1
-	setmetatile 1, 2, 733, 1
-	setmetatile 2, 2, 734, 1
-	setmetatile 3, 2, 733, 1
-	setmetatile 4, 2, 734, 1
-	setmetatile 8, 2, 733, 1
-	setmetatile 9, 2, 734, 1
-	setmetatile 10, 2, 733, 1
-	setmetatile 11, 2, 734, 1
-	setmetatile 12, 2, 733, 1
 	return
 
 EverGrandeCity_DrakesRoom_EventScript_27255F:: @ 827255F
 EverGrandeCity_GlaciasRoom_EventScript_27255F:: @ 827255F
 EverGrandeCity_PhoebesRoom_EventScript_27255F:: @ 827255F
 EverGrandeCity_SidneysRoom_EventScript_27255F:: @ 827255F
-	setmetatile 5, 12, 518, 1
-	setmetatile 6, 12, 518, 1
-	setmetatile 7, 12, 518, 1
-	setmetatile 5, 13, 526, 1
-	setmetatile 6, 13, 526, 1
-	setmetatile 7, 13, 526, 1
 	return
 
 SlateportCity_Movement_272596: @ 8272596
@@ -2651,14 +2300,11 @@ SlateportCity_Movement_272596: @ 8272596
 	step_end
 
 AquaHideout_B2F_Movement_272598: @ 8272598
-BattleFrontier_BattleTowerBattleRoom_Movement_272598: @ 8272598
-BattleFrontier_ReceptionGate_Movement_272598: @ 8272598
 CaveOfOrigin_B1F_Movement_272598: @ 8272598
 EverGrandeCity_ChampionsRoom_Movement_272598: @ 8272598
 FarawayIsland_Interior_Movement_272598: @ 8272598
 JaggedPass_Movement_272598: @ 8272598
 LavaridgeTown_Movement_272598: @ 8272598
-LilycoveCity_ContestLobby_Movement_272598: @ 8272598
 LilycoveCity_CoveLilyMotel_1F_Movement_272598: @ 8272598
 LilycoveCity_Harbor_Movement_272598: @ 8272598
 LittlerootTown_BrendansHouse_1F_Movement_272598: @ 8272598
@@ -2680,9 +2326,6 @@ PetalburgCity_Movement_272598: @ 8272598
 Route103_Movement_272598: @ 8272598
 Route104_Movement_272598: @ 8272598
 Route110_Movement_272598: @ 8272598
-Route110_TrickHouseEnd_Movement_272598: @ 8272598
-Route110_TrickHouseEntrance_Movement_272598: @ 8272598
-Route110_TrickHousePuzzle5_Movement_272598: @ 8272598
 Route119_WeatherInstitute_2F_Movement_272598: @ 8272598
 RustboroCity_DevonCorp_2F_Movement_272598: @ 8272598
 RustboroCity_Movement_272598: @ 8272598
@@ -2695,8 +2338,6 @@ SlateportCity_PokemonFanClub_Movement_272598: @ 8272598
 	step_56
 	step_end
 
-BattleFrontier_BattleTowerBattleRoom_Movement_27259A: @ 827259A
-BattleFrontier_ReceptionGate_Movement_27259A: @ 827259A
 CaveOfOrigin_B1F_Movement_27259A: @ 827259A
 EverGrandeCity_ChampionsRoom_Movement_27259A: @ 827259A
 FarawayIsland_Interior_Movement_27259A: @ 827259A
@@ -2722,8 +2363,6 @@ PetalburgCity_Movement_27259A: @ 827259A
 Route103_Movement_27259A: @ 827259A
 Route104_Movement_27259A: @ 827259A
 Route110_Movement_27259A: @ 827259A
-Route110_TrickHouseEntrance_Movement_27259A: @ 827259A
-Route110_TrickHousePuzzle5_Movement_27259A: @ 827259A
 Route119_WeatherInstitute_2F_Movement_27259A: @ 827259A
 RustboroCity_DevonCorp_2F_Movement_27259A: @ 827259A
 RustboroCity_Movement_27259A: @ 827259A
@@ -2739,14 +2378,11 @@ SlateportCity_PokemonFanClub_Movement_27259A: @ 827259A
 	step_end
 
 AquaHideout_B2F_Movement_27259E: @ 827259E
-BattleFrontier_BattlePyramidLobby_Movement_27259E: @ 827259E
-BattleFrontier_ScottsHouse_Movement_27259E: @ 827259E
 CaveOfOrigin_B1F_Movement_27259E: @ 827259E
 EverGrandeCity_PokemonLeague_1F_Movement_27259E: @ 827259E
 FallarborTown_House2_Movement_27259E: @ 827259E
 FortreeCity_House4_Movement_27259E: @ 827259E
 JaggedPass_Movement_27259E: @ 827259E
-LilycoveCity_ContestHall_Movement_27259E: @ 827259E
 LilycoveCity_CoveLilyMotel_1F_Movement_27259E: @ 827259E
 LilycoveCity_DepartmentStore_1F_Movement_27259E: @ 827259E
 LilycoveCity_DepartmentStore_5F_Movement_27259E: @ 827259E
@@ -2767,9 +2403,6 @@ PetalburgCity_Gym_Movement_27259E: @ 827259E
 PetalburgCity_Movement_27259E: @ 827259E
 Route103_Movement_27259E: @ 827259E
 Route104_Movement_27259E: @ 827259E
-Route110_TrickHouseEnd_Movement_27259E: @ 827259E
-Route110_TrickHouseEntrance_Movement_27259E: @ 827259E
-Route110_TrickHousePuzzle5_Movement_27259E: @ 827259E
 Route111_Movement_27259E: @ 827259E
 Route119_Movement_27259E: @ 827259E
 RustboroCity_Flat1_2F_Movement_27259E: @ 827259E
@@ -2782,12 +2415,6 @@ SootopolisCity_Movement_27259E: @ 827259E
 	step_3e
 	step_end
 
-BattleFrontier_OutsideWest_Movement_2725A0: @ 82725A0
-	step_3f
-	step_end
-
-BattleFrontier_Lounge3_Movement_2725A2: @ 82725A2
-BattleFrontier_OutsideWest_Movement_2725A2: @ 82725A2
 EverGrandeCity_PokemonLeague_1F_Movement_2725A2: @ 82725A2
 JaggedPass_Movement_2725A2: @ 82725A2
 LilycoveCity_ContestHall_Movement_2725A2: @ 82725A2
@@ -2797,7 +2424,6 @@ LilycoveCity_House3_Movement_2725A2: @ 82725A2
 LilycoveCity_LilycoveMuseum_1F_Movement_2725A2: @ 82725A2
 LilycoveCity_Movement_2725A2: @ 82725A2
 LittlerootTown_Movement_2725A2: @ 82725A2
-MauvilleCity_GameCorner_Movement_2725A2: @ 82725A2
 MauvilleCity_Movement_2725A2: @ 82725A2
 MossdeepCity_Movement_2725A2: @ 82725A2
 MossdeepCity_SpaceCenter_1F_Movement_2725A2: @ 82725A2
@@ -2824,9 +2450,6 @@ VerdanturfTown_Movement_2725A2: @ 82725A2
 	step_end
 
 AquaHideout_B2F_Movement_2725A4: @ 82725A4
-BattleFrontier_BattleFactoryBattleRoom_Movement_2725A4: @ 82725A4
-BattleFrontier_OutsideWest_Movement_2725A4: @ 82725A4
-BattleFrontier_ScottsHouse_Movement_2725A4: @ 82725A4
 DewfordTown_Hall_Movement_2725A4: @ 82725A4
 EverGrandeCity_ChampionsRoom_Movement_2725A4: @ 82725A4
 EverGrandeCity_HallOfFame_Movement_2725A4: @ 82725A4
@@ -2850,7 +2473,6 @@ PetalburgCity_Movement_2725A4: @ 82725A4
 PetalburgWoods_Movement_2725A4: @ 82725A4
 Route101_Movement_2725A4: @ 82725A4
 Route110_Movement_2725A4: @ 82725A4
-Route110_TrickHouseEnd_Movement_2725A4: @ 82725A4
 Route111_Movement_2725A4: @ 82725A4
 Route112_Movement_2725A4: @ 82725A4
 Route116_Movement_2725A4: @ 82725A4
@@ -2867,11 +2489,6 @@ SootopolisCity_Movement_2725A4: @ 82725A4
 	step_27
 	step_end
 
-BattleFrontier_BattleTowerCorridor2_Movement_2725A6: @ 82725A6
-BattleFrontier_BattleTowerMultiBattleRoom_Movement_2725A6: @ 82725A6
-BattleFrontier_OutsideWest_Movement_2725A6: @ 82725A6
-BattleFrontier_ReceptionGate_Movement_2725A6: @ 82725A6
-BattleFrontier_ScottsHouse_Movement_2725A6: @ 82725A6
 CaveOfOrigin_B1F_Movement_2725A6: @ 82725A6
 DewfordTown_Hall_Movement_2725A6: @ 82725A6
 EverGrandeCity_ChampionsRoom_Movement_2725A6: @ 82725A6
@@ -2894,10 +2511,7 @@ PetalburgCity_Gym_Movement_2725A6: @ 82725A6
 PetalburgCity_Movement_2725A6: @ 82725A6
 PetalburgWoods_Movement_2725A6: @ 82725A6
 Route104_Movement_2725A6: @ 82725A6
-Route110_TrickHouseEnd_Movement_2725A6: @ 82725A6
-Route110_TrickHouseEntrance_Movement_2725A6: @ 82725A6
 Route111_Movement_2725A6: @ 82725A6
-Route114_FossilManiacsTunnel_Movement_2725A6: @ 82725A6
 Route120_Movement_2725A6: @ 82725A6
 Route121_SafariZoneEntrance_Movement_2725A6: @ 82725A6
 Route128_Movement_2725A6: @ 82725A6
@@ -2905,19 +2519,12 @@ RustboroCity_Movement_2725A6: @ 82725A6
 RusturfTunnel_Movement_2725A6: @ 82725A6
 SeafloorCavern_Entrance_Movement_2725A6: @ 82725A6
 SeafloorCavern_Room9_Movement_2725A6: @ 82725A6
-SlateportCity_BattleTentCorridor_Movement_2725A6: @ 82725A6
 SlateportCity_Harbor_Movement_2725A6: @ 82725A6
 SlateportCity_Movement_2725A6: @ 82725A6
 SlateportCity_OceanicMuseum_2F_Movement_2725A6: @ 82725A6
 SootopolisCity_MysteryEventsHouse_1F_Movement_2725A6: @ 82725A6
-VerdanturfTown_BattleTentBattleRoom_Movement_2725A6: @ 82725A6
-	step_26
-	step_end
 
-BattleFrontier_BattleFactoryBattleRoom_Movement_2725A8: @ 82725A8
-BattleFrontier_BattlePalaceBattleRoom_Movement_2725A8: @ 82725A8
-BattleFrontier_OutsideWest_Movement_2725A8: @ 82725A8
-BattleFrontier_ScottsHouse_Movement_2725A8: @ 82725A8
+
 DewfordTown_Hall_Movement_2725A8: @ 82725A8
 EverGrandeCity_ChampionsRoom_Movement_2725A8: @ 82725A8
 EverGrandeCity_HallOfFame_Movement_2725A8: @ 82725A8
@@ -2939,7 +2546,6 @@ PetalburgCity_Gym_Movement_2725A8: @ 82725A8
 PetalburgCity_Movement_2725A8: @ 82725A8
 Route101_Movement_2725A8: @ 82725A8
 Route110_Movement_2725A8: @ 82725A8
-Route110_TrickHouseEnd_Movement_2725A8: @ 82725A8
 Route112_Movement_2725A8: @ 82725A8
 Route116_Movement_2725A8: @ 82725A8
 Route120_Movement_2725A8: @ 82725A8
@@ -2957,8 +2563,6 @@ VerdanturfTown_BattleTentBattleRoom_Movement_2725A8: @ 82725A8
 	step_28
 	step_end
 
-BattleFrontier_OutsideWest_Movement_2725AA: @ 82725AA
-BattleFrontier_ScottsHouse_Movement_2725AA: @ 82725AA
 BirthIsland_Harbor_Movement_2725AA: @ 82725AA
 DewfordTown_Hall_Movement_2725AA: @ 82725AA
 EverGrandeCity_ChampionsRoom_Movement_2725AA: @ 82725AA
@@ -2981,8 +2585,6 @@ PetalburgCity_Gym_Movement_2725AA: @ 82725AA
 PetalburgCity_Movement_2725AA: @ 82725AA
 PetalburgWoods_Movement_2725AA: @ 82725AA
 Route110_Movement_2725AA: @ 82725AA
-Route110_TrickHouseEnd_Movement_2725AA: @ 82725AA
-Route114_FossilManiacsTunnel_Movement_2725AA: @ 82725AA
 Route119_Movement_2725AA: @ 82725AA
 Route120_Movement_2725AA: @ 82725AA
 Route128_Movement_2725AA: @ 82725AA
@@ -2996,7 +2598,6 @@ SlateportCity_Harbor_Movement_2725AA: @ 82725AA
 SlateportCity_Movement_2725AA: @ 82725AA
 SlateportCity_OceanicMuseum_2F_Movement_2725AA: @ 82725AA
 SouthernIsland_Exterior_Movement_2725AA: @ 82725AA
-VerdanturfTown_BattleTentBattleRoom_Movement_2725AA: @ 82725AA
 VictoryRoad_1F_Movement_2725AA: @ 82725AA
 	step_25
 	step_end
@@ -3009,7 +2610,6 @@ RustboroCity_Movement_2725AE: @ 82725AE
 	step_02
 	step_end
 
-BattleFrontier_Mart_Movement_2725B0: @ 82725B0
 MeteorFalls_1F_1R_Movement_2725B0: @ 82725B0
 	step_00
 	step_end
@@ -3023,7 +2623,6 @@ TerraCave_End_Movement_2725B2: @ 82725B2
 	step_01
 	step_end
 
-BattleFrontier_BattleDomeBattleRoom_Movement_2725B4: @ 82725B4
 MeteorFalls_1F_1R_Movement_2725B4: @ 82725B4
 	step_1d
 	step_end
@@ -3054,9 +2653,6 @@ EverGrandeCity_ChampionsRoom_Movement_2725C1: @ 82725C1
 	step_end
 
 EverGrandeCity_SidneysRoom_Movement_2725C6: @ 82725C6
-	step_14
-	step_14
-	step_end
 
 Route110_TrickHouseEntrance_Movement_2725C9: @ 82725C9
 	step_up
