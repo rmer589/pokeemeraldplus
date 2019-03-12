@@ -690,7 +690,27 @@ gSpeciesToNationalPokedexNum:: @ 831DC82
 	.2byte 276
 	.2byte 277
 	.2byte 278
-	.2byte 279	
+	.2byte 279
+	.2byte 280
+	.2byte 281
+	.2byte 282
+	.2byte 283
+	.2byte 284	
+	.2byte 285
+	.2byte 286
+	.2byte 287
+	.2byte 288
+	.2byte 289
+	.2byte 290
+	.2byte 291
+	.2byte 292
+	.2byte 293
+	.2byte 294
+	.2byte 295
+	.2byte 296
+	.2byte 297
+	.2byte 298
+	.2byte 299
 	.2byte 387
 	.2byte 388
 	.2byte 389
@@ -719,11 +739,7 @@ gSpeciesToNationalPokedexNum:: @ 831DC82
 	.2byte 290
 	.2byte 291
 	.2byte 292
-	.2byte 285
-	.2byte 286
 	.2byte 327
-	.2byte 283
-	.2byte 284
 	.2byte 320
 	.2byte 321
 	.2byte 300
