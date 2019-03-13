@@ -1284,294 +1284,294 @@
 
 @ SYSTEM FLAGS
 
-	.equiv FLAG_SYS_POKEMON_GET,    CODE_FLAGS + 0x0
-	.equiv FLAG_SYS_POKEDEX_GET,    CODE_FLAGS + 0x1
-	.equiv FLAG_SYS_POKENAV_GET,    CODE_FLAGS + 0x2
-	.equiv FLAG_0x863,              CODE_FLAGS + 0x3
-	.equiv FLAG_SYS_GAME_CLEAR,     CODE_FLAGS + 0x4
-	.equiv FLAG_SYS_CHAT_USED,      CODE_FLAGS + 0x5
-	.equiv FLAG_SYS_HIPSTER_MEET,   CODE_FLAGS + 0x6
+	.equiv FLAG_SYS_POKEMON_GET,    0x0
+	.equiv FLAG_SYS_POKEDEX_GET,    0x1
+	.equiv FLAG_SYS_POKENAV_GET,    0x2
+	.equiv FLAG_0x863,              0x3
+	.equiv FLAG_SYS_GAME_CLEAR,     0x4
+	.equiv FLAG_SYS_CHAT_USED,      0x5
+	.equiv FLAG_SYS_HIPSTER_MEET,   0x6
 
 @ plumes and books and emblems
-	.equiv FLAG_PINKPLUME_GET,        CODE_FLAGS + 0x7
-	.equiv FLAG_ORANGEPLUME_GET,      CODE_FLAGS + 0x8
-	.equiv FLAG_YELLOWPLUME_GET,      CODE_FLAGS + 0x9
-	.equiv FLAG_GREENPLUME_GET,       CODE_FLAGS + 0xA
-	.equiv FLAG_BLUEPLUME_GET,        CODE_FLAGS + 0xB
-	.equiv FLAG_REDPLUME_GET,         CODE_FLAGS + 0xC
-	.equiv FLAG_KNIGHTBOOK_GET,       CODE_FLAGS + 0xD
-	.equiv FLAG_KNIGHTEMBLEM_GET,     CODE_FLAGS + 0xE
+	.equiv FLAG_PINKPLUME_GET,        0x7
+	.equiv FLAG_ORANGEPLUME_GET,      0x8
+	.equiv FLAG_YELLOWPLUME_GET,      0x9
+	.equiv FLAG_GREENPLUME_GET,       0xA
+	.equiv FLAG_BLUEPLUME_GET,        0xB
+	.equiv FLAG_REDPLUME_GET,         0xC
+	.equiv FLAG_KNIGHTBOOK_GET,       0xD
+	.equiv FLAG_KNIGHTEMBLEM_GET,     0xE
 @ cities and towns
-	.equiv FLAG_VISITED_LITTLEROOT_TOWN,    CODE_FLAGS + 0xF
-	.equiv FLAG_VISITED_OLDALE_TOWN,        CODE_FLAGS + 0x10
-	.equiv FLAG_VISITED_DEWFORD_TOWN,       CODE_FLAGS + 0x11
-	.equiv FLAG_VISITED_LAVARIDGE_TOWN,     CODE_FLAGS + 0x12
-	.equiv FLAG_VISITED_FALLARBOR_TOWN,     CODE_FLAGS + 0x13
-	.equiv FLAG_VISITED_VERDANTURF_TOWN,    CODE_FLAGS + 0x14
-	.equiv FLAG_VISITED_PACIFIDLOG_TOWN,    CODE_FLAGS + 0x15
-	.equiv FLAG_VISITED_PETALBURG_CITY,     CODE_FLAGS + 0x16
-	.equiv FLAG_VISITED_SLATEPORT_CITY,     CODE_FLAGS + 0x17
-	.equiv FLAG_VISITED_MAUVILLE_CITY,      CODE_FLAGS + 0x18
-	.equiv FLAG_VISITED_RUSTBORO_CITY,      CODE_FLAGS + 0x19
-	.equiv FLAG_VISITED_FORTREE_CITY,       CODE_FLAGS + 0x1A
-	.equiv FLAG_VISITED_LILYCOVE_CITY,      CODE_FLAGS + 0x1B
-	.equiv FLAG_VISITED_MOSSDEEP_CITY,      CODE_FLAGS + 0x1C
-	.equiv FLAG_VISITED_SOOTOPOLIS_CITY,    CODE_FLAGS + 0x1D
-	.equiv FLAG_VISITED_EVER_GRANDE_CITY,   CODE_FLAGS + 0x1E
+	.equiv FLAG_VISITED_LITTLEROOT_TOWN,    0xF
+	.equiv FLAG_VISITED_OLDALE_TOWN,        0x10
+	.equiv FLAG_VISITED_DEWFORD_TOWN,       0x11
+	.equiv FLAG_VISITED_LAVARIDGE_TOWN,     0x12
+	.equiv FLAG_VISITED_FALLARBOR_TOWN,     0x13
+	.equiv FLAG_VISITED_VERDANTURF_TOWN,    0x14
+	.equiv FLAG_VISITED_PACIFIDLOG_TOWN,    0x15
+	.equiv FLAG_VISITED_PETALBURG_CITY,     0x16
+	.equiv FLAG_VISITED_SLATEPORT_CITY,     0x17
+	.equiv FLAG_VISITED_MAUVILLE_CITY,      0x18
+	.equiv FLAG_VISITED_RUSTBORO_CITY,      0x19
+	.equiv FLAG_VISITED_FORTREE_CITY,       0x1A
+	.equiv FLAG_VISITED_LILYCOVE_CITY,      0x1B
+	.equiv FLAG_VISITED_MOSSDEEP_CITY,      0x1C
+	.equiv FLAG_VISITED_SOOTOPOLIS_CITY,    0x1D
+	.equiv FLAG_VISITED_EVER_GRANDE_CITY,   0x1E
 
-	.equiv FLAG_0x87F,                  CODE_FLAGS + 0x1F
-	.equiv FLAG_0x880,                  CODE_FLAGS + 0x20
-	.equiv FLAG_0x881,                  CODE_FLAGS + 0x21
-	.equiv FLAG_0x882,                  CODE_FLAGS + 0x22
-	.equiv FLAG_0x883,                  CODE_FLAGS + 0x23
-	.equiv FLAG_0x884,                  CODE_FLAGS + 0x24
-	.equiv FLAG_0x885,                  CODE_FLAGS + 0x25
-	.equiv FLAG_0x886,                  CODE_FLAGS + 0x26
-	.equiv FLAG_0x887,                  CODE_FLAGS + 0x27
+	.equiv FLAG_0x87F,                  0x1F
+	.equiv FLAG_0x880,                  0x20
+	.equiv FLAG_0x881,                  0x21
+	.equiv FLAG_0x882,                  0x22
+	.equiv FLAG_0x883,                  0x23
+	.equiv FLAG_0x884,                  0x24
+	.equiv FLAG_0x885,                  0x25
+	.equiv FLAG_0x886,                  0x26
+	.equiv FLAG_0x887,                  0x27
 
-	.equiv FLAG_SYS_USE_FLASH,          CODE_FLAGS + 0x28
-	.equiv FLAG_SYS_USE_STRENGTH,       CODE_FLAGS + 0x29
-	.equiv FLAG_SYS_WEATHER_CTRL,       CODE_FLAGS + 0x2A
-	.equiv FLAG_SYS_CYCLING_ROAD,       CODE_FLAGS + 0x2B
-	.equiv FLAG_SYS_SAFARI_MODE,        CODE_FLAGS + 0x2C
-	.equiv FLAG_SYS_CRUISE_MODE,        CODE_FLAGS + 0x2D
+	.equiv FLAG_SYS_USE_FLASH,          0x28
+	.equiv FLAG_SYS_USE_STRENGTH,       0x29
+	.equiv FLAG_SYS_WEATHER_CTRL,       0x2A
+	.equiv FLAG_SYS_CYCLING_ROAD,       0x2B
+	.equiv FLAG_SYS_SAFARI_MODE,        0x2C
+	.equiv FLAG_SYS_CRUISE_MODE,        0x2D
 
-	.equiv FLAG_0x88E,                  CODE_FLAGS + 0x2E
-	.equiv FLAG_0x88F,                  CODE_FLAGS + 0x2F
+	.equiv FLAG_0x88E,                  0x2E
+	.equiv FLAG_0x88F,                  0x2F
 
-	.equiv FLAG_SYS_TV_HOME,            CODE_FLAGS + 0x30
-	.equiv FLAG_SYS_TV_WATCH,           CODE_FLAGS + 0x31
-	.equiv FLAG_SYS_TV_START,           CODE_FLAGS + 0x32
-	.equiv FLAG_SYS_POPWORD_INPUT,      CODE_FLAGS + 0x33
-	.equiv FLAG_SYS_MIX_RECORD,         CODE_FLAGS + 0x34
-	.equiv FLAG_SYS_CLOCK_SET,          CODE_FLAGS + 0x35
-	.equiv FLAG_SYS_NATIONAL_DEX,       CODE_FLAGS + 0x36
-	.equiv FLAG_SYS_CAVE_SHIP,          CODE_FLAGS + 0x37
-	.equiv FLAG_SYS_CAVE_WONDER,        CODE_FLAGS + 0x38
-	.equiv FLAG_SYS_CAVE_BATTLE,        CODE_FLAGS + 0x39
-	.equiv FLAG_SYS_SHOAL_TIDE,         CODE_FLAGS + 0x3A
-	.equiv FLAG_SYS_RIBBON_GET,         CODE_FLAGS + 0x3B
+	.equiv FLAG_SYS_TV_HOME,            0x30
+	.equiv FLAG_SYS_TV_WATCH,           0x31
+	.equiv FLAG_SYS_TV_START,           0x32
+	.equiv FLAG_SYS_POPWORD_INPUT,      0x33
+	.equiv FLAG_SYS_MIX_RECORD,         0x34
+	.equiv FLAG_SYS_CLOCK_SET,          0x35
+	.equiv FLAG_SYS_NATIONAL_DEX,       0x36
+	.equiv FLAG_SYS_CAVE_SHIP,          0x37
+	.equiv FLAG_SYS_CAVE_WONDER,        0x38
+	.equiv FLAG_SYS_CAVE_BATTLE,        0x39
+	.equiv FLAG_SYS_SHOAL_TIDE,         0x3A
+	.equiv FLAG_SYS_RIBBON_GET,         0x3B
 
-	.equiv FLAG_0x89C,                      CODE_FLAGS + 0x3C
-	.equiv FLAG_0x89D,                      CODE_FLAGS + 0x3D
-	.equiv FLAG_0x89E,                      CODE_FLAGS + 0x3E
-	.equiv FLAG_0x89F,                      CODE_FLAGS + 0x3F
-	.equiv FLAG_0x8A0,                      CODE_FLAGS + 0x40
-	.equiv FLAG_0x8A1,                      CODE_FLAGS + 0x41
-	.equiv FLAG_0x8A2,                      CODE_FLAGS + 0x42
-	.equiv FLAG_0x8A3,                      CODE_FLAGS + 0x43
-	.equiv FLAG_0x8A4,                      CODE_FLAGS + 0x44
-	.equiv FLAG_0x8A5,                      CODE_FLAGS + 0x45
-	.equiv FLAG_0x8A6,                      CODE_FLAGS + 0x46
-	.equiv FLAG_0x8A7,                      CODE_FLAGS + 0x47
-	.equiv FLAG_UNLOCK_BATTLE_FRONTIER,     CODE_FLAGS + 0x48
-	.equiv FLAG_UNLOCK_SOUTHERN_ISLAND,     CODE_FLAGS + 0x49
-	.equiv FLAG_0x8AA,                      CODE_FLAGS + 0x4A
+	.equiv FLAG_0x89C,                      0x3C
+	.equiv FLAG_0x89D,                      0x3D
+	.equiv FLAG_0x89E,                      0x3E
+	.equiv FLAG_0x89F,                      0x3F
+	.equiv FLAG_0x8A0,                      0x40
+	.equiv FLAG_0x8A1,                      0x41
+	.equiv FLAG_0x8A2,                      0x42
+	.equiv FLAG_0x8A3,                      0x43
+	.equiv FLAG_0x8A4,                      0x44
+	.equiv FLAG_0x8A5,                      0x45
+	.equiv FLAG_0x8A6,                      0x46
+	.equiv FLAG_0x8A7,                      0x47
+	.equiv FLAG_UNLOCK_BATTLE_FRONTIER,     0x48
+	.equiv FLAG_UNLOCK_SOUTHERN_ISLAND,     0x49
+	.equiv FLAG_0x8AA,                      0x4A
 
-	.equiv FLAG_SYS_PC_LANETTE,             CODE_FLAGS + 0x4B
-	.equiv FLAG_SYS_MYSTERY_EVENT_ENABLE,   CODE_FLAGS + 0x4C
-	.equiv FLAG_SYS_ENC_UP_ITEM,            CODE_FLAGS + 0x4D
-	.equiv FLAG_SYS_ENC_DOWN_ITEM,          CODE_FLAGS + 0x4E
+	.equiv FLAG_SYS_PC_LANETTE,             0x4B
+	.equiv FLAG_SYS_MYSTERY_EVENT_ENABLE,   0x4C
+	.equiv FLAG_SYS_ENC_UP_ITEM,            0x4D
+	.equiv FLAG_SYS_ENC_DOWN_ITEM,          0x4E
 
-	.equiv FLAG_SYS_BRAILLE_DIG,            CODE_FLAGS + 0x4F
-	.equiv FLAG_SYS_BRAILLE_STRENGTH,       CODE_FLAGS + 0x50
-	.equiv FLAG_SYS_BRAILLE_WAIT,           CODE_FLAGS + 0x51
-	.equiv FLAG_SYS_BRAILLE_FLY,            CODE_FLAGS + 0x52
+	.equiv FLAG_SYS_BRAILLE_DIG,            0x4F
+	.equiv FLAG_SYS_BRAILLE_STRENGTH,       0x50
+	.equiv FLAG_SYS_BRAILLE_WAIT,           0x51
+	.equiv FLAG_SYS_BRAILLE_FLY,            0x52
 
-	.equiv FLAG_SYS_HAS_EON_TICKET,         CODE_FLAGS + 0x53
+	.equiv FLAG_SYS_HAS_EON_TICKET,         0x53
 
-	.equiv FLAG_SYS_POKEMON_LEAGUE_FLY, CODE_FLAGS + 0x54
+	.equiv FLAG_SYS_POKEMON_LEAGUE_FLY, 0x54
 
-	.equiv FLAG_0x8B5,                  CODE_FLAGS + 0x55
-	.equiv FLAG_0x8B6,                  CODE_FLAGS + 0x56
-	.equiv FLAG_0x8B7,                  CODE_FLAGS + 0x57
-	.equiv FLAG_0x8B8,                  CODE_FLAGS + 0x58
-	.equiv FLAG_0x8B9,                  CODE_FLAGS + 0x59
-	.equiv FLAG_0x8BA,                  CODE_FLAGS + 0x5A
-	.equiv FLAG_0x8BB,                  CODE_FLAGS + 0x5B
-	.equiv FLAG_0x8BC,                  CODE_FLAGS + 0x5C
+	.equiv FLAG_0x8B5,                  0x55
+	.equiv FLAG_0x8B6,                  0x56
+	.equiv FLAG_0x8B7,                  0x57
+	.equiv FLAG_0x8B8,                  0x58
+	.equiv FLAG_0x8B9,                  0x59
+	.equiv FLAG_0x8BA,                  0x5A
+	.equiv FLAG_0x8BB,                  0x5B
+	.equiv FLAG_0x8BC,                  0x5C
 
-	.equiv FLAG_SYS_TV_LATI,            CODE_FLAGS + 0x5D
+	.equiv FLAG_SYS_TV_LATI,            0x5D
 
-	.equiv FLAG_0x8BE,                  CODE_FLAGS + 0x5E
+	.equiv FLAG_0x8BE,                  0x5E
 
-	.equiv FLAG_SYS_SHOAL_ITEM,         CODE_FLAGS + 0x5F
-	.equiv FLAG_SYS_B_DASH,             CODE_FLAGS + 0x60 @ got Running Shoes
-	.equiv FLAG_SYS_STORAGE_UNKNOWN_FLAG,   CODE_FLAGS + 0x79
-	.equiv FLAG_0x8DA,                      CODE_FLAGS + 0x7A
-	.equiv FLAG_SYS_MYSTERY_GIFT_ENABLE,    CODE_FLAGS + 0x7B
+	.equiv FLAG_SYS_SHOAL_ITEM,         0x5F
+	.equiv FLAG_SYS_B_DASH,             0x60 @ got Running Shoes
+	.equiv FLAG_SYS_STORAGE_UNKNOWN_FLAG,   0x79
+	.equiv FLAG_0x8DA,                      0x7A
+	.equiv FLAG_SYS_MYSTERY_GIFT_ENABLE,    0x7B
 	
 
 @ badges
         
-	.equiv FLAG_BADGE01_GET,        CODE_FLAGS + 0x71
-	.equiv FLAG_BADGE02_GET,        CODE_FLAGS + 0x72
-	.equiv FLAG_BADGE03_GET,        CODE_FLAGS + 0x73
-	.equiv FLAG_BADGE04_GET,        CODE_FLAGS + 0x74
-	.equiv FLAG_BADGE05_GET,        CODE_FLAGS + 0x75
-	.equiv FLAG_BADGE06_GET,        CODE_FLAGS + 0x76
-	.equiv FLAG_BADGE07_GET,        CODE_FLAGS + 0x77
-	.equiv FLAG_BADGE08_GET,        CODE_FLAGS + 0x78
-	.equiv FLAG_0x8DC,              CODE_FLAGS + 0x7C
-	.equiv FLAG_0x8DD,              CODE_FLAGS + 0x7D
-	.equiv FLAG_0x8DE,              CODE_FLAGS + 0x7E
-	.equiv FLAG_0x8DF,              CODE_FLAGS + 0x7F
-	.equiv FLAG_0x8E0,              CODE_FLAGS + 0x80
-	.equiv FLAG_BADGE09_GET,        CODE_FLAGS + 0x81
-	.equiv FLAG_BADGE10_GET,        CODE_FLAGS + 0x82
-	.equiv FLAG_BADGE11_GET,        CODE_FLAGS + 0x83
-	.equiv FLAG_BADGE12_GET,        CODE_FLAGS + 0x84
-	.equiv FLAG_BADGE13_GET,        CODE_FLAGS + 0x85
-	.equiv FLAG_BADGE14_GET,        CODE_FLAGS + 0x86
-	.equiv FLAG_BADGE15_GET,        CODE_FLAGS + 0x87
-	.equiv FLAG_BADGE16_GET,        CODE_FLAGS + 0x88
-	.equiv FLAG_0x8E9,              CODE_FLAGS + 0x89
-	.equiv FLAG_0x8EA,              CODE_FLAGS + 0x8A
-	.equiv FLAG_0x8EB,              CODE_FLAGS + 0x8B
-	.equiv FLAG_0x8EC,              CODE_FLAGS + 0x8C
-	.equiv FLAG_0x8ED,              CODE_FLAGS + 0x8D
-	.equiv FLAG_0x8EE,              CODE_FLAGS + 0x8E
-	.equiv FLAG_0x8EF,              CODE_FLAGS + 0x8F
-	.equiv FLAG_0x8F0,              CODE_FLAGS + 0x90
-	.equiv FLAG_BADGE17_GET,        CODE_FLAGS + 0x91
-	.equiv FLAG_BADGE18_GET,        CODE_FLAGS + 0x92
-	.equiv FLAG_BADGE19_GET,        CODE_FLAGS + 0x93
-	.equiv FLAG_BADGE20_GET,        CODE_FLAGS + 0x94
-	.equiv FLAG_BADGE21_GET,        CODE_FLAGS + 0x95
-	.equiv FLAG_BADGE22_GET,        CODE_FLAGS + 0x96
-	.equiv FLAG_BADGE23_GET,        CODE_FLAGS + 0x97
-	.equiv FLAG_BADGE24_GET,        CODE_FLAGS + 0x98
-	.equiv FLAG_0x8F9,              CODE_FLAGS + 0x99
-	.equiv FLAG_0x8FA,              CODE_FLAGS + 0x9A
-	.equiv FLAG_0x8FB,              CODE_FLAGS + 0x9B
-	.equiv FLAG_0x8FC,              CODE_FLAGS + 0x9C
-	.equiv FLAG_0x8FD,              CODE_FLAGS + 0x9D
-	.equiv FLAG_0x8FE,              CODE_FLAGS + 0x9E
-	.equiv FLAG_0x8FF,              CODE_FLAGS + 0x9F
-	.equiv FLAG_0x900,              CODE_FLAGS + 0xA0
-	.equiv FLAG_BADGE25_GET,        CODE_FLAGS + 0xA1
-	.equiv FLAG_BADGE26_GET,        CODE_FLAGS + 0xA2
-	.equiv FLAG_BADGE27_GET,        CODE_FLAGS + 0xA3
-	.equiv FLAG_BADGE28_GET,        CODE_FLAGS + 0xA4
-	.equiv FLAG_BADGE29_GET,        CODE_FLAGS + 0xA5
-	.equiv FLAG_BADGE30_GET,        CODE_FLAGS + 0xA6
-	.equiv FLAG_BADGE31_GET,        CODE_FLAGS + 0xA7
-	.equiv FLAG_BADGE32_GET,        CODE_FLAGS + 0xA8
-	.equiv FLAG_0x909,              CODE_FLAGS + 0xA9
-	.equiv FLAG_0x90A,              CODE_FLAGS + 0xAA
-	.equiv FLAG_0x90B,              CODE_FLAGS + 0xAB
-	.equiv FLAG_0x90C,              CODE_FLAGS + 0xAC
-	.equiv FLAG_0x90D,              CODE_FLAGS + 0xAD
-	.equiv FLAG_0x90E,              CODE_FLAGS + 0xAE
-	.equiv FLAG_0x90F,              CODE_FLAGS + 0xAF
-	.equiv FLAG_0x910,              CODE_FLAGS + 0xB0
-	.equiv FLAG_BADGE33_GET,        CODE_FLAGS + 0xB1
-	.equiv FLAG_BADGE34_GET,        CODE_FLAGS + 0xB2
-	.equiv FLAG_BADGE35_GET,        CODE_FLAGS + 0xB3
-	.equiv FLAG_BADGE36_GET,        CODE_FLAGS + 0xB4
-	.equiv FLAG_BADGE37_GET,        CODE_FLAGS + 0xB5
-	.equiv FLAG_BADGE38_GET,        CODE_FLAGS + 0xB6
-	.equiv FLAG_BADGE39_GET,        CODE_FLAGS + 0xB7
-	.equiv FLAG_BADGE40_GET,        CODE_FLAGS + 0xB8
-	.equiv FLAG_0x919,              CODE_FLAGS + 0xB9
-	.equiv FLAG_0x91A,              CODE_FLAGS + 0xBA
-	.equiv FLAG_0x91B,              CODE_FLAGS + 0xBB
-	.equiv FLAG_0x91C,              CODE_FLAGS + 0xBC
-	.equiv FLAG_0x91D,              CODE_FLAGS + 0xBD
-	.equiv FLAG_0x91E,              CODE_FLAGS + 0xBE
-	.equiv FLAG_0x91F,              CODE_FLAGS + 0xBF
-	.equiv FLAG_0x920,              CODE_FLAGS + 0xC0
-	.equiv FLAG_BADGE41_GET,        CODE_FLAGS + 0xC1
-	.equiv FLAG_BADGE42_GET,        CODE_FLAGS + 0xC2
-	.equiv FLAG_BADGE43_GET,        CODE_FLAGS + 0xC3
-	.equiv FLAG_BADGE44_GET,        CODE_FLAGS + 0xC4
-	.equiv FLAG_BADGE45_GET,        CODE_FLAGS + 0xC5
-	.equiv FLAG_BADGE46_GET,        CODE_FLAGS + 0xC6
-	.equiv FLAG_BADGE47_GET,        CODE_FLAGS + 0xC7
-	.equiv FLAG_BADGE48_GET,        CODE_FLAGS + 0xC8
-	.equiv FLAG_0x929,              CODE_FLAGS + 0xC9
-	.equiv FLAG_0x92A,              CODE_FLAGS + 0xCA
-	.equiv FLAG_0x92B,              CODE_FLAGS + 0xCB
-	.equiv FLAG_0x92C,              CODE_FLAGS + 0xCC
-	.equiv FLAG_0x92D,              CODE_FLAGS + 0xCD
-	.equiv FLAG_0x92E,              CODE_FLAGS + 0xCE
-	.equiv FLAG_0x92F,              CODE_FLAGS + 0xCF
-	.equiv FLAG_0x930,              CODE_FLAGS + 0xD0
-	.equiv FLAG_BADGE49_GET,        CODE_FLAGS + 0xD1
-	.equiv FLAG_BADGE50_GET,        CODE_FLAGS + 0xD2
-	.equiv FLAG_BADGE51_GET,        CODE_FLAGS + 0xD3
-	.equiv FLAG_BADGE52_GET,        CODE_FLAGS + 0xD4
-	.equiv FLAG_BADGE53_GET,        CODE_FLAGS + 0xD5
-	.equiv FLAG_BADGE54_GET,        CODE_FLAGS + 0xD6
-	.equiv FLAG_BADGE55_GET,        CODE_FLAGS + 0xD7
-	.equiv FLAG_BADGE56_GET,        CODE_FLAGS + 0xD8
-	.equiv FLAG_0x939,              CODE_FLAGS + 0xD9
-	.equiv FLAG_0x93A,              CODE_FLAGS + 0xDA
-	.equiv FLAG_0x93B,              CODE_FLAGS + 0xDB
-	.equiv FLAG_0x93C,              CODE_FLAGS + 0xDC
-	.equiv FLAG_0x93D,              CODE_FLAGS + 0xDD
-	.equiv FLAG_0x93E,              CODE_FLAGS + 0xDE
-	.equiv FLAG_0x93F,              CODE_FLAGS + 0xDF
-	.equiv FLAG_0x940,              CODE_FLAGS + 0xE0
-	.equiv FLAG_BADGE57_GET,        CODE_FLAGS + 0xE1
-	.equiv FLAG_BADGE58_GET,        CODE_FLAGS + 0xE2
-	.equiv FLAG_BADGE59_GET,        CODE_FLAGS + 0xE3
-	.equiv FLAG_BADGE60_GET,        CODE_FLAGS + 0xE4
-	.equiv FLAG_BADGE61_GET,        CODE_FLAGS + 0xE5
-	.equiv FLAG_BADGE62_GET,        CODE_FLAGS + 0xE6
-	.equiv FLAG_BADGE63_GET,        CODE_FLAGS + 0xE7
-	.equiv FLAG_BADGE64_GET,        CODE_FLAGS + 0xE8
-	.equiv FLAG_0x949,              CODE_FLAGS + 0xE9
-	.equiv FLAG_0x94A,              CODE_FLAGS + 0xEA
-	.equiv FLAG_0x94B,              CODE_FLAGS + 0xEB
-	.equiv FLAG_0x94C,              CODE_FLAGS + 0xEC
-	.equiv FLAG_0x94D,              CODE_FLAGS + 0xED
-	.equiv FLAG_0x94E,              CODE_FLAGS + 0xEE
-	.equiv FLAG_0x94F,              CODE_FLAGS + 0xEF
-	.equiv FLAG_0x950,              CODE_FLAGS + 0xF0
-	.equiv FLAG_BADGE65_GET,        CODE_FLAGS + 0xF1
-	.equiv FLAG_BADGE66_GET,        CODE_FLAGS + 0xF2
-	.equiv FLAG_BADGE67_GET,        CODE_FLAGS + 0xF3
-	.equiv FLAG_BADGE68_GET,        CODE_FLAGS + 0xF4
-	.equiv FLAG_BADGE69_GET,        CODE_FLAGS + 0xF5
-	.equiv FLAG_BADGE70_GET,        CODE_FLAGS + 0xF6
-	.equiv FLAG_BADGE71_GET,        CODE_FLAGS + 0xF7
-	.equiv FLAG_BADGE72_GET,        CODE_FLAGS + 0xF8
-	.equiv FLAG_0x959,              CODE_FLAGS + 0xF9
-	.equiv FLAG_0x95A,              CODE_FLAGS + 0xFA
-	.equiv FLAG_0x95B,              CODE_FLAGS + 0xFB
-	.equiv FLAG_0x95C,              CODE_FLAGS + 0xFC
-	.equiv FLAG_0x95D,              CODE_FLAGS + 0xFD
-	.equiv FLAG_0x95E,              CODE_FLAGS + 0xFE
-	.equiv FLAG_0x95F,              CODE_FLAGS + 0xFF
-	.equiv FLAG_BADGE73_GET,        CODE_FLAGS + 0x101
-	.equiv FLAG_BADGE74_GET,        CODE_FLAGS + 0x102
-	.equiv FLAG_BADGE75_GET,        CODE_FLAGS + 0x103
-	.equiv FLAG_BADGE76_GET,        CODE_FLAGS + 0x104
-	.equiv FLAG_BADGE77_GET,        CODE_FLAGS + 0x105
-	.equiv FLAG_BADGE78_GET,        CODE_FLAGS + 0x106
-	.equiv FLAG_BADGE79_GET,        CODE_FLAGS + 0x107
-	.equiv FLAG_BADGE80_GET,        CODE_FLAGS + 0x108
+	.equiv FLAG_BADGE01_GET,        0x71
+	.equiv FLAG_BADGE02_GET,        0x72
+	.equiv FLAG_BADGE03_GET,        0x73
+	.equiv FLAG_BADGE04_GET,        0x74
+	.equiv FLAG_BADGE05_GET,        0x75
+	.equiv FLAG_BADGE06_GET,        0x76
+	.equiv FLAG_BADGE07_GET,        0x77
+	.equiv FLAG_BADGE08_GET,        0x78
+	.equiv FLAG_0x8DC,              0x7C
+	.equiv FLAG_0x8DD,              0x7D
+	.equiv FLAG_0x8DE,              0x7E
+	.equiv FLAG_0x8DF,              0x7F
+	.equiv FLAG_0x8E0,              0x80
+	.equiv FLAG_BADGE09_GET,        0x81
+	.equiv FLAG_BADGE10_GET,        0x82
+	.equiv FLAG_BADGE11_GET,        0x83
+	.equiv FLAG_BADGE12_GET,        0x84
+	.equiv FLAG_BADGE13_GET,        0x85
+	.equiv FLAG_BADGE14_GET,        0x86
+	.equiv FLAG_BADGE15_GET,        0x87
+	.equiv FLAG_BADGE16_GET,        0x88
+	.equiv FLAG_0x8E9,              0x89
+	.equiv FLAG_0x8EA,              0x8A
+	.equiv FLAG_0x8EB,              0x8B
+	.equiv FLAG_0x8EC,              0x8C
+	.equiv FLAG_0x8ED,              0x8D
+	.equiv FLAG_0x8EE,              0x8E
+	.equiv FLAG_0x8EF,              0x8F
+	.equiv FLAG_0x8F0,              0x90
+	.equiv FLAG_BADGE17_GET,        0x91
+	.equiv FLAG_BADGE18_GET,        0x92
+	.equiv FLAG_BADGE19_GET,        0x93
+	.equiv FLAG_BADGE20_GET,        0x94
+	.equiv FLAG_BADGE21_GET,        0x95
+	.equiv FLAG_BADGE22_GET,        0x96
+	.equiv FLAG_BADGE23_GET,        0x97
+	.equiv FLAG_BADGE24_GET,        0x98
+	.equiv FLAG_0x8F9,              0x99
+	.equiv FLAG_0x8FA,              0x9A
+	.equiv FLAG_0x8FB,              0x9B
+	.equiv FLAG_0x8FC,              0x9C
+	.equiv FLAG_0x8FD,              0x9D
+	.equiv FLAG_0x8FE,              0x9E
+	.equiv FLAG_0x8FF,              0x9F
+	.equiv FLAG_0x900,              0xA0
+	.equiv FLAG_BADGE25_GET,        0xA1
+	.equiv FLAG_BADGE26_GET,        0xA2
+	.equiv FLAG_BADGE27_GET,        0xA3
+	.equiv FLAG_BADGE28_GET,        0xA4
+	.equiv FLAG_BADGE29_GET,        0xA5
+	.equiv FLAG_BADGE30_GET,        0xA6
+	.equiv FLAG_BADGE31_GET,        0xA7
+	.equiv FLAG_BADGE32_GET,        0xA8
+	.equiv FLAG_0x909,              0xA9
+	.equiv FLAG_0x90A,              0xAA
+	.equiv FLAG_0x90B,              0xAB
+	.equiv FLAG_0x90C,              0xAC
+	.equiv FLAG_0x90D,              0xAD
+	.equiv FLAG_0x90E,              0xAE
+	.equiv FLAG_0x90F,              0xAF
+	.equiv FLAG_0x910,              0xB0
+	.equiv FLAG_BADGE33_GET,        0xB1
+	.equiv FLAG_BADGE34_GET,        0xB2
+	.equiv FLAG_BADGE35_GET,        0xB3
+	.equiv FLAG_BADGE36_GET,        0xB4
+	.equiv FLAG_BADGE37_GET,        0xB5
+	.equiv FLAG_BADGE38_GET,        0xB6
+	.equiv FLAG_BADGE39_GET,        0xB7
+	.equiv FLAG_BADGE40_GET,        0xB8
+	.equiv FLAG_0x919,              0xB9
+	.equiv FLAG_0x91A,              0xBA
+	.equiv FLAG_0x91B,              0xBB
+	.equiv FLAG_0x91C,              0xBC
+	.equiv FLAG_0x91D,              0xBD
+	.equiv FLAG_0x91E,              0xBE
+	.equiv FLAG_0x91F,              0xBF
+	.equiv FLAG_0x920,              0xC0
+	.equiv FLAG_BADGE41_GET,        0xC1
+	.equiv FLAG_BADGE42_GET,        0xC2
+	.equiv FLAG_BADGE43_GET,        0xC3
+	.equiv FLAG_BADGE44_GET,        0xC4
+	.equiv FLAG_BADGE45_GET,        0xC5
+	.equiv FLAG_BADGE46_GET,        0xC6
+	.equiv FLAG_BADGE47_GET,        0xC7
+	.equiv FLAG_BADGE48_GET,        0xC8
+	.equiv FLAG_0x929,              0xC9
+	.equiv FLAG_0x92A,              0xCA
+	.equiv FLAG_0x92B,              0xCB
+	.equiv FLAG_0x92C,              0xCC
+	.equiv FLAG_0x92D,              0xCD
+	.equiv FLAG_0x92E,              0xCE
+	.equiv FLAG_0x92F,              0xCF
+	.equiv FLAG_0x930,              0xD0
+	.equiv FLAG_BADGE49_GET,        0xD1
+	.equiv FLAG_BADGE50_GET,        0xD2
+	.equiv FLAG_BADGE51_GET,        0xD3
+	.equiv FLAG_BADGE52_GET,        0xD4
+	.equiv FLAG_BADGE53_GET,        0xD5
+	.equiv FLAG_BADGE54_GET,        0xD6
+	.equiv FLAG_BADGE55_GET,        0xD7
+	.equiv FLAG_BADGE56_GET,        0xD8
+	.equiv FLAG_0x939,              0xD9
+	.equiv FLAG_0x93A,              0xDA
+	.equiv FLAG_0x93B,              0xDB
+	.equiv FLAG_0x93C,              0xDC
+	.equiv FLAG_0x93D,              0xDD
+	.equiv FLAG_0x93E,              0xDE
+	.equiv FLAG_0x93F,              0xDF
+	.equiv FLAG_0x940,              0xE0
+	.equiv FLAG_BADGE57_GET,        0xE1
+	.equiv FLAG_BADGE58_GET,        0xE2
+	.equiv FLAG_BADGE59_GET,        0xE3
+	.equiv FLAG_BADGE60_GET,        0xE4
+	.equiv FLAG_BADGE61_GET,        0xE5
+	.equiv FLAG_BADGE62_GET,        0xE6
+	.equiv FLAG_BADGE63_GET,        0xE7
+	.equiv FLAG_BADGE64_GET,        0xE8
+	.equiv FLAG_0x949,              0xE9
+	.equiv FLAG_0x94A,              0xEA
+	.equiv FLAG_0x94B,              0xEB
+	.equiv FLAG_0x94C,              0xEC
+	.equiv FLAG_0x94D,              0xED
+	.equiv FLAG_0x94E,              0xEE
+	.equiv FLAG_0x94F,              0xEF
+	.equiv FLAG_0x950,              0xF0
+	.equiv FLAG_BADGE65_GET,        0xF1
+	.equiv FLAG_BADGE66_GET,        0xF2
+	.equiv FLAG_BADGE67_GET,        0xF3
+	.equiv FLAG_BADGE68_GET,        0xF4
+	.equiv FLAG_BADGE69_GET,        0xF5
+	.equiv FLAG_BADGE70_GET,        0xF6
+	.equiv FLAG_BADGE71_GET,        0xF7
+	.equiv FLAG_BADGE72_GET,        0xF8
+	.equiv FLAG_0x959,              0xF9
+	.equiv FLAG_0x95A,              0xFA
+	.equiv FLAG_0x95B,              0xFB
+	.equiv FLAG_0x95C,              0xFC
+	.equiv FLAG_0x95D,              0xFD
+	.equiv FLAG_0x95E,              0xFE
+	.equiv FLAG_0x95F,              0xFF
+	.equiv FLAG_BADGE73_GET,        0x101
+	.equiv FLAG_BADGE74_GET,        0x102
+	.equiv FLAG_BADGE75_GET,        0x103
+	.equiv FLAG_BADGE76_GET,        0x104
+	.equiv FLAG_BADGE77_GET,        0x105
+	.equiv FLAG_BADGE78_GET,        0x106
+	.equiv FLAG_BADGE79_GET,        0x107
+	.equiv FLAG_BADGE80_GET,        0x108
 @ symbols
-        .equiv FLAG_SYS_TOWER_SILVER,   CODE_FLAGS + 0x1001
-	.equiv FLAG_SYS_TOWER_GOLD,     CODE_FLAGS + 0x1002
-	.equiv FLAG_SYS_DOME_SILVER,    CODE_FLAGS + 0x1003
-	.equiv FLAG_SYS_DOME_GOLD,      CODE_FLAGS + 0x1004
-	.equiv FLAG_SYS_PALACE_SILVER,  CODE_FLAGS + 0x1005
-	.equiv FLAG_SYS_PALACE_GOLD,    CODE_FLAGS + 0x1006
-	.equiv FLAG_SYS_ARENA_SILVER,   CODE_FLAGS + 0x1007
-	.equiv FLAG_SYS_ARENA_GOLD,     CODE_FLAGS + 0x1008
-	.equiv FLAG_SYS_FACTORY_SILVER, CODE_FLAGS + 0x1009
-	.equiv FLAG_SYS_FACTORY_GOLD,   CODE_FLAGS + 0x1010
-	.equiv FLAG_SYS_PIKE_SILVER,    CODE_FLAGS + 0x1011
-	.equiv FLAG_SYS_PIKE_GOLD,      CODE_FLAGS + 0x1012
-	.equiv FLAG_SYS_PYRAMID_SILVER, CODE_FLAGS + 0x1013
-	.equiv FLAG_SYS_PYRAMID_GOLD,   CODE_FLAGS + 0x1014
-	.equiv FLAG_SYS_FRONTIER_PASS,  CODE_FLAGS + 0x1015
+        .equiv FLAG_SYS_TOWER_SILVER,   0x1001
+	.equiv FLAG_SYS_TOWER_GOLD,     0x1002
+	.equiv FLAG_SYS_DOME_SILVER,    0x1003
+	.equiv FLAG_SYS_DOME_GOLD,      0x1004
+	.equiv FLAG_SYS_PALACE_SILVER,  0x1005
+	.equiv FLAG_SYS_PALACE_GOLD,    0x1006
+	.equiv FLAG_SYS_ARENA_SILVER,   0x1007
+	.equiv FLAG_SYS_ARENA_GOLD,     0x1008
+	.equiv FLAG_SYS_FACTORY_SILVER, 0x1009
+	.equiv FLAG_SYS_FACTORY_GOLD,   0x1010
+	.equiv FLAG_SYS_PIKE_SILVER,    0x1011
+	.equiv FLAG_SYS_PIKE_GOLD,      0x1012
+	.equiv FLAG_SYS_PYRAMID_SILVER, 0x1013
+	.equiv FLAG_SYS_PYRAMID_GOLD,   0x1014
+	.equiv FLAG_SYS_FRONTIER_PASS,  0x1015
 	
-	.equiv FLAG_SYS_CTRL_OBJ_DELETE,    CODE_FLAGS + 0x1016
-	.equiv FLAG_SYS_RESET_RTC_ENABLE,   CODE_FLAGS + 0x1017
-	.equiv FLAG_SYS_STAMPS,             CODE_FLAGS + 0x1018
+	.equiv FLAG_SYS_CTRL_OBJ_DELETE,    0x1016
+	.equiv FLAG_SYS_RESET_RTC_ENABLE,   0x1017
+	.equiv FLAG_SYS_STAMPS,             0x1018
 @ SPECIAL FLAGS (unknown purpose)
 
 	.equiv FLAG_SPECIAL_FLAG_0x4000,    0x4000
