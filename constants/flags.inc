@@ -1277,10 +1277,6 @@
 	.equiv FLAG_0x4FD,              0x4FD
 	.equiv FLAG_0x4FE,              0x4FE
 	.equiv FLAG_0x4FF,              0x4FF
-	.equiv FLAG_TRAINER_FLAG_START, 0x500
-
-	.equiv TRAINERS_FLAG_NO,        0x356
-	.equiv CODE_FLAGS,              (FLAG_TRAINER_FLAG_START + TRAINERS_FLAG_NO + 0xA) @ 0x860
 
 @ SYSTEM FLAGS
 
@@ -1567,8 +1563,7 @@
 	.equiv FLAG_SYS_PIKE_GOLD,      0x1012
 	.equiv FLAG_SYS_PYRAMID_SILVER, 0x1013
 	.equiv FLAG_SYS_PYRAMID_GOLD,   0x1014
-	.equiv FLAG_SYS_FRONTIER_PASS,  0x1015
-	
+	.equiv FLAG_SYS_FRONTIER_PASS,  0x1015	
 	.equiv FLAG_SYS_CTRL_OBJ_DELETE,    0x1016
 	.equiv FLAG_SYS_RESET_RTC_ENABLE,   0x1017
 	.equiv FLAG_SYS_STAMPS,             0x1018
