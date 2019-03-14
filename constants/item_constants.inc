@@ -210,8 +210,19 @@
 	.set ITEM_LAX_INCENSE,    0x0dd
 	.set ITEM_LUCKY_PUNCH,    0x0de
 	.set ITEM_METAL_POWDER,   0x0df
-	.set ITEM_THICK_CLUB,     0x0e0
-	.set ITEM_STICK,          0x0e1
+	.set ITEM_RED_ELEMENTORB,        0x0e1
+	.set ITEM_BLUE_ELEMENTORB,       0x0e2
+	.set ITEM_GREEN_ELEMENTORB,      0x0e3
+	.set ITEM_YELLOW_ELEMENTORB,     0x0e4
+	.set ITEM_ORANGE_ELEMENTORB,     0x0e5
+	.set ITEM_PINK_ELEMENTORB,       0x0e6
+	.set ITEM_PURPLE_ELEMENTORB,     0x0e7
+	.set ITEM_BROWN_ELEMENTORB,      0x0e8
+	.set ITEM_WHITE_ELEMENTORB,      0x0e9
+	.set ITEM_BLACK_ELEMENTORB,      0x0ea
+	.set ITEM_THICK_CLUB,     0x0ee
+	.set ITEM_STICK,          0x0ef
+	.set ITEM_COIN_CASE,      0x0f0
 	.set ITEM_RED_SCARF,      0x0f1
 	.set ITEM_BLUE_SCARF,     0x0f2
 	.set ITEM_GREEN_SCARF,    0x0f3
@@ -222,8 +233,8 @@
 	.set ITEM_BROWN_SCARF,    0x0f8
 	.set ITEM_WHITE_SCARF,    0x0f9
 	.set ITEM_BLACK_SCARF,    0x0fa
-	.set ITEM_COIN_CASE,      0x0ff
-	.set ITEM_DEVONCASE,      0x100	
+	.set ITEM_DEVONCASE,      0x0ff
+	.set ITEM_LETTER,         0x100
 	.set ITEM_MACH_BIKE,      0x103
 	.set ITEM_ACRO_BIKE,      0x104
 	.set ITEM_ITEMFINDER,     0x105
@@ -236,18 +247,17 @@
 	.set ITEM_DEVON_PARTS,    0x10d
 	.set ITEM_SOOT_SACK,      0x10e
 	.set ITEM_BASEMENT_KEY,   0x10f
-	.set ITEM_LETTER,         0x110
-	.set ITEM_EON_TICKET,     0x112
-	.set ITEM_RED_ORB,        0x113
-	.set ITEM_BLUE_ORB,       0x114
-	.set ITEM_GREEN_ORB,      0x115
-	.set ITEM_YELLOW_ORB,     0x116
-	.set ITEM_ORANGE_ORB,     0x117
-	.set ITEM_PINK_ORB,       0x118
-	.set ITEM_PURPLE_ORB,     0x119
-	.set ITEM_BROWN_ORB,      0x11a
-	.set ITEM_WHITE_ORB,      0x11b
-	.set ITEM_BLACK_ORB,      0x11c
+	.set ITEM_EON_TICKET,     0x110
+	.set ITEM_RED_ORB,        0x111
+	.set ITEM_BLUE_ORB,       0x112
+	.set ITEM_GREEN_ORB,      0x113
+	.set ITEM_YELLOW_ORB,     0x114
+	.set ITEM_ORANGE_ORB,     0x115
+	.set ITEM_PINK_ORB,       0x116
+	.set ITEM_PURPLE_ORB,     0x117
+	.set ITEM_BROWN_ORB,      0x118
+	.set ITEM_WHITE_ORB,      0x119
+	.set ITEM_BLACK_ORB,      0x11a
 	.set ITEM_STORAGE_KEY,    0x11d
 	.set ITEM_ROOT_FOSSIL,    0x11e
 	.set ITEM_CLAW_FOSSIL,    0x11f
