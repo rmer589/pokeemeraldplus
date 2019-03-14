@@ -47,9 +47,10 @@
 	.set ITEM_SHOAL_SALT,     0x02e
 	.set ITEM_SHOAL_SHELL,    0x02f
 	.set ITEM_RED_SHARD,      0x030
-	.set ITEM_BLUE_SHARD,     0x031
-	.set ITEM_YELLOW_SHARD,   0x032
-	.set ITEM_GREEN_SHARD,    0x033
+	.set ITEM_RED_SHARD,      0x031
+	.set ITEM_BLUE_SHARD,     0x032
+	.set ITEM_YELLOW_SHARD,   0x033
+	.set ITEM_GREEN_SHARD,    0x034
 	.set ITEM_HP_UP,          0x03f
 	.set ITEM_PROTEIN,        0x040
 	.set ITEM_IRON,           0x041
@@ -321,7 +322,7 @@
 	.set ITEM_HEMATITE,       0x190
 	.set ITEM_RED_PLUME,      0x191
 	.set ITEM_BLUE_PLUME,     0x192
-	.set ITEM_GREEM_PLUME,    0x193
+	.set ITEM_GREEN_PLUME,    0x193
 	.set ITEM_YELLOW_PLUME,   0x194
 	.set ITEM_ORANGE_PLUME,   0x195
 	.set ITEM_PINK_PLUME,     0x196
