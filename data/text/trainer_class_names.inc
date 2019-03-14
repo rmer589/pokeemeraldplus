@@ -1,13 +1,13 @@
 gTrainerClassNames:: @ 830FCD4
 	.string "{PKMN} TRAINER$", 13
-	.string "{PKMN} TRAINER$", 13
-	.string "{PKMN} TRAINER$", 13
+	.string "DARKNESS$", 13
+	.string "LIGHTNESS$", 13
 	.string "TEAM AQUA$", 13
 	.string "{PKMN} BREEDER$", 13
 	.string "COOLTRAINER$", 13
 	.string "ADMINISTRATOR$", 13
-	.string "EXECUTIVE$", 13
-	.string "SWIMMER♂$", 13
+	.string "TEAM DARK$", 13
+	.string "TEAM LIGHT$", 13
 	.string "TEAM MAGMA$", 13
 	.string "EXPERT$", 13
 	.string "AQUA ADMIN$", 13
@@ -24,7 +24,7 @@ gTrainerClassNames:: @ 830FCD4
 	.string "RICH BOY$", 13
 	.string "POKéMANIAC$", 13
 	.string "GUITARIST$", 13
-	.string "KINDLER$", 13
+	.string "TRAINER$", 13
 	.string "CAMPER$", 13
 	.string "PICNICKER$", 13
 	.string "BUG MANIAC$", 13
@@ -47,7 +47,7 @@ gTrainerClassNames:: @ 830FCD4
 	.string "SWIMMER♀$", 13
 	.string "TWINS$", 13
 	.string "SAILOR$", 13
-	.string "COOLTRAINER$", 13
+	.string "NIGHTWINGQUEEN$", 13
 	.string "MAGMA ADMIN$", 13
 	.string "{PKMN} TRAINER$", 13
 	.string "BUG CATCHER$", 13
@@ -56,7 +56,7 @@ gTrainerClassNames:: @ 830FCD4
 	.string "LASS$", 13
 	.string "YOUNG COUPLE$", 13
 	.string "OLD COUPLE$", 13
-	.string "SIS AND BRO$", 13
+	.string "ICEWINGKING$", 13
 	.string "SKYWING$", 13
 	.string "SEAWING$", 13
 	.string "RAINWING$", 13
