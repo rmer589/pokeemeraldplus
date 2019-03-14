@@ -1701,12 +1701,10 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
     s32 i, j;
     u8 monsCount;
 
-    if (trainerNum == SECRET_BASE_OPPONENT)
+    if (trainerNum == BATTLE_TYPE_TRAINEr)
         return 0;
 
-    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER && !(gBattleTypeFlags & (BATTLE_TYPE_FRONTIER
-                                                                        | BATTLE_TYPE_EREADER_TRAINER
-                                                                        | BATTLE_TYPE_x4000000)))
+    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
     {
         if (firstTrainer == TRUE)
             ZeroEnemyPartyMons();
@@ -1718,6 +1716,12 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
             else
                 monsCount = gTrainers[trainerNum].partySize;
         }
+	if (gBattleTypeFlags & BATTLE_TYPE_THREE_OPPONENTS)
+	{
+           if (gTrainers[trainerNum].partySize > 2)
+                monsCount = 2;
+            else
+                monsCount = gTrainers[trainerNum].partySize;		
         else
         {
             monsCount = gTrainers[trainerNum].partySize;
@@ -1728,6 +1732,8 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 
             if (gTrainers[trainerNum].doubleBattle == TRUE)
                 personalityValue = 0x80;
+            if (gTrainers[trainerNum].tripleBattle == TRUE)
+		personalityValue = 0x70;
             else if (gTrainers[trainerNum].encounterMusic_gender & 0x80)
                 personalityValue = 0x78;
             else
@@ -1820,7 +1826,7 @@ void sub_8038A04(void) // unused
 void VBlankCB_Battle(void)
 {
     // change gRngSeed every vblank unless the battle could be recorded
-    if (!(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_FRONTIER | BATTLE_TYPE_RECORDED)))
+    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER )
         Random();
 
     SetGpuReg(REG_OFFSET_BG0HOFS, gBattle_BG0_X);
@@ -4777,8 +4783,12 @@ static void HandleEndTurn_BattleWon(void)
         case CLASS_CHAMPION:
             PlayBGM(BGM_KACHI5);
             break;
+	case CLASS_DARKNESS:
+	case CLASS_LIGHTNESS:
         case CLASS_TEAM_AQUA:
         case CLASS_TEAM_MAGMA:
+        case CLASS_TEAM_DARK:
+        case CLASS_TEAM_LIGHT:
         case CLASS_AQUA_ADMIN:
         case CLASS_AQUA_LEADER:
         case CLASS_MAGMA_ADMIN:
