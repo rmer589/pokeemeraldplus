@@ -46,11 +46,21 @@
 	.set ITEM_SACRED_ASH,     0x02d
 	.set ITEM_SHOAL_SALT,     0x02e
 	.set ITEM_SHOAL_SHELL,    0x02f
-	.set ITEM_RED_SHARD,      0x030
+	.set ITEM_STORAGE_KEY,    0x030
 	.set ITEM_RED_SHARD,      0x031
 	.set ITEM_BLUE_SHARD,     0x032
-	.set ITEM_YELLOW_SHARD,   0x033
-	.set ITEM_GREEN_SHARD,    0x034
+	.set ITEM_GREEN_SHARD,    0x033
+	.set ITEM_YELLOW_SHARD,   0x034
+	.set ITEM_ORANGE_SHARD,   0x035
+	.set ITEM_PINK_SHARD,     0x036
+	.set ITEM_PURPLE_SHARD,   0x037
+	.set ITEM_BROWN_SHARD,    0x038
+	.set ITEM_WHITE_SHARD,    0x039
+	.set ITEM_BLACK_SHARD,    0x03a
+	.set ITEM_ROOM_1_KEY,     0x03b
+	.set ITEM_ROOM_2_KEY,     0x03c
+	.set ITEM_ROOM_4_KEY,     0x03d
+	.set ITEM_ROOM_6_KEY,     0x03e
 	.set ITEM_HP_UP,          0x03f
 	.set ITEM_PROTEIN,        0x040
 	.set ITEM_IRON,           0x041
@@ -60,33 +70,46 @@
 	.set ITEM_PP_UP,          0x045
 	.set ITEM_ZINC,           0x046
 	.set ITEM_PP_MAX,         0x047
-	.set ITEM_GUARD_SPEC,     0x049
+	.set ITEM_GUARD_SPEC,     0x048
+	.set ITEM_FLUFFY_TAIL,    0x049
 	.set ITEM_DIRE_HIT,       0x04a
 	.set ITEM_X_ATTACK,       0x04b
 	.set ITEM_X_DEFEND,       0x04c
 	.set ITEM_X_SPEED,        0x04d
 	.set ITEM_X_ACCURACY,     0x04e
 	.set ITEM_X_SPECIAL,      0x04f
-	.set ITEM_POKE_DOLL,      0x050
-	.set ITEM_FLUFFY_TAIL,    0x051
-	.set ITEM_SUPER_REPEL,    0x053
-	.set ITEM_MAX_REPEL,      0x054
-	.set ITEM_ESCAPE_ROPE,    0x055
-	.set ITEM_REPEL,          0x056
+	.set ITEM_ESCAPE_ROPE,    0x050
+	.set ITEM_SLOW_REPEL,     0x051
+	.set ITEM_FAST_REPEL,     0x052
+	.set ITEM_REPEL,          0x053
+	.set ITEM_SUPER_REPEL,    0x054
+	.set ITEM_HYPO_REPEL,     0x055
+	.set ITEM_HYPER_REPEL,    0x056
+	.set ITEM_MIN_REPEL,      0x057
+	.set ITEM_MAX_REPEL,      0x058
+	.set ITEM_POKE_DOLL,      0x059
+	.set ITEM_SMALL_MUSHROOM, 0x05b
+	.set ITEM_BIG_MUSHROOM,   0x05c
 	.set ITEM_SUN_STONE,      0x05d
-	.set ITEM_MOON_STONE,     0x05e
-	.set ITEM_FIRE_STONE,     0x05f
-	.set ITEM_THUNDER_STONE,  0x060
+	.set ITEM_DEVON_BADS,     0x05e
+	.set ITEM_DEVON_GOODS,    0x05f
+	.set ITEM_METEORITE,      0x060
 	.set ITEM_WATER_STONE,    0x061
 	.set ITEM_LEAF_STONE,     0x062
-	.set ITEM_TINY_MUSHROOM,  0x067
-	.set ITEM_BIG_MUSHROOM,   0x068
+	.set ITEM_FIRE_STONE,     0x063
+	.set ITEM_BOLT_STONE,     0x064
+	.set ITEM_LIGHT_STONE,    0x065
+	.set ITEM_DARK_STONE,     0x066
+	.set ITEM_MOON_STONE,     0x067
+	.set ITEM_SUN_STONE,      0x068
+	.set ITEM_SCANNER,        0x069
 	.set ITEM_PEARL,          0x06a
 	.set ITEM_BIG_PEARL,      0x06b
 	.set ITEM_STARDUST,       0x06c
 	.set ITEM_STAR_PIECE,     0x06d
 	.set ITEM_NUGGET,         0x06e
 	.set ITEM_HEART_SCALE,    0x06f
+	.set ITEM_GO_GOGGLES,     0x070
 	.set ITEM_ORANGE_MAIL,    0x079
 	.set ITEM_HARBOR_MAIL,    0x07a
 	.set ITEM_GLITTER_MAIL,   0x07b
@@ -189,13 +212,20 @@
 	.set ITEM_METAL_POWDER,   0x0df
 	.set ITEM_THICK_CLUB,     0x0e0
 	.set ITEM_STICK,          0x0e1
-	.set ITEM_RED_SCARF,      0x0fe
-	.set ITEM_BLUE_SCARF,     0x0ff
-	.set ITEM_PINK_SCARF,     0x100
-	.set ITEM_GREEN_SCARF,    0x101
-	.set ITEM_YELLOW_SCARF,   0x102
+	.set ITEM_RED_SCARF,      0x0f1
+	.set ITEM_BLUE_SCARF,     0x0f2
+	.set ITEM_GREEN_SCARF,    0x0f3
+	.set ITEM_YELLOW_SCARF,   0x0f4
+	.set ITEM_ORANGE_SCARF,   0x0f5
+	.set ITEM_PINK_SCARF,     0x0f6
+	.set ITEM_PURPLE_SCARF,   0x0f7
+	.set ITEM_BROWN_SCARF,    0x0f8
+	.set ITEM_WHITE_SCARF,    0x0f9
+	.set ITEM_BLACK_SCARF,    0x0fa
+	.set ITEM_COIN_CASE,      0x0ff
+	.set ITEM_DEVONCASE,      0x100	
 	.set ITEM_MACH_BIKE,      0x103
-	.set ITEM_COIN_CASE,      0x104
+	.set ITEM_ACRO_BIKE,      0x104
 	.set ITEM_ITEMFINDER,     0x105
 	.set ITEM_OLD_ROD,        0x106
 	.set ITEM_GOOD_ROD,       0x107
@@ -203,22 +233,21 @@
 	.set ITEM_SS_TICKET,      0x109
 	.set ITEM_CONTEST_PASS,   0x10a
 	.set ITEM_WAILMER_PAIL,   0x10c
-	.set ITEM_DEVON_GOODS,    0x10d
+	.set ITEM_DEVON_PARTS,    0x10d
 	.set ITEM_SOOT_SACK,      0x10e
 	.set ITEM_BASEMENT_KEY,   0x10f
-	.set ITEM_ACRO_BIKE,      0x110
-	.set ITEM_POKEBLOCK_CASE, 0x111
-	.set ITEM_LETTER,         0x112
-	.set ITEM_EON_TICKET,     0x113
-	.set ITEM_RED_ORB,        0x114
-	.set ITEM_BLUE_ORB,       0x115
-	.set ITEM_SCANNER,        0x116
-	.set ITEM_GO_GOGGLES,     0x117
-	.set ITEM_METEORITE,      0x118
-	.set ITEM_ROOM_1_KEY,     0x119
-	.set ITEM_ROOM_2_KEY,     0x11a
-	.set ITEM_ROOM_4_KEY,     0x11b
-	.set ITEM_ROOM_6_KEY,     0x11c
+	.set ITEM_LETTER,         0x110
+	.set ITEM_EON_TICKET,     0x112
+	.set ITEM_RED_ORB,        0x113
+	.set ITEM_BLUE_ORB,       0x114
+	.set ITEM_GREEN_ORB,      0x115
+	.set ITEM_YELLOW_ORB,     0x116
+	.set ITEM_ORANGE_ORB,     0x117
+	.set ITEM_PINK_ORB,       0x118
+	.set ITEM_PURPLE_ORB,     0x119
+	.set ITEM_BROWN_ORB,      0x11a
+	.set ITEM_WHITE_ORB,      0x11b
+	.set ITEM_BLACK_ORB,      0x11c
 	.set ITEM_STORAGE_KEY,    0x11d
 	.set ITEM_ROOT_FOSSIL,    0x11e
 	.set ITEM_CLAW_FOSSIL,    0x11f
