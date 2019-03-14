@@ -31,7 +31,7 @@ gTrainerClassNames:: @ 830FCD4
 	.string "TEAM ROCKET$", 13
 	.string "GENTLEMAN$", 13
 	.string "ELITE FOUR$", 13
-	.string "LEADER$", 13
+	.string "GYM LEADER$", 13
 	.string "SCHOOL KID$", 13
 	.string "SR. AND JR.$", 13
 	.string "WINSTRATE$", 13
@@ -57,12 +57,12 @@ gTrainerClassNames:: @ 830FCD4
 	.string "YOUNG COUPLE$", 13
 	.string "OLD COUPLE$", 13
 	.string "SIS AND BRO$", 13
-	.string "SALON MAIDEN$", 13
-	.string "DOME ACE$", 13
-	.string "PALACE MAVEN$", 13
-	.string "ARENA TYCOON$", 13
-	.string "FACTORY HEAD$", 13
-	.string "PIKE QUEEN$", 13
-	.string "PYRAMID KING$", 13
+	.string "SKYWING$", 13
+	.string "SEAWING$", 13
+	.string "RAINWING$", 13
+	.string "SANDWING$", 13
+	.string "NIGHTWING$", 13
+	.string "ICEWING$", 13
+	.string "PKMN TRAINER$", 13
 	.string "{PKMN} TRAINER$", 13
 	.string "{PKMN} TRAINER$", 13
