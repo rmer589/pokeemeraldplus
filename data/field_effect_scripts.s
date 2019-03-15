@@ -133,7 +133,7 @@ gFieldEffectScript_BikeHopBigSplash:: @ 82DBB4C
 	field_eff_loadfadedpal_callnative gFieldEffectObjectPaletteInfo0, oei_water_drop_tall
 	field_eff_end
 
-gFieldEffectScript_Splash:: @ 82DBB56
+gFieldEffectScript_UseLavaSurf:: @ 82DBB56
 	field_eff_callnative sub_80B8D44
 	field_eff_end
 
