@@ -1,36 +1,36 @@
 gTrainerClassNames:: @ 830FCD4
-	.string "{PKMN} TRAINER$", 13
+	.string "EVIL TRAINER$", 13
 	.string "DARKNESS$", 13
 	.string "LIGHTNESS$", 13
 	.string "TEAM AQUA$", 13
-	.string "{PKMN} BREEDER$", 13
+	.string "TEAM MAGMA$", 13
 	.string "COOLTRAINER$", 13
 	.string "ADMINISTRATOR$", 13
 	.string "TEAM DARK$", 13
 	.string "TEAM LIGHT$", 13
 	.string "TEAM MAGMA$", 13
-	.string "EXPERT$", 13
 	.string "AQUA ADMIN$", 13
-	.string "BLACK BELT$", 13
+	.string "MAGMA ADMIN$", 13
 	.string "AQUA LEADER$", 13
-	.string "HEX MANIAC$", 13
-	.string "AROMA LADY$", 13
+	.string "MAGMA LEADER$", 13
+	.string "AQUA BOSS$", 13
+	.string "MAGMA BOSS$", 13
 	.string "ROCKET ADMIN$", 13
-	.string "INTERVIEWER$", 13
-	.string "TUBER$", 13
-	.string "TUBER$", 13
-	.string "LADY$", 13
+	.string "TEAM ROCKET$", 13
+	.string "TEAM SHADOW$", 13
+	.string "ROCKET ADMIN$", 13
+	.string "SHADOW ADMIN$", 13
 	.string "BEAUTY$", 13
-	.string "RICH BOY$", 13
-	.string "POKéMANIAC$", 13
-	.string "GUITARIST$", 13
+	.string "MANLY$", 13
+	.string "ROCKET LEADER$", 13
+	.string "SHADOW LEADER$", 13
 	.string "TRAINER$", 13
 	.string "CAMPER$", 13
 	.string "PICNICKER$", 13
-	.string "BUG MANIAC$", 13
-	.string "TEAM ROCKET$", 13
+	.string "TEAM DARKNESS$", 13
+	.string "TEAM LIGHTNESS$", 13
 	.string "GENTLEMAN$", 13
-	.string "ELITE FOUR$", 13
+	.string "ELITE SEVENTEEN$", 13
 	.string "GYM LEADER$", 13
 	.string "SCHOOL KID$", 13
 	.string "SR. AND JR.$", 13
@@ -38,20 +38,20 @@ gTrainerClassNames:: @ 830FCD4
 	.string "POKéFAN$", 13
 	.string "YOUNGSTER$", 13
 	.string "CHAMPION$", 13
-	.string "FISHERMAN$", 13
-	.string "TRIATHLETE$", 13
+	.string "ROCKET BOSS$", 13
+	.string "SHADOW BOSS$", 13
 	.string "DRAGON TAMER$", 13
-	.string "NINJA BOY$", 13
-	.string "BATTLE GIRL$", 13
-	.string "PARASOL LADY$", 13
-	.string "SWIMMER♀$", 13
-	.string "TWINS$", 13
-	.string "SAILOR$", 13
+	.string "DARK ADMIN$", 13
+	.string "LIGHT ADMIN$", 13
+	.string "DARK LEADER$", 13
+	.string "LIGHT LEADER$", 13
+	.string "DARK BOSS$", 13
+	.string "LIGHT BOSS$", 13
 	.string "NIGHTWINGQUEEN$", 13
 	.string "MAGMA ADMIN$", 13
-	.string "{PKMN} TRAINER$", 13
+	.string "PKMN TRAINER$", 13
 	.string "BUG CATCHER$", 13
-	.string "{PKMN} RANGER$", 13
+	.string "RANGER$", 13
 	.string "MAGMA LEADER$", 13
 	.string "LASS$", 13
 	.string "YOUNG COUPLE$", 13
@@ -64,5 +64,5 @@ gTrainerClassNames:: @ 830FCD4
 	.string "NIGHTWING$", 13
 	.string "ICEWING$", 13
 	.string "PKMN TRAINER$", 13
-	.string "{PKMN} TRAINER$", 13
-	.string "{PKMN} TRAINER$", 13
+	.string "PKMN TRAINER$", 13
+	.string "PKMN TRAINER$", 13
