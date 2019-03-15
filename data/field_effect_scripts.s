@@ -20,7 +20,7 @@ gFieldEffectScriptPointers:: @ 82DB9D4
 	.4byte gFieldEffectScript_BikeHopTallGrass
 	.4byte gFieldEffectScript_SandFootprints
 	.4byte gFieldEffectScript_BikeHopBigSplash
-	.4byte gFieldEffectScript_Splash
+	.4byte gFieldEffectScript_UseLavaSurf
 	.4byte gFieldEffectScript_BikeHopSmallSplash
 	.4byte gFieldEffectScript_LongGrass
 	.4byte gFieldEffectScript_Unknown18
@@ -134,7 +134,7 @@ gFieldEffectScript_BikeHopBigSplash:: @ 82DBB4C
 	field_eff_end
 
 gFieldEffectScript_Splash:: @ 82DBB56
-	field_eff_loadfadedpal_callnative gFieldEffectObjectPaletteInfo0, sub_8154CEC
+	field_eff_callnative sub_80B8D44
 	field_eff_end
 
 gFieldEffectScript_BikeHopSmallSplash:: @ 82DBB60
