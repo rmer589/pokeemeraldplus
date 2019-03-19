@@ -243,7 +243,7 @@ enum
     ITEM_0ED,
     ITEM_0EE,
     ITEM_0EF,
-    ITEM_0F0,
+    ITEM_BLOCK_CASE,     // 0x0f0
     ITEM_0F1,
     ITEM_0F2,
     ITEM_0F3,
@@ -259,6 +259,24 @@ enum
     ITEM_0FD,
     ITEM_RED_SCARF,      // 0x0fe
     ITEM_BLUE_SCARF,     // 0x0ff
+    ITEM_COIN_CASE,      // 0x0g0
+    ITEM_RED_SCARF,      // 0x0g1
+    ITEM_BLUE_SCARF,     // 0x0g2
+    ITEM_GREEN_SCARF,    // 0x0g3
+    ITEM_YELLOW_SCARF,   // 0x0g4
+    ITEM_ORANGE_SCARF,   // 0x0g5
+    ITEM_PINK_SCARF,     // 0x0g6
+    ITEM_PURPLE_SCARF,   // 0x0g7
+    ITEM_BROWN_SCARF,    // 0x0g8
+    ITEM_WHITE_SCARF,    // 0x0g9
+    ITEM_BLACK_SCARF,    // 0x0g?
+    ITEM_COIN_CASE,      // 0x0ga
+    ITEM_COIN_CASE,      // 0x0gb
+    ITEM_COIN_CASE,      // 0x0gc
+    ITEM_COIN_CASE,      // 0x0gd
+    ITEM_COIN_CASE,      // 0x0ge
+    ITEM_COIN_CASE,      // 0x0gf
+    ITEM_COIN_CASE,      // 0x0gg
     ITEM_PINK_SCARF,     // 0x100
     ITEM_GREEN_SCARF,    // 0x101
     ITEM_YELLOW_SCARF,   // 0x102
@@ -276,7 +294,7 @@ enum
     ITEM_SOOT_SACK,      // 0x10e
     ITEM_BASEMENT_KEY,   // 0x10f
     ITEM_ACRO_BIKE,      // 0x110
-    ITEM_POKEBLOCK_CASE, // 0x111
+    ITEM_BLOCK_CASE,     // 0x111
     ITEM_LETTER,         // 0x112
     ITEM_EON_TICKET,     // 0x113
     ITEM_RED_ORB,        // 0x114
