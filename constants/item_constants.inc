@@ -14,6 +14,7 @@
 	.set ITEM_PREMIER_BALL,   0x00c
 	.set ITEM_POTION,         0x00d
 	.set ITEM_ANTIDOTE,       0x00e
+	.set ITEM_
 	.set ITEM_BURN_HEAL,      0x00f
 	.set ITEM_ICE_HEAL,       0x010
 	.set ITEM_AWAKENING,      0x011
@@ -24,14 +25,15 @@
 	.set ITEM_SUPER_POTION,   0x016
 	.set ITEM_FULL_HEAL,      0x017
 	.set ITEM_REVIVE,         0x018
-	.set ITEM_MAX_REVIVE,     0x019
-	.set ITEM_NEST_BALL,      0x01?
+	.set ITEM_REVIVE,         0x019
+	.set ITEM_MAX_REVIVE,     0x01?
 	.set ITEM_FRESH_WATER,    0x01a
 	.set ITEM_SODA_POP,       0x01b
 	.set ITEM_LEMONADE,       0x01c
-	.set ITEM_MOOMOO_MILK,    0x01d
-	.set ITEM_ENERGY_POWDER,  0x01e
-	.set ITEM_ENERGY_ROOT,    0x01f
+	.set ITEM_SODA_DRINK,     0x01d
+	.set ITEM_MOOMOO_MIlK,    0x01e
+	.set ITEM_ENERGY_POWDER,  0x01f
+	.set ITEM_ENERGY_ROOT,    0x01g
 	.set ITEM_HEAL_POWDER,    0x020
 	.set ITEM_REVIVAL_HERB,   0x021
 	.set ITEM_ETHER,          0x022
@@ -59,13 +61,14 @@
 	.set ITEM_PURPLE_SHARD,   0x037
 	.set ITEM_BROWN_SHARD,    0x038
 	.set ITEM_WHITE_SHARD,    0x039
-	.set ITEM_NEST_BALL,      0x03?
-	.set ITEM_BLACK_SHARD,    0x03a
-	.set ITEM_ROOM_1_KEY,     0x03b
-	.set ITEM_ROOM_2_KEY,     0x03c
+	.set ITEM_BLACK_SHARD,    0x03?
+	.set ITEM_ROOM_1_KEY,     0x03a
+	.set ITEM_ROOM_2_KEY,     0x03b
+	.set ITEM_ROOM_3_KEY,     0x03c
 	.set ITEM_ROOM_4_KEY,     0x03d
-	.set ITEM_ROOM_6_KEY,     0x03e
-	.set ITEM_HP_UP,          0x03f
+	.set ITEM_ROOM_5_KEY,     0x03e
+	.set ITEM_ROOM_6_KEY,     0x03f
+	.set ITEM_HP_UP,          0x03g
 	.set ITEM_PROTEIN,        0x040
 	.set ITEM_IRON,           0x041
 	.set ITEM_CARBOS,         0x042
@@ -142,6 +145,7 @@
 	.set ITEM_LUM_BERRY,      0x08d
 	.set ITEM_SITRUS_BERRY,   0x08e
 	.set ITEM_FIGY_BERRY,     0x08f
+	.set ITEM_CORNN_BERRY,    0x08g
 	.set ITEM_WIKI_BERRY,     0x090
 	.set ITEM_MAGO_BERRY,     0x091
 	.set ITEM_AGUAV_BERRY,    0x092
@@ -159,6 +163,7 @@
 	.set ITEM_GREPA_BERRY,    0x09d
 	.set ITEM_TAMATO_BERRY,   0x09e
 	.set ITEM_CORNN_BERRY,    0x09f
+	.set ITEM_CORNN_BERRY,    0x09g
 	.set ITEM_NEST_BALL,      0x0?0
 	.set ITEM_NEST_BALL,      0x0?9
 	.set ITEM_NEST_BALL,      0x0??
@@ -220,7 +225,8 @@
 	.set ITEM_CHARCOAL,       0x0d7
 	.set ITEM_DRAGON_FANG,    0x0d8
 	.set ITEM_SILK_SCARF,     0x0d9
-	.set ITEM_UP_GRADE,       0x0da
+	.set ITEM_UP_GRADE,       0x0d?
+	.set ITEM_SHELL_BELL,       0x0da
 	.set ITEM_SHELL_BELL,     0x0db
 	.set ITEM_SEA_INCENSE,    0x0dc
 	.set ITEM_LAX_INCENSE,    0x0dd
