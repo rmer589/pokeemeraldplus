@@ -8,14 +8,14 @@
 	.set ITEM_DIVE_BALL,      0x007
 	.set ITEM_NEST_BALL,      0x008
 	.set ITEM_REPEAT_BALL,    0x009
-	.set ITEM_NEST_BALL,      0x00?
-	.set ITEM_TIMER_BALL,     0x00a
+	.set ITEM_SPORT_BALL,     0x00?
+	.set ITEM_FRIEND_BALL,    0x00a
 	.set ITEM_LUXURY_BALL,    0x00b
 	.set ITEM_PREMIER_BALL,   0x00c
 	.set ITEM_POTION,         0x00d
 	.set ITEM_ANTIDOTE,       0x00e
-	.set ITEM_
-	.set ITEM_BURN_HEAL,      0x00f
+	.set ITEM_DROWN_HEAL,     0x00f
+	.set ITEM_BURN_HEAL,      0x00g
 	.set ITEM_ICE_HEAL,       0x010
 	.set ITEM_AWAKENING,      0x011
 	.set ITEM_PARALYZE_HEAL,  0x012
@@ -46,7 +46,6 @@
 	.set ITEM_RED_FLUTE,      0x029
 	.set ITEM_NEST_BALL,      0x02?
 	.set ITEM_BLACK_FLUTE,    0x02a
-	.set ITEM_WHITE_FLUTE,    0x02b
 	.set ITEM_BERRY_JUICE,    0x02c
 	.set ITEM_SACRED_ASH,     0x02d
 	.set ITEM_SHOAL_SALT,     0x02e
@@ -138,35 +137,50 @@
 	.set ITEM_PECHA_BERRY,    0x087
 	.set ITEM_RAWST_BERRY,    0x088
 	.set ITEM_ASPEAR_BERRY,   0x089
-	.set ITEM_NEST_BALL,      0x08?
+	.set ITEM_OSPEAR_BERRY,   0x08?
 	.set ITEM_LEPPA_BERRY,    0x08a
 	.set ITEM_ORAN_BERRY,     0x08b
 	.set ITEM_PERSIM_BERRY,   0x08c
 	.set ITEM_LUM_BERRY,      0x08d
 	.set ITEM_SITRUS_BERRY,   0x08e
 	.set ITEM_FIGY_BERRY,     0x08f
-	.set ITEM_CORNN_BERRY,    0x08g
-	.set ITEM_WIKI_BERRY,     0x090
-	.set ITEM_MAGO_BERRY,     0x091
-	.set ITEM_AGUAV_BERRY,    0x092
-	.set ITEM_IAPAPA_BERRY,   0x093
-	.set ITEM_RAZZ_BERRY,     0x094
-	.set ITEM_BLUK_BERRY,     0x095
-	.set ITEM_NANAB_BERRY,    0x096
-	.set ITEM_WEPEAR_BERRY,   0x097
-	.set ITEM_PINAP_BERRY,    0x098
-	.set ITEM_POMEG_BERRY,    0x099
-	.set ITEM_NEST_BALL,      0x09?
-	.set ITEM_KELPSY_BERRY,   0x09a
-	.set ITEM_QUALOT_BERRY,   0x09b
-	.set ITEM_HONDEW_BERRY,   0x09c
-	.set ITEM_GREPA_BERRY,    0x09d
-	.set ITEM_TAMATO_BERRY,   0x09e
-	.set ITEM_CORNN_BERRY,    0x09f
-	.set ITEM_CORNN_BERRY,    0x09g
-	.set ITEM_NEST_BALL,      0x0?0
-	.set ITEM_NEST_BALL,      0x0?9
-	.set ITEM_NEST_BALL,      0x0??
+	.set ITEM_HIGY_BERRY,     0x08g
+	.set ITEM_VIKI_BERRY,     0x090
+	.set ITEM_RED_FLUTE,      0x091
+	.set ITEM_BLUE_FLUTE,     0x092
+	.set ITEM_GREEN_FLUTE,    0x093
+	.set ITEM_YELLOW_FLUTE,   0x094
+	.set ITEM_ORANGE_FLUTE,   0x095
+	.set ITEM_PINK_FLUTE,     0x096
+	.set ITEM_PURPLE_FLUTE,   0x097
+	.set ITEM_BROWN_FLUTE,    0x098
+	.set ITEM_WHITE_FLUTE,    0x099
+	.set ITEM_BLACK_FLUTE,    0x09?
+	.set ITEM_MELPSY_BERRY,   0x09a
+	.set ITEM_NELPSY_BERRY,   0x09b
+	.set ITEM_BONDEW_BERRY,   0x09c
+	.set ITEM_DONDEW_BERRY,   0x09d
+	.set ITEM_FONDEW_BERRY,   0x09e
+	.set ITEM_GONDEW_BERRY,   0x09f
+	.set ITEM_HONDEW_BERRY,   0x09g
+	.set ITEM_WIKI_BERRY,     0x0?0
+	.set ITEM_MAGO_BERRY,     0x0?1
+	.set ITEM_AGUAV_BERRY,    0x0?2
+	.set ITEM_IAPAPA_BERRY,   0x0?3
+	.set ITEM_RAZZ_BERRY,     0x0?4
+	.set ITEM_BLUK_BERRY,     0x0?5
+	.set ITEM_NANAB_BERRY,    0x0?6
+	.set ITEM_WEPEAR_BERRY,   0x0?7
+	.set ITEM_PINAP_BERRY,    0x0?8
+	.set ITEM_POMEG_BERRY,    0x0?9
+	.set ITEM_FORNN_BERRY,    0x0??
+	.set ITEM_KELPSY_BERRY,   0x0?a
+	.set ITEM_QUALOT_BERRY,   0x0?b
+	.set ITEM_HONDEW_BERRY,   0x0?c
+	.set ITEM_GREPA_BERRY,    0x0?d
+	.set ITEM_TAMATO_BERRY,   0x0?e
+	.set ITEM_CORNN_BERRY,    0x0?f
+	.set ITEM_DORNN_BERRY,    0x0?g
 	.set ITEM_MAGOST_BERRY,   0x0a0
 	.set ITEM_RABUTA_BERRY,   0x0a1
 	.set ITEM_NOMEL_BERRY,    0x0a2
@@ -183,7 +197,7 @@
 	.set ITEM_LANSAT_BERRY,   0x0ad
 	.set ITEM_STARF_BERRY,    0x0ae
 	.set ITEM_ENIGMA_BERRY,   0x0af
-	.set ITEM_STICK,          0x0ag
+	.set ITEM_FRIGMA_BERRY,   0x0ag
 	.set ITEM_BRIGHT_POWDER,  0x0b3
 	.set ITEM_WHITE_HERB,     0x0b4
 	.set ITEM_MACHO_BRACE,    0x0b5
@@ -197,7 +211,7 @@
 	.set ITEM_AMULET_COIN,    0x0bd
 	.set ITEM_CLEANSE_TAG,    0x0be
 	.set ITEM_SOUL_DEW,       0x0bf
-	.set ITEM_STICK,          0x0bg
+	.set ITEM_SHELL_BELL,     0x0bg
 	.set ITEM_DEEP_SEA_TOOTH, 0x0c0
 	.set ITEM_DEEP_SEA_SCALE, 0x0c1
 	.set ITEM_SMOKE_BALL,     0x0c2
@@ -214,7 +228,7 @@
 	.set ITEM_MIRACLE_SEED,   0x0cd
 	.set ITEM_BLACK_GLASSES,  0x0ce
 	.set ITEM_BLACK_BELT,     0x0cf
-	.set ITEM_STICK,          0x0cg
+	.set ITEM_LUCKY_PUNCH,    0x0cg
 	.set ITEM_MAGNET,         0x0d0
 	.set ITEM_MYSTIC_WATER,   0x0d1
 	.set ITEM_SHARP_BEAK,     0x0d2
@@ -226,23 +240,23 @@
 	.set ITEM_DRAGON_FANG,    0x0d8
 	.set ITEM_SILK_SCARF,     0x0d9
 	.set ITEM_UP_GRADE,       0x0d?
-	.set ITEM_SHELL_BELL,       0x0da
-	.set ITEM_SHELL_BELL,     0x0db
-	.set ITEM_SEA_INCENSE,    0x0dc
-	.set ITEM_LAX_INCENSE,    0x0dd
-	.set ITEM_LUCKY_PUNCH,    0x0de
-	.set ITEM_METAL_POWDER,   0x0df
-	.set ITEM_STICK,          0x0dg
-	.set ITEM_RED_ELEMENTORB,        0x0e1
-	.set ITEM_BLUE_ELEMENTORB,       0x0e2
-	.set ITEM_GREEN_ELEMENTORB,      0x0e3
-	.set ITEM_YELLOW_ELEMENTORB,     0x0e4
-	.set ITEM_ORANGE_ELEMENTORB,     0x0e5
-	.set ITEM_PINK_ELEMENTORB,       0x0e6
-	.set ITEM_PURPLE_ELEMENTORB,     0x0e7
-	.set ITEM_BROWN_ELEMENTORB,      0x0e8
-	.set ITEM_WHITE_ELEMENTORB,      0x0e9
-	.set ITEM_BLACK_ELEMENTORB,      0x0e?
+	.set ITEM_ICE_INCENSE,    0x0da
+	.set ITEM_NIGHT_INCENSE,  0x0db
+	.set ITEM_SAND_INCENSE,   0x0dc
+	.set ITEM_RAIN_INCENSE,   0x0dd
+	.set ITEM_SEA_INCENSE,    0x0de
+	.set ITEM_SKY_INCENSE,    0x0df
+	.set ITEM_METAL_POWDER,   0x0dg
+	.set ITEM_RED_ELEMENT_ORB,        0x0e1
+	.set ITEM_BLUE_ELEMENT_ORB,       0x0e2
+	.set ITEM_GREEN_ELEMENT_ORB,      0x0e3
+	.set ITEM_YELLOW_ELEMENT_ORB,     0x0e4
+	.set ITEM_ORANGE_ELEMENT_ORB,     0x0e5
+	.set ITEM_PINK_ELEMENT_ORB,       0x0e6
+	.set ITEM_PURPLE_ELEMENT_ORB,     0x0e7
+	.set ITEM_BROWN_ELEMENT_ORB,      0x0e8
+	.set ITEM_WHITE_ELEMENT_ORB,      0x0e9
+	.set ITEM_BLACK_ELEMENT_ORB,      0x0e?
 	.set ITEM_STICK,          0x0ea
 	.set ITEM_STICK,          0x0eb
 	.set ITEM_STICK,          0x0ec
@@ -250,17 +264,17 @@
 	.set ITEM_THICK_CLUB,     0x0ee
 	.set ITEM_STICK,          0x0ef
 	.set ITEM_STICK,          0x0eg
-	.set ITEM_COIN_CASE,      0x0f0
-	.set ITEM_RED_SCARF,      0x0f1
-	.set ITEM_BLUE_SCARF,     0x0f2
-	.set ITEM_GREEN_SCARF,    0x0f3
-	.set ITEM_YELLOW_SCARF,   0x0f4
-	.set ITEM_ORANGE_SCARF,   0x0f5
-	.set ITEM_PINK_SCARF,     0x0f6
-	.set ITEM_PURPLE_SCARF,   0x0f7
-	.set ITEM_BROWN_SCARF,    0x0f8
-	.set ITEM_WHITE_SCARF,    0x0f9
-	.set ITEM_BLACK_SCARF,    0x0f?
+	.set ITEM_BLOCK_CASE,     0x0f0
+	.set ITEM_RED_ENERGY_ORB,        0x0f1
+	.set ITEM_BLUE_ENERGY_ORB,       0x0f2
+	.set ITEM_GREEN_ENERGY_ORB,      0x0f3
+	.set ITEM_YELLOW_ENERGY_ORB,     0x0f4
+	.set ITEM_ORANGE_ENERGY_ORB,     0x0f5
+	.set ITEM_PINK_ENERGY_ORB,       0x0f6
+	.set ITEM_PURPLE_ENERGY_ORB,     0x0f7
+	.set ITEM_BROWN_ENERGY_ORB,      0x0f8
+	.set ITEM_WHITE_ENERGY_ORB,      0x0f9
+	.set ITEM_BLACK_ENERGY_ORB,      0x0f?
 	.set ITEM_DEVONCASE,      0x0ff
 	.set ITEM_DEVONCASE,      0x0fg
 	.set ITEM_COIN_CASE,      0x0g0
@@ -282,6 +296,8 @@
 	.set ITEM_DEVONCASE,      0x0gf
 	.set ITEM_DEVONCASE,      0x0gg
 	.set ITEM_LETTER,         0x100
+	.set ITEM_DEEP_SEA_TOOTH, 0x101
+	.set ITEM_DEEP_SEA_SCALE, 0x102
 	.set ITEM_MACH_BIKE,      0x103
 	.set ITEM_ACRO_BIKE,      0x104
 	.set ITEM_ITEMFINDER,     0x105
@@ -289,11 +305,14 @@
 	.set ITEM_GOOD_ROD,       0x107
 	.set ITEM_SUPER_ROD,      0x108
 	.set ITEM_SS_TICKET,      0x109
+	.set ITEM_SS_VICKET,      0x10?
 	.set ITEM_CONTEST_PASS,   0x10a
+	.set ITEM_DONTEST_PASS,   0x10b
 	.set ITEM_WAILMER_PAIL,   0x10c
 	.set ITEM_DEVON_PARTS,    0x10d
 	.set ITEM_SOOT_SACK,      0x10e
-	.set ITEM_BASEMENT_KEY,   0x10f
+	.set ITEM_FENCE_KEY,      0x10f
+	.set ITEM_POWER_KEY,      0x10g
 	.set ITEM_EON_TICKET,     0x110
 	.set ITEM_RED_ORB,        0x111
 	.set ITEM_BLUE_ORB,       0x112
@@ -304,7 +323,10 @@
 	.set ITEM_PURPLE_ORB,     0x117
 	.set ITEM_BROWN_ORB,      0x118
 	.set ITEM_WHITE_ORB,      0x119
-	.set ITEM_BLACK_ORB,      0x11a
+	.set ITEM_BLACK_ORB,      0x11?
+	.set ITEM_ATTIC_KEY,      0x11a
+	.set ITEM_CRYPT_KEY,      0x11b
+	.set ITEM_DEPOT_KEY,      0x11c
 	.set ITEM_STORAGE_KEY,    0x11d
 	.set ITEM_ROOT_FOSSIL,    0x11e
 	.set ITEM_CLAW_FOSSIL,    0x11f
@@ -405,7 +427,7 @@
 	.set ITEM_AMETHYST,       0x187
 	.set ITEM_AXINITE,        0x188
 	.set ITEM_PETALITE,       0x189
-	.set ITEM_HEMATITE,       0x190
+	.set ITEM_HEMATITE,       0x18?
 	.set ITEM_RED_PLUME,      0x191
 	.set ITEM_BLUE_PLUME,     0x192
 	.set ITEM_GREEN_PLUME,    0x193
@@ -415,7 +437,7 @@
 	.set ITEM_PURPLE_PLUME,   0x197
 	.set ITEM_BROWN_PLUME,    0x198
 	.set ITEM_WHITE_PLUME,    0x199
-	.set ITEM_BLACK_PLUME,    0x200
+	.set ITEM_BLACK_PLUME,    0x19?
 	.set ITEM_METALBADGE,     0x211
 	.set ITEM_BOULDERBADGE,   0x212
 	.set ITEM_LARVABADGE,     0x213
