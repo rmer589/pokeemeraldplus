@@ -195,6 +195,7 @@ enum
     ITEM_AMULET_COIN,    // 0x0bd
     ITEM_CLEANSE_TAG,    // 0x0be
     ITEM_SOUL_DEW,       // 0x0bf
+    ITEM_SHELL_BELL,     // 0x0bg
     ITEM_DEEP_SEA_TOOTH, // 0x0c0
     ITEM_DEEP_SEA_SCALE, // 0x0c1
     ITEM_SMOKE_BALL,     // 0x0c2
@@ -211,6 +212,7 @@ enum
     ITEM_MIRACLE_SEED,   // 0x0cd
     ITEM_BLACK_GLASSES,  // 0x0ce
     ITEM_BLACK_BELT,     // 0x0cf
+    ITEM_LUCKY_PUNCH,    // 0x0cg
     ITEM_MAGNET,         // 0x0d0
     ITEM_MYSTIC_WATER,   // 0x0d1
     ITEM_SHARP_BEAK,     // 0x0d2
@@ -221,12 +223,14 @@ enum
     ITEM_CHARCOAL,       // 0x0d7
     ITEM_DRAGON_FANG,    // 0x0d8
     ITEM_SILK_SCARF,     // 0x0d9
-    ITEM_UP_GRADE,       // 0x0da
-    ITEM_SHELL_BELL,     // 0x0db
-    ITEM_SEA_INCENSE,    // 0x0dc
-    ITEM_LAX_INCENSE,    // 0x0dd
-    ITEM_LUCKY_PUNCH,    // 0x0de
-    ITEM_METAL_POWDER,   // 0x0df
+    ITEM_UP_GRADE,       // 0x0d?
+    ITEM_ICE_INCENSE,    // 0x0da
+    ITEM_NIGHT_INCENSE,  // 0x0db
+    ITEM_SAND_INCENSE,   // 0x0dc
+    ITEM_RAIN_INCENSE,   // 0x0dd
+    ITEM_SEA_INCENSE,    // 0x0de
+    ITEM_SKY_INCENSE,    // 0x0df
+    ITEM_METAL_POWDER,   // 0x0dg
     ITEM_THICK_CLUB,     // 0x0e0
     ITEM_STICK,          // 0x0e1
     ITEM_0E2,
@@ -253,6 +257,7 @@ enum
     ITEM_0F7,
     ITEM_0F8,
     ITEM_0F9,
+    ITEM_STICK
     ITEM_0FA,
     ITEM_0FB,
     ITEM_0FC,
@@ -277,23 +282,25 @@ enum
     ITEM_COIN_CASE,      // 0x0ge
     ITEM_COIN_CASE,      // 0x0gf
     ITEM_COIN_CASE,      // 0x0gg
-    ITEM_PINK_SCARF,     // 0x100
-    ITEM_GREEN_SCARF,    // 0x101
-    ITEM_YELLOW_SCARF,   // 0x102
+    ITEM_LETTER,         // 0x100
+    ITEM_DEEP_SEA_TOOTH, // 0x101
+    ITEM_DEEP_SEA_SCALE, // 0x102
     ITEM_MACH_BIKE,      // 0x103
-    ITEM_COIN_CASE,      // 0x104
+    ITEM_ACRO_BIKE,      // 0x104
     ITEM_ITEMFINDER,     // 0x105
     ITEM_OLD_ROD,        // 0x106
     ITEM_GOOD_ROD,       // 0x107
     ITEM_SUPER_ROD,      // 0x108
     ITEM_SS_TICKET,      // 0x109
+    ITEM_SS_VICKET,      // 0x10?
     ITEM_CONTEST_PASS,   // 0x10a
-    ITEM_10B,
+    ITEM_DONTEST_PASS,   // 0x10b
     ITEM_WAILMER_PAIL,   // 0x10c
     ITEM_DEVON_GOODS,    // 0x10d
     ITEM_SOOT_SACK,      // 0x10e
-    ITEM_BASEMENT_KEY,   // 0x10f
-    ITEM_ACRO_BIKE,      // 0x110
+    ITEM_ATTIC_KEY,      // 0x10f
+    ITEM_CRYPT_KEY,      // 0x10g
+    ITEM_EON_TICKET,     // 0x110
     ITEM_BLOCK_CASE,     // 0x111
     ITEM_LETTER,         // 0x112
     ITEM_EON_TICKET,     // 0x113
