@@ -222,6 +222,7 @@
 	.set ITEM_METAL_COAT,     0x0c7
 	.set ITEM_LEFTOVERS,      0x0c8
 	.set ITEM_DRAGON_SCALE,   0x0c9
+	.set ITEM_STICK,          0x0c?
 	.set ITEM_LIGHT_BALL,     0x0ca
 	.set ITEM_SOFT_SAND,      0x0cb
 	.set ITEM_HARD_STONE,     0x0cc
