@@ -693,7 +693,7 @@ void AdjustFriendship(struct Pokemon *mon, u8 event)
          && (event != 3
           || ((gBattleTypeFlags & BATTLE_TYPE_TRAINER)
            && (gTrainers[gTrainerBattleOpponent_A].trainerClass == CLASS_ELITE_FOUR
-            || gTrainers[gTrainerBattleOpponent_A].trainerClass == CLASS_LEADER
+            || gTrainers[gTrainerBattleOpponent_A].trainerClass == CLASS_GYM_LEADER
             || gTrainers[gTrainerBattleOpponent_A].trainerClass == CLASS_CHAMPION))))
         {
             s8 mod = gUnknown_08329ECE[event][friendshipLevel];
